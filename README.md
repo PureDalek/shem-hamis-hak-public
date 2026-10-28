@@ -33,8 +33,8 @@ The `dist` folder is the deployable site. The [live app](https://puredalek.githu
 ## What currently works
 
 - Multiple searches with boy, girl, and unisex choices; first or middle name; surname preview; optional inspiration names and numerology filters.
-- Name cards, local like/pass and undo, name details and source-specific statistics.
-- Optional theme filters: nature, biblical, mythology and international, plus a low reported-count filter. The initial editorial categories are deliberately incomplete and can be edited locally. Multiple selections match any selected category.
+- Name cards, local like/pass and undo, name details and source-specific statistics. Finishing the filtered list starts another discovery round automatically, preserving saved decisions; undo and reload retain the current round.
+- Optional theme filters cover all 2,431 spellings, including explicit unresolved cases. Themes include nature, biblical/traditional, mythology, international origins, light, joy/love, strength, faith, precious things, places, virtues, music/colors and life/family. Multiple selections match any selected category; additional filters expand under “עוד נושאים”. These are editorial associations, sometimes conditional on possible meanings, and remain locally editable. See the [classification audit](docs/name-categories.md).
 - Five-year totals are lower bounds based on published counts for selected population groups and birth years 2020–2024. Suppressed figures and other groups are not zero; the source uses current names in the 2025 population snapshot. The low-count filter (at most 100 published records) cannot establish that a name is rare in the whole population.
 - Saved/passed lists, custom names and tournaments with user-selected entrants; names remain on the shortlist after the tournament.
 - Optional partner comparison by exchanging shortlist files manually. The file contains only saved name spellings and is never sent automatically.

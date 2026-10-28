@@ -3,7 +3,8 @@ import Admin from "./Admin";
 import Compare from "./Compare";
 import NameDetails from "./NameDetails";
 import NameDetailsDialog from "./NameDetailsDialog";
-import { categories } from "./categories";
+import CategoryPicker from "./CategoryPicker";
+import CategoryLabels from "./CategoryLabels";
 import { cloudConfigured } from "./cloud-config";
 import {
   ArrowLeft,
@@ -30,7 +31,9 @@ import {
 import {
   allNames,
   applyDecision,
+  applyDiscoveryDecision,
   availableNames,
+  discoveryProgress,
   chooseTournament,
   initialState,
   makeId,
@@ -113,6 +116,7 @@ function App() {
     [state, active],
   );
   const current = available[0];
+  const progress = useMemo(() => active ? discoveryProgress(state, active) : null, [state, active]);
   const detailsName = detailsNameId ? names.get(detailsNameId) : undefined;
   const liked = active
     ? Object.entries(active.decisions)
@@ -174,7 +178,8 @@ function App() {
     }));
   const flash = (text: string) => setNotice(text);
   const decide = (id: string, value: "like" | "pass") => {
-    updateSearch((s) => applyDecision(s, id, value));
+    setState(prev => ({ ...prev, searches: prev.searches.map(s => s.id !== prev.activeId ? s
+      : screen === "discover" ? applyDiscoveryDecision(prev, s, id, value) : applyDecision(s, id, value)) }));
   };
   const setSearchScreen = (value: Screen) => {
     if (!active && !["setup", "searches", "profile", "admin"].includes(value))
@@ -396,22 +401,7 @@ function App() {
                   ))}
                 </div>
               </fieldset>
-              <fieldset className="form-group">
-                <legend>סגנון או נושא <span className="optional">לא חובה</span></legend>
-                <p className="fine-print">אפשר לבחור כמה קטגוריות. הסיווג הראשוני חלקי; שם יכול להתאים ליותר מקטגוריה אחת.</p>
-                <div className="chips">
-                  {[...categories, { id: 'reported-low', label: 'מעט ילידים מדווחים' }].map(category => (
-                    <button key={category.id} type="button" aria-pressed={(draft.categories ?? []).includes(category.id)}
-                      className={(draft.categories ?? []).includes(category.id) ? 'chosen' : ''}
-                      onClick={() => setDraft({ ...draft, categories: (draft.categories ?? []).includes(category.id)
-                        ? (draft.categories ?? []).filter(id => id !== category.id)
-                        : [...(draft.categories ?? []), category.id] })}>
-                      {category.label}
-                    </button>
-                  ))}
-                </div>
-                <p className="fine-print">מעט ילידים מדווחים: עד 100 ברשומות שפורסמו לילידי 2020–2024; הנתונים אינם כוללים את כל האוכלוסייה ולכן אינם מדד ודאי לנדירות.</p>
-              </fieldset>
+              <CategoryPicker state={state} search={draft} onChange={categories => setDraft({ ...draft, categories })} />
               <fieldset className="form-group">
                 <legend>איזה שם מחפשים?</legend>
                 <div className="segmented">
@@ -587,7 +577,7 @@ function App() {
                       {state.settings.showStatistics && current.observations.length > 0 && (
                         <div className="reported-count">לפחות {current.observations.filter(o => o.year >= 2020 && o.year <= 2024).reduce((sum, o) => sum + o.count, 0).toLocaleString('he-IL')} ילידי 2020–2024 בקבוצות שפורסמו*</div>
                       )}
-                      {(current.tags ?? []).length > 0 && <div className="fullname">{categories.filter(category => current.tags?.includes(category.id)).map(category => category.label).join(' · ')}</div>}
+                      <CategoryLabels tags={current.tags} />
                       {(active.firstName || active.surname) && (
                         <div className="fullname">
                           {[active.firstName, current.name, active.surname]
@@ -642,15 +632,16 @@ function App() {
                     <RotateCcw size={15} /> חזרה לשם הקודם
                   </button>
                   <div className="count-line">
-                    עוד {available.length.toLocaleString("he-IL")} שמות לגלות{" "}
+                    סבב {progress?.round} · עוד {available.length.toLocaleString("he-IL")} שמות לגלות{" "}
                     <span>✦</span> {savedCount} ברשימה שלכם
                   </div>
+                  {progress && progress.round > 1 && <p className="cycle-note">חזרנו להתחלת הרשימה. השמות ששמרתם נשארו ברשימה שלכם.</p>}
                 </>
               ) : (
                 <div className="empty-state">
                   <div className="empty-icon">✳</div>
-                  <h3>הגענו לסוף הרשימה</h3>
-                  <p>אפשר לשנות את הסינון, או להציץ בשמות שכבר שמרתם.</p>
+                  <h3>לא נמצאו שמות שמתאימים לסינון</h3>
+                  <p>אפשר להרחיב את הסינון, או להציץ בשמות שכבר שמרתם.</p>
                   <button className="primary-button" onClick={editSearch}>
                     שינוי החיפוש <ArrowLeft size={18} />
                   </button>

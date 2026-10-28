@@ -11,6 +11,7 @@ async function checkAccessibility(page: Page) {
 test('core screens pass automated accessibility checks', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/');
+  await page.getByRole('button', { name: 'עוד נושאים' }).click();
   await checkAccessibility(page);
   await page.getByRole('button', { name: 'יאללה, מתחילים' }).click();
   await checkAccessibility(page);

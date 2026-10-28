@@ -1,0 +1,26 @@
+{
+  "לונה": {
+    "add": ["mythology"],
+    "reason": "בזיהוי עם Luna הלטינית: גם שמה של אלת הירח הרומית. שיוך נושאי נוסף, לצד משמעות הירח.",
+    "sources": ["https://en.wiktionary.org/wiki/Luna"],
+    "checkedAt": "2026-10-29"
+  },
+  "מאיה": {
+    "add": ["mythology", "international"],
+    "reason": "בזיהוי האפשרי עם Maia: דמות במיתולוגיה היוונית והרומית. זהו אחד ממקורות השם האפשריים בלבד; לא נקבע פירוש בלעדי לכתיב העברי.",
+    "sources": ["https://en.wiktionary.org/wiki/Maia"],
+    "checkedAt": "2026-10-29"
+  },
+  "דפנה": {
+    "add": ["mythology"],
+    "reason": "דפנה היא גם הדמות המיתולוגית Daphne, הקשורה לאפולו ולעץ הדפנה. הסיווג מצטרף לשיוך הבוטני.",
+    "sources": ["https://en.wiktionary.org/wiki/Daphne"],
+    "checkedAt": "2026-10-29"
+  },
+  "הלנה": {
+    "add": ["mythology"],
+    "reason": "בזיהוי עם Helena/Helen: דמות במיתולוגיה היוונית ובסיפור מלחמת טרויה. שיוך תרבותי, בלי לקבוע את האטימולוגיה השנויה במחלוקת.",
+    "sources": ["https://en.wiktionary.org/wiki/Helen"],
+    "checkedAt": "2026-10-29"
+  }
+}

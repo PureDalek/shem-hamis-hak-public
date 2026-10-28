@@ -1,18 +1,9 @@
-// Editorial starting points, deliberately incomplete. A spelling may have multiple origins.
-export const categories = [
-  { id: 'nature', label: 'טבע' },
-  { id: 'biblical', label: 'תנ״כי' },
-  { id: 'mythology', label: 'מיתולוגיה' },
-  { id: 'international', label: 'לועזי / בינלאומי' },
-] as const;
+import classified from './data/name-categories.json';
 
-const examples: Record<string, string[]> = {
-  nature: ['אור', 'שחר', 'טל', 'ים', 'מעיין', 'ירדן', 'נחל', 'אילן', 'אלון', 'אורן', 'ארז', 'ברוש', 'זית', 'רימון', 'תמר', 'שקד', 'דקל', 'רקפת', 'כלנית', 'ורד', 'שושן', 'סביון', 'שמש', 'ירח', 'כוכב', 'אופק', 'סער', 'גשם', 'אביב', 'סתיו', 'רוח', 'גל', 'גלים', 'יובל', 'אדווה', 'שונית'],
-  biblical: ['אברהם', 'יצחק', 'יעקב', 'יוסף', 'משה', 'אהרן', 'דוד', 'שלמה', 'שמואל', 'יהושע', 'יונתן', 'בנימין', 'ראובן', 'שמעון', 'לוי', 'יהודה', 'שרה', 'רבקה', 'רחל', 'לאה', 'מרים', 'רות', 'אסתר', 'חנה', 'דבורה', 'אביגיל', 'יעל', 'נעמי', 'תמר', 'אליהו', 'אדם', 'חוה', 'נח', 'גדעון', 'יהונתן'],
-  mythology: ['דיאנה', 'הרקולס', 'אתנה', 'אפולו', 'אפרודיטה', 'הרה', 'פרסאוס', 'אורפיאוס', 'הלנה', 'ארטמיס', 'גאיה', 'לונה', 'מאיה', 'דפנה', 'ויקטוריה', 'תור'],
-  international: ['מיה', 'אמה', 'סופיה', 'אלכס', 'אלכסנדר', 'דניאל', 'מיכאל', 'אנה', 'אליס', 'דיאנה', 'ויקטוריה', 'ניקול', 'ליאו', 'ליאון', 'מקס', 'מקסים', 'ניקיטה', 'נטלי', 'רוברט', 'מריה', 'לינה', 'אוליביה', 'אמילי', 'אדם'],
-};
+export const categories = classified.categories;
+
+const assignments = classified.names as Record<string, string[]>;
 
 export function initialCategories(name: string): string[] {
-  return categories.filter(category => examples[category.id].includes(name)).map(category => category.id);
+  return [...(Object.prototype.hasOwnProperty.call(assignments, name) ? assignments[name] : ['unclassified'])];
 }

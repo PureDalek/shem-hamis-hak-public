@@ -111,11 +111,16 @@ export type Search = {
   numbers: number[];
   categories?: string[];
   decisions: Record<string, Decision>;
-  history: { id: string; previous?: Decision }[];
+  history: { id: string; previous?: Decision; browseUndo?: BrowseUndo }[];
+  browsing?: { round: number; seen: string[] };
   customNames: NameRecord[];
   createdAt: number;
   tournament?: Tournament;
 };
+export type BrowseUndo =
+  | { kind: "initialize" }
+  | { kind: "advance" }
+  | { kind: "restart"; round: number; seen: string[] };
 export type Tournament = {
   entrants: string[];
   round: string[];
@@ -222,8 +227,8 @@ export function allNames(state: AppState): NameRecord[] {
     const emptyEvidence = { meaningReferences: [], meaningStatus: "possible" as const, meaningNote: "", meaningSource: "" };
     const catalogHasMeaning = ["meaning", "origin", "meaningSource"].some(key => Object.prototype.hasOwnProperty.call(name, key));
     return {
-      tags: initialCategories(name.name),
       ...(editorial as Record<string, Partial<NameRecord>>)[name.id],
+      tags: [...new Set([...initialCategories(name.name), ...((editorial as Record<string, Partial<NameRecord>>)[name.id]?.tags ?? [])])],
       ...(catalogHasMeaning ? emptyEvidence : {}),
       ...name,
       ...(resetEvidence ? emptyEvidence : {}),
@@ -233,7 +238,7 @@ export function allNames(state: AppState): NameRecord[] {
   });
 }
 export function namesForSearch(state: AppState, search: Search): NameRecord[] {
-  const names = [...allNames(state), ...search.customNames];
+  const names = [...allNames(state), ...search.customNames.map(name => ({ tags: initialCategories(name.name), ...name }))];
   const byGender = names.filter(
     (name) =>
       !name.hidden &&
@@ -255,9 +260,12 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
   });
 }
 export function availableNames(state: AppState, search: Search): NameRecord[] {
-  const names = namesForSearch(state, search).filter(
-    (name) => !search.decisions[name.id],
-  );
+  const eligible = namesForSearch(state, search);
+  const seen = new Set(search.browsing?.seen ?? Object.keys(search.decisions));
+  const remaining = eligible.filter(name => !seen.has(name.id));
+  // A completed round immediately shows the beginning again. Decisions are
+  // independent of this cursor, so saved names survive every new round.
+  const names = remaining.length ? remaining : eligible;
   const score = (name: NameRecord) =>
     name.observations.filter(o => o.year === 2024).reduce((sum, o) => sum + o.count, 0);
   if (state.settings.sort === "alphabetical")
@@ -308,6 +316,32 @@ export function availableNames(state: AppState, search: Search): NameRecord[] {
   );
   return names.sort((a, b) => scores.get(b.id)! - scores.get(a.id)!);
 }
+export function discoveryProgress(state: AppState, search: Search) {
+  const eligible = namesForSearch(state, search);
+  const seen = new Set(search.browsing?.seen ?? Object.keys(search.decisions));
+  const remaining = eligible.filter(name => !seen.has(name.id)).length;
+  const restarting = eligible.length > 0 && remaining === 0;
+  return {
+    round: (search.browsing?.round ?? 1) + (restarting ? 1 : 0),
+    remaining: restarting ? eligible.length : remaining,
+    total: eligible.length,
+    restarting,
+  };
+}
+
+/** Advance only discovery. Changes made in the shortlist do not move its cursor. */
+export function applyDiscoveryDecision(state: AppState, search: Search, id: string, decision: Decision): Search {
+  if (availableNames(state, search)[0]?.id !== id) return search;
+  const progress = discoveryProgress(state, search);
+  const previous = search.browsing;
+  const seen = progress.restarting ? [] : previous?.seen ?? Object.keys(search.decisions);
+  const browseUndo: BrowseUndo = !previous ? { kind: "initialize" }
+    : progress.restarting ? { kind: "restart", round: previous.round, seen: previous.seen }
+    : { kind: "advance" };
+  const next = applyDecision(search, id, decision);
+  next.history[next.history.length - 1] = { ...next.history.at(-1)!, browseUndo };
+  return { ...next, browsing: { round: progress.round, seen: [...new Set([...seen, id])] } };
+}
 export function newSearch(gender: Gender = "boy"): Search {
   return {
     id: makeId(),
@@ -342,7 +376,13 @@ export function undo(search: Search): Search {
   const decisions = { ...search.decisions };
   if (item.previous) decisions[item.id] = item.previous;
   else delete decisions[item.id];
-  return { ...search, decisions, history: search.history.slice(0, -1) };
+  const restored = { ...search, decisions, history: search.history.slice(0, -1) };
+  if (item.browseUndo?.kind === "initialize") delete restored.browsing;
+  else if (item.browseUndo?.kind === "restart")
+    restored.browsing = { round: item.browseUndo.round, seen: item.browseUndo.seen };
+  else if (item.browseUndo?.kind === "advance" && search.browsing)
+    restored.browsing = { ...search.browsing, seen: search.browsing.seen.filter(id => id !== item.id) };
+  return restored;
 }
 export function startTournament(entrants: string[]): Tournament {
   if (entrants.length < 2) throw new Error("At least two names are required");

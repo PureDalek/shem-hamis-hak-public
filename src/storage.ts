@@ -49,6 +49,8 @@ export function parseBackup(text: string): AppState {
   // Backward-compatible default for backups saved before ranking was configurable.
   if (!state.settings.weights)
     state.settings.weights = { ...defaultSettings.weights };
+  const validRound = (round: unknown) => Number.isSafeInteger(round) && (round as number) >= 1;
+  const validSeen = (seen: unknown) => Array.isArray(seen) && seen.length <= 100000 && seen.every(id => typeof id === "string");
   if (
     !state.searches.every(
       (s) =>
@@ -65,6 +67,7 @@ export function parseBackup(text: string): AppState {
           (number) => Number.isInteger(number) && number >= 1 && number <= 9,
         ) &&
         (s.categories === undefined || (Array.isArray(s.categories) && s.categories.every((category) => typeof category === 'string'))) &&
+        (s.browsing === undefined || (s.browsing && validRound(s.browsing.round) && validSeen(s.browsing.seen))) &&
         s.decisions &&
         typeof s.decisions === "object" &&
         !Array.isArray(s.decisions) &&
@@ -78,7 +81,10 @@ export function parseBackup(text: string): AppState {
             typeof item.id === "string" &&
             (item.previous === undefined ||
               item.previous === "like" ||
-              item.previous === "pass"),
+              item.previous === "pass") &&
+            (item.browseUndo === undefined || (item.browseUndo &&
+              (item.browseUndo.kind === "initialize" || item.browseUndo.kind === "advance" ||
+                (item.browseUndo.kind === "restart" && validRound(item.browseUndo.round) && validSeen(item.browseUndo.seen))))),
         ) &&
         Array.isArray(s.customNames) &&
         (!s.tournament ||

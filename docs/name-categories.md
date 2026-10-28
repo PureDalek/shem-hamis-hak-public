@@ -1,0 +1,17 @@
+# Catalog categories — 29 October 2026
+
+The pass covers every one of the 2,431 catalog spellings. `src/data/name-categories.json` holds the selectable category definitions and assignments; `data/research/name-categories/review.csv` and `review.json` record the basis and source links for every spelling. `summary.json` records current coverage and overlapping category counts.
+
+The classifier uses the previously reviewed meaning and origin fields, a conservative whole-word Hebrew lexicon, and an explicit list of names/forms/places associated with biblical and rabbinic traditions. It does not use CBS population or religion fields to infer cultural identity. International denotes a recorded foreign-language origin, rather than measured international popularity. A theme can describe one possible interpretation; it does not establish the origin of every person bearing that spelling. Rule-based coverage is not an independent linguistic audit.
+
+Names with a meaning that does not fit a listed theme appear under “משמעויות נוספות”. Names without enough information to assign a theme appear under “עדיין ללא סיווג”. The latter is distinct from “no meaning exists”. Multiple themes are allowed, and selecting several matches any of them, together with the existing gender and numerology filters.
+
+Review excluded common homograph traps: “משמש” is not automatically sunlight, “שם חיבה” is not an affectionate etymology, “קשר” between source forms is not love, “משאלת” is not a goddess, “מרסן” is not Mars, and the prepositions “אם”/“עם” do not imply family. Gemstone phrases do not automatically imply the virtue of grace.
+
+Four explicit cultural associations supplement the wording of the existing meanings: [Luna](https://en.wiktionary.org/wiki/Luna), [Maia](https://en.wiktionary.org/wiki/Maia), [Daphne](https://en.wiktionary.org/wiki/Daphne), and [Helen](https://en.wiktionary.org/wiki/Helen). The spelling mappings, conditional qualifications, source links and check date are in `overrides.json`; Maia is explicitly one possible identification. Existing meaning text/status/evidence are unchanged. Wiktionary-based adaptations retain the original CC BY-SA 4.0 attribution and license.
+
+Run `python scripts/classify-name-categories.py` to regenerate the audit only; add `--publish` to update app category assignments. Review changed rules and assignments before deploying. Catalog IDs/statistics, the meaning publication journal and all 2,028 existing interpretations are preserved. Local/imported explicit tags, including an empty array, take precedence over these defaults.
+
+Discovery uses a separate round cursor rather than clearing like/pass decisions. Completing a nonempty filtered pool immediately shows its beginning again, with a round indicator. One-name pools also repeat; truly empty filters show a no-matches message. Legacy searches infer their initial seen set from saved decisions. Undo records compact cursor changes and restores the preceding round when crossing its boundary; shortlist edits do not advance discovery. The new cursor is optional in version-1 backups for backward compatibility.
+
+Validation includes catalog coverage and valid categories, source-homograph regressions, OR filtering and overrides, loop/undo across rounds, legacy and new backups, single-name and empty pools, browser-storage size, and phone/desktop interaction, persistence and automated accessibility checks.

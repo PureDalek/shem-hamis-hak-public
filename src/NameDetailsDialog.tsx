@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ChevronRight } from "lucide-react";
-import { categories } from "./categories";
+import CategoryLabels from "./CategoryLabels";
 import { numerology, type NameRecord, type Search } from "./domain";
 import NameDetails from "./NameDetails";
 
@@ -68,14 +68,7 @@ export default function NameDetailsDialog({
               .join(" ")}
           </p>
         )}
-        {(name.tags ?? []).length > 0 && (
-          <p className="fullname">
-            {categories
-              .filter((category) => name.tags?.includes(category.id))
-              .map((category) => category.label)
-              .join(" · ")}
-          </p>
-        )}
+        <CategoryLabels tags={name.tags} />
         {number !== null && (
           <p className="name-dialog-number">מספר נומרולוגי: {number}</p>
         )}

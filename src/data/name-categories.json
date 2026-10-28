@@ -1,0 +1,9037 @@
+{
+  "categories": [
+    {
+      "id": "nature",
+      "label": "טבע"
+    },
+    {
+      "id": "biblical",
+      "label": "תנ״ך ומקורות"
+    },
+    {
+      "id": "mythology",
+      "label": "מיתולוגיה"
+    },
+    {
+      "id": "international",
+      "label": "לועזי / בינלאומי"
+    },
+    {
+      "id": "light",
+      "label": "אור ושמיים"
+    },
+    {
+      "id": "joy",
+      "label": "שמחה ואהבה"
+    },
+    {
+      "id": "strength",
+      "label": "כוח והגנה"
+    },
+    {
+      "id": "faith",
+      "label": "אמונה והודיה"
+    },
+    {
+      "id": "precious",
+      "label": "מתנות ואוצרות"
+    },
+    {
+      "id": "places",
+      "label": "מקומות"
+    },
+    {
+      "id": "virtues",
+      "label": "תכונות וערכים"
+    },
+    {
+      "id": "arts",
+      "label": "מוזיקה וצבעים"
+    },
+    {
+      "id": "life",
+      "label": "חיים ומשפחה"
+    },
+    {
+      "id": "other",
+      "label": "משמעויות נוספות"
+    },
+    {
+      "id": "unclassified",
+      "label": "עדיין ללא סיווג"
+    }
+  ],
+  "names": {
+    "אאוס": [
+      "unclassified"
+    ],
+    "אבא": [
+      "life"
+    ],
+    "אבי": [
+      "life"
+    ],
+    "אביאור": [
+      "nature",
+      "light",
+      "life"
+    ],
+    "אביאל": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "אביב": [
+      "nature"
+    ],
+    "אביבה": [
+      "nature",
+      "life"
+    ],
+    "אביגדור": [
+      "biblical",
+      "strength",
+      "life"
+    ],
+    "אביגיל": [
+      "biblical",
+      "joy",
+      "life"
+    ],
+    "אביגל": [
+      "joy",
+      "life"
+    ],
+    "אבידן": [
+      "biblical",
+      "virtues",
+      "life"
+    ],
+    "אביה": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "אביהו": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "אביחי": [
+      "biblical",
+      "life"
+    ],
+    "אביטל": [
+      "nature",
+      "biblical",
+      "life"
+    ],
+    "אבינועם": [
+      "biblical",
+      "joy",
+      "life"
+    ],
+    "אבינתן": [
+      "faith",
+      "precious",
+      "life"
+    ],
+    "אביעד": [
+      "biblical",
+      "life"
+    ],
+    "אביר": [
+      "strength"
+    ],
+    "אבירם": [
+      "biblical",
+      "strength",
+      "life"
+    ],
+    "אבישג": [
+      "biblical",
+      "life"
+    ],
+    "אבישי": [
+      "biblical",
+      "precious",
+      "life"
+    ],
+    "אביתר": [
+      "biblical",
+      "precious",
+      "life"
+    ],
+    "אבנר": [
+      "nature",
+      "biblical",
+      "light",
+      "life"
+    ],
+    "אבראהים": [
+      "international",
+      "life"
+    ],
+    "אבראר": [
+      "international",
+      "virtues"
+    ],
+    "אברהם": [
+      "biblical",
+      "strength",
+      "life"
+    ],
+    "אברר": [
+      "international",
+      "virtues"
+    ],
+    "אבשלום": [
+      "virtues",
+      "life"
+    ],
+    "אבתיסאם": [
+      "international"
+    ],
+    "אגם": [
+      "nature",
+      "strength"
+    ],
+    "אדהם": [
+      "international"
+    ],
+    "אדוארד": [
+      "international",
+      "strength",
+      "precious"
+    ],
+    "אדוה": [
+      "nature"
+    ],
+    "אדי": [
+      "international",
+      "strength",
+      "precious"
+    ],
+    "אדיאן": [
+      "international"
+    ],
+    "אדיב": [
+      "international"
+    ],
+    "אדים": [
+      "unclassified"
+    ],
+    "אדיר": [
+      "strength"
+    ],
+    "אדל": [
+      "international",
+      "virtues"
+    ],
+    "אדלינה": [
+      "international",
+      "virtues"
+    ],
+    "אדם": [
+      "nature",
+      "biblical",
+      "life"
+    ],
+    "אדר": [
+      "other"
+    ],
+    "אדריאן": [
+      "international",
+      "places"
+    ],
+    "אדריס": [
+      "unclassified"
+    ],
+    "אדרת": [
+      "biblical"
+    ],
+    "אהבה": [
+      "joy"
+    ],
+    "אהובה": [
+      "joy",
+      "precious"
+    ],
+    "אהוביה": [
+      "joy",
+      "faith"
+    ],
+    "אהוד": [
+      "biblical",
+      "joy"
+    ],
+    "אהרון": [
+      "biblical"
+    ],
+    "אואיס": [
+      "unclassified"
+    ],
+    "אובאי": [
+      "unclassified"
+    ],
+    "אובי": [
+      "unclassified"
+    ],
+    "אוביי": [
+      "unclassified"
+    ],
+    "אודאל": [
+      "unclassified"
+    ],
+    "אודיה": [
+      "faith"
+    ],
+    "אודל": [
+      "unclassified"
+    ],
+    "אודליה": [
+      "faith"
+    ],
+    "אודם": [
+      "nature",
+      "precious"
+    ],
+    "אוהד": [
+      "other"
+    ],
+    "אווה": [
+      "international",
+      "life"
+    ],
+    "אוולין": [
+      "international",
+      "strength"
+    ],
+    "אווס": [
+      "unclassified"
+    ],
+    "אויס": [
+      "unclassified"
+    ],
+    "אולי": [
+      "unclassified"
+    ],
+    "אוליביה": [
+      "nature",
+      "international"
+    ],
+    "אוליבר": [
+      "international",
+      "virtues"
+    ],
+    "אומה": [
+      "unclassified"
+    ],
+    "אומימה": [
+      "international",
+      "joy"
+    ],
+    "אומניה": [
+      "international",
+      "virtues"
+    ],
+    "אומרי": [
+      "unclassified"
+    ],
+    "און": [
+      "strength",
+      "life"
+    ],
+    "אוסאמה": [
+      "nature",
+      "international"
+    ],
+    "אוסיד": [
+      "nature",
+      "international"
+    ],
+    "אוסלין": [
+      "unclassified"
+    ],
+    "אוסנת": [
+      "international"
+    ],
+    "אופאל": [
+      "nature",
+      "precious"
+    ],
+    "אופיר": [
+      "nature",
+      "biblical",
+      "precious"
+    ],
+    "אופל": [
+      "nature",
+      "precious"
+    ],
+    "אופק": [
+      "nature",
+      "light"
+    ],
+    "אופרי": [
+      "nature",
+      "joy",
+      "life"
+    ],
+    "אור": [
+      "nature",
+      "light"
+    ],
+    "אור-יה": [
+      "faith"
+    ],
+    "אוראל": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "אוראן": [
+      "unclassified"
+    ],
+    "אורה": [
+      "nature",
+      "light"
+    ],
+    "אורון": [
+      "nature",
+      "light"
+    ],
+    "אורטל": [
+      "nature",
+      "light"
+    ],
+    "אורי": [
+      "nature",
+      "light"
+    ],
+    "אוריאל": [
+      "nature",
+      "biblical",
+      "light",
+      "faith"
+    ],
+    "אוריאן": [
+      "unclassified"
+    ],
+    "אוריאנה": [
+      "unclassified"
+    ],
+    "אוריה": [
+      "nature",
+      "biblical",
+      "light",
+      "faith"
+    ],
+    "אורייה": [
+      "faith"
+    ],
+    "אורין": [
+      "unclassified"
+    ],
+    "אורית": [
+      "nature",
+      "light"
+    ],
+    "אורלי": [
+      "nature",
+      "light"
+    ],
+    "אורן": [
+      "nature"
+    ],
+    "אורנה": [
+      "nature"
+    ],
+    "אורפז": [
+      "nature",
+      "light",
+      "precious",
+      "virtues"
+    ],
+    "אורקיד": [
+      "nature",
+      "international"
+    ],
+    "אושר": [
+      "joy"
+    ],
+    "אושרה": [
+      "joy"
+    ],
+    "אושרי": [
+      "joy"
+    ],
+    "אזאד": [
+      "international",
+      "virtues"
+    ],
+    "אזהאר": [
+      "nature",
+      "international"
+    ],
+    "אזל": [
+      "international"
+    ],
+    "אחיה": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "אחינועם": [
+      "biblical",
+      "joy",
+      "life"
+    ],
+    "אחלאם": [
+      "international"
+    ],
+    "אחלאס": [
+      "international",
+      "virtues"
+    ],
+    "אחמד": [
+      "international",
+      "faith"
+    ],
+    "איאד": [
+      "unclassified"
+    ],
+    "איאל": [
+      "unclassified"
+    ],
+    "איאן": [
+      "international",
+      "faith"
+    ],
+    "איאנא": [
+      "unclassified"
+    ],
+    "איאנה": [
+      "unclassified"
+    ],
+    "איאס": [
+      "unclassified"
+    ],
+    "איאת": [
+      "international"
+    ],
+    "איב": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "אידו": [
+      "unclassified"
+    ],
+    "אידל": [
+      "unclassified"
+    ],
+    "אידריס": [
+      "unclassified"
+    ],
+    "איה": [
+      "nature",
+      "international"
+    ],
+    "איהאב": [
+      "unclassified"
+    ],
+    "איהאם": [
+      "international"
+    ],
+    "איואן": [
+      "unclassified"
+    ],
+    "איוב": [
+      "biblical",
+      "international",
+      "life"
+    ],
+    "איוואן": [
+      "international",
+      "faith",
+      "virtues"
+    ],
+    "איוון": [
+      "international",
+      "faith"
+    ],
+    "איזבל": [
+      "unclassified"
+    ],
+    "איזבלה": [
+      "international",
+      "faith"
+    ],
+    "איזק": [
+      "international"
+    ],
+    "איחסאן": [
+      "international",
+      "virtues"
+    ],
+    "איטא": [
+      "unclassified"
+    ],
+    "איטה": [
+      "unclassified"
+    ],
+    "אייאן": [
+      "unclassified"
+    ],
+    "אייבי": [
+      "nature",
+      "international"
+    ],
+    "איידי": [
+      "unclassified"
+    ],
+    "איידל": [
+      "international",
+      "virtues"
+    ],
+    "איידן": [
+      "nature",
+      "international"
+    ],
+    "אייל": [
+      "strength",
+      "life"
+    ],
+    "איילא": [
+      "nature"
+    ],
+    "איילה": [
+      "nature"
+    ],
+    "איילול": [
+      "international"
+    ],
+    "איילון": [
+      "biblical"
+    ],
+    "איילי": [
+      "nature",
+      "joy"
+    ],
+    "איילין": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "איילן": [
+      "unclassified"
+    ],
+    "איילת": [
+      "nature"
+    ],
+    "איילת השחר": [
+      "nature",
+      "biblical",
+      "light"
+    ],
+    "איימי": [
+      "international",
+      "joy"
+    ],
+    "אייסל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "אייסם": [
+      "unclassified"
+    ],
+    "אייסר": [
+      "unclassified"
+    ],
+    "אייר": [
+      "other"
+    ],
+    "אילא": [
+      "nature"
+    ],
+    "אילאן": [
+      "nature"
+    ],
+    "אילאנא": [
+      "nature"
+    ],
+    "אילאף": [
+      "international",
+      "faith"
+    ],
+    "אילול": [
+      "international"
+    ],
+    "אילון": [
+      "nature",
+      "biblical"
+    ],
+    "אילור": [
+      "unclassified"
+    ],
+    "אילי": [
+      "unclassified"
+    ],
+    "איליא": [
+      "unclassified"
+    ],
+    "איליאא": [
+      "unclassified"
+    ],
+    "איליאן": [
+      "unclassified"
+    ],
+    "איליאס": [
+      "international",
+      "faith"
+    ],
+    "איליה": [
+      "international",
+      "faith"
+    ],
+    "איליי": [
+      "unclassified"
+    ],
+    "איליין": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "אילין": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "אילינא": [
+      "unclassified"
+    ],
+    "איליף": [
+      "international"
+    ],
+    "אילן": [
+      "nature"
+    ],
+    "אילנה": [
+      "nature"
+    ],
+    "אילעאי": [
+      "strength"
+    ],
+    "אילעי": [
+      "strength"
+    ],
+    "אילף": [
+      "international",
+      "faith"
+    ],
+    "אילת": [
+      "nature",
+      "places"
+    ],
+    "אימאן": [
+      "international",
+      "faith"
+    ],
+    "אימאר": [
+      "international"
+    ],
+    "אימרי": [
+      "unclassified"
+    ],
+    "אינור": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "אינס": [
+      "international",
+      "faith",
+      "virtues"
+    ],
+    "איסחאק": [
+      "international"
+    ],
+    "איסל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "איסם": [
+      "international"
+    ],
+    "איסמאיל": [
+      "international",
+      "faith"
+    ],
+    "איתי": [
+      "biblical",
+      "life"
+    ],
+    "איתיאל": [
+      "biblical",
+      "faith"
+    ],
+    "איתם": [
+      "biblical"
+    ],
+    "איתמר": [
+      "nature",
+      "biblical"
+    ],
+    "איתן": [
+      "biblical",
+      "strength"
+    ],
+    "אכלאס": [
+      "international",
+      "virtues"
+    ],
+    "אכרם": [
+      "international",
+      "virtues"
+    ],
+    "אל": [
+      "strength",
+      "faith"
+    ],
+    "אל-חי": [
+      "faith",
+      "life"
+    ],
+    "אל-ים": [
+      "unclassified"
+    ],
+    "אלאא": [
+      "international",
+      "strength"
+    ],
+    "אלאור": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "אלאורי": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "אלאיה": [
+      "unclassified"
+    ],
+    "אלאן": [
+      "international",
+      "virtues"
+    ],
+    "אלארי": [
+      "international",
+      "strength"
+    ],
+    "אלבי": [
+      "international",
+      "light",
+      "virtues"
+    ],
+    "אלדד": [
+      "biblical",
+      "faith"
+    ],
+    "אלדנה": [
+      "unclassified"
+    ],
+    "אלדר": [
+      "unclassified"
+    ],
+    "אלה": [
+      "nature",
+      "faith"
+    ],
+    "אלה-לי": [
+      "unclassified"
+    ],
+    "אלהאם": [
+      "international"
+    ],
+    "אלהיה": [
+      "unclassified"
+    ],
+    "אלומה": [
+      "nature",
+      "light"
+    ],
+    "אלון": [
+      "nature",
+      "strength"
+    ],
+    "אלונה": [
+      "nature"
+    ],
+    "אלורא": [
+      "unclassified"
+    ],
+    "אלורה": [
+      "unclassified"
+    ],
+    "אלחי": [
+      "faith",
+      "life"
+    ],
+    "אלחנן": [
+      "biblical",
+      "faith",
+      "virtues"
+    ],
+    "אלחסן": [
+      "international",
+      "virtues"
+    ],
+    "אלטא": [
+      "international"
+    ],
+    "אלטע": [
+      "international"
+    ],
+    "אלטר": [
+      "international"
+    ],
+    "אלי": [
+      "faith"
+    ],
+    "אליאא": [
+      "unclassified"
+    ],
+    "אליאב": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "אליאור": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "אליאורה": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "אליאל": [
+      "faith"
+    ],
+    "אליאם": [
+      "faith",
+      "life"
+    ],
+    "אליאן": [
+      "unclassified"
+    ],
+    "אליאנא": [
+      "faith"
+    ],
+    "אליאנה": [
+      "faith"
+    ],
+    "אליאס": [
+      "international",
+      "faith"
+    ],
+    "אליה": [
+      "biblical",
+      "faith"
+    ],
+    "אליהב": [
+      "faith",
+      "precious"
+    ],
+    "אליהו": [
+      "biblical",
+      "faith"
+    ],
+    "אליוט": [
+      "international",
+      "faith"
+    ],
+    "אליזבט": [
+      "faith"
+    ],
+    "אליחי": [
+      "faith",
+      "life"
+    ],
+    "אלימלך": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "אלין": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "אלינא": [
+      "international",
+      "virtues"
+    ],
+    "אלינה": [
+      "international",
+      "virtues"
+    ],
+    "אלינוי": [
+      "faith",
+      "virtues"
+    ],
+    "אלינור": [
+      "international"
+    ],
+    "אליס": [
+      "international",
+      "virtues"
+    ],
+    "אליסה": [
+      "international",
+      "virtues"
+    ],
+    "אליסיה": [
+      "international",
+      "virtues"
+    ],
+    "אליסף": [
+      "biblical",
+      "faith"
+    ],
+    "אליעד": [
+      "faith"
+    ],
+    "אליעזר": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "אליעם": [
+      "biblical",
+      "faith"
+    ],
+    "אליענה": [
+      "biblical",
+      "faith"
+    ],
+    "אליצור": [
+      "nature",
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "אליקים": [
+      "biblical",
+      "faith"
+    ],
+    "אלירוי": [
+      "faith"
+    ],
+    "אלירז": [
+      "faith"
+    ],
+    "אלירם": [
+      "strength",
+      "faith"
+    ],
+    "אלירן": [
+      "joy",
+      "faith"
+    ],
+    "אלישבע": [
+      "biblical",
+      "faith"
+    ],
+    "אלישי": [
+      "faith",
+      "precious"
+    ],
+    "אלישיב": [
+      "biblical",
+      "faith"
+    ],
+    "אלישמע": [
+      "biblical",
+      "faith"
+    ],
+    "אלישע": [
+      "biblical",
+      "faith"
+    ],
+    "אלכס": [
+      "international",
+      "strength"
+    ],
+    "אלכסה": [
+      "international"
+    ],
+    "אלכסנדר": [
+      "international",
+      "strength"
+    ],
+    "אלכסנדרה": [
+      "international"
+    ],
+    "אלמא": [
+      "international",
+      "virtues"
+    ],
+    "אלמאס": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "אלמה": [
+      "international",
+      "virtues"
+    ],
+    "אלמוג": [
+      "nature",
+      "life"
+    ],
+    "אלמז": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "אלמזן": [
+      "nature",
+      "international"
+    ],
+    "אלן": [
+      "international",
+      "virtues"
+    ],
+    "אלני": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "אלנתן": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "אלעאי": [
+      "strength"
+    ],
+    "אלעד": [
+      "biblical",
+      "faith"
+    ],
+    "אלעזר": [
+      "biblical",
+      "faith"
+    ],
+    "אלענוד": [
+      "international"
+    ],
+    "אלקנה": [
+      "biblical",
+      "faith"
+    ],
+    "אלראי": [
+      "faith"
+    ],
+    "אלרואי": [
+      "faith"
+    ],
+    "אלרוי": [
+      "faith"
+    ],
+    "אלרום": [
+      "strength",
+      "faith"
+    ],
+    "אלרועי": [
+      "faith"
+    ],
+    "אלתר": [
+      "international"
+    ],
+    "אמאני": [
+      "international"
+    ],
+    "אמבר": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "אמג'ד": [
+      "international",
+      "strength"
+    ],
+    "אמה": [
+      "international",
+      "virtues"
+    ],
+    "אמונה": [
+      "faith"
+    ],
+    "אמור": [
+      "international",
+      "joy"
+    ],
+    "אמי": [
+      "international",
+      "joy"
+    ],
+    "אמיל": [
+      "international",
+      "life"
+    ],
+    "אמילי": [
+      "international"
+    ],
+    "אמיליה": [
+      "international"
+    ],
+    "אמין": [
+      "international"
+    ],
+    "אמינה": [
+      "international"
+    ],
+    "אמיר": [
+      "nature",
+      "international"
+    ],
+    "אמירה": [
+      "international"
+    ],
+    "אמיתי": [
+      "virtues"
+    ],
+    "אמל": [
+      "international",
+      "virtues"
+    ],
+    "אמלי": [
+      "international",
+      "strength"
+    ],
+    "אמליה": [
+      "international",
+      "strength"
+    ],
+    "אמן": [
+      "arts"
+    ],
+    "אמנה": [
+      "international"
+    ],
+    "אמנון": [
+      "biblical"
+    ],
+    "אמר": [
+      "unclassified"
+    ],
+    "אמרי": [
+      "biblical"
+    ],
+    "אן": [
+      "international",
+      "virtues"
+    ],
+    "אנאבל": [
+      "international",
+      "joy"
+    ],
+    "אנאיה": [
+      "unclassified"
+    ],
+    "אנאל": [
+      "unclassified"
+    ],
+    "אנבל": [
+      "international",
+      "joy"
+    ],
+    "אנג'לה": [
+      "international"
+    ],
+    "אנג'לינה": [
+      "international"
+    ],
+    "אנדי": [
+      "international",
+      "strength"
+    ],
+    "אנדרו": [
+      "international",
+      "strength"
+    ],
+    "אנה": [
+      "international",
+      "virtues"
+    ],
+    "אנהאר": [
+      "international"
+    ],
+    "אנוור": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "אניה": [
+      "international",
+      "virtues"
+    ],
+    "אניל": [
+      "nature",
+      "international"
+    ],
+    "אניס": [
+      "international",
+      "joy",
+      "life"
+    ],
+    "אניסה": [
+      "international",
+      "joy",
+      "life"
+    ],
+    "אנני": [
+      "international",
+      "virtues"
+    ],
+    "אנס": [
+      "international",
+      "joy"
+    ],
+    "אנעאם": [
+      "international",
+      "virtues"
+    ],
+    "אנפאל": [
+      "unclassified"
+    ],
+    "אנתסאר": [
+      "international",
+      "strength"
+    ],
+    "אסא": [
+      "biblical"
+    ],
+    "אסאלה": [
+      "international",
+      "virtues"
+    ],
+    "אסד": [
+      "nature",
+      "international"
+    ],
+    "אסי": [
+      "unclassified"
+    ],
+    "אסיא": [
+      "unclassified"
+    ],
+    "אסיה": [
+      "places"
+    ],
+    "אסיל": [
+      "international",
+      "virtues"
+    ],
+    "אסינאת": [
+      "unclassified"
+    ],
+    "אסיף": [
+      "nature"
+    ],
+    "אסל": [
+      "nature",
+      "international"
+    ],
+    "אסלאם": [
+      "international",
+      "faith"
+    ],
+    "אסלאן": [
+      "nature",
+      "international"
+    ],
+    "אסמא": [
+      "international"
+    ],
+    "אסמהאן": [
+      "unclassified"
+    ],
+    "אסמר": [
+      "international",
+      "arts"
+    ],
+    "אסנת": [
+      "biblical",
+      "international"
+    ],
+    "אסעד": [
+      "international",
+      "joy"
+    ],
+    "אסף": [
+      "biblical"
+    ],
+    "אסר": [
+      "unclassified"
+    ],
+    "אסראא": [
+      "nature",
+      "international"
+    ],
+    "אסתברק": [
+      "international",
+      "precious"
+    ],
+    "אסתי": [
+      "nature",
+      "mythology",
+      "light"
+    ],
+    "אסתר": [
+      "nature",
+      "biblical",
+      "mythology",
+      "light"
+    ],
+    "אפיק": [
+      "nature"
+    ],
+    "אפנאן": [
+      "nature",
+      "international"
+    ],
+    "אפק": [
+      "biblical",
+      "strength"
+    ],
+    "אפריל": [
+      "international"
+    ],
+    "אפרים": [
+      "biblical"
+    ],
+    "אפרת": [
+      "biblical",
+      "precious"
+    ],
+    "אקראם": [
+      "international"
+    ],
+    "אראל": [
+      "biblical",
+      "strength"
+    ],
+    "אראם": [
+      "nature"
+    ],
+    "ארבל": [
+      "unclassified"
+    ],
+    "ארג'ואן": [
+      "nature",
+      "international",
+      "arts"
+    ],
+    "ארגואן": [
+      "nature",
+      "international",
+      "arts"
+    ],
+    "ארגמן": [
+      "arts"
+    ],
+    "ארד": [
+      "other"
+    ],
+    "ארוא": [
+      "unclassified"
+    ],
+    "ארז": [
+      "nature",
+      "strength"
+    ],
+    "ארטיום": [
+      "unclassified"
+    ],
+    "ארי": [
+      "nature"
+    ],
+    "אריא": [
+      "nature"
+    ],
+    "אריאה": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "אריאל": [
+      "nature",
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "אריאלה": [
+      "nature",
+      "faith"
+    ],
+    "אריאם": [
+      "unclassified"
+    ],
+    "אריאן": [
+      "unclassified"
+    ],
+    "אריאנא": [
+      "mythology",
+      "international",
+      "faith"
+    ],
+    "אריאנה": [
+      "mythology",
+      "international",
+      "faith"
+    ],
+    "אריג'": [
+      "international",
+      "joy"
+    ],
+    "אריה": [
+      "nature",
+      "life"
+    ],
+    "ארייה": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "ארים": [
+      "unclassified"
+    ],
+    "ארין": [
+      "international",
+      "places",
+      "virtues"
+    ],
+    "ארינה": [
+      "international",
+      "places",
+      "virtues"
+    ],
+    "אריס": [
+      "unclassified"
+    ],
+    "אריק": [
+      "international",
+      "strength"
+    ],
+    "אריקה": [
+      "international",
+      "strength"
+    ],
+    "ארכאן": [
+      "nature",
+      "international"
+    ],
+    "ארנון": [
+      "nature",
+      "biblical"
+    ],
+    "ארסלאן": [
+      "nature",
+      "international"
+    ],
+    "ארקאן": [
+      "international"
+    ],
+    "ארתור": [
+      "nature"
+    ],
+    "אשחר": [
+      "nature"
+    ],
+    "אשירה": [
+      "joy",
+      "arts"
+    ],
+    "אשל": [
+      "nature"
+    ],
+    "אשלי": [
+      "nature",
+      "international"
+    ],
+    "אשר": [
+      "biblical",
+      "joy"
+    ],
+    "אשרף": [
+      "international",
+      "virtues"
+    ],
+    "אשרקת": [
+      "unclassified"
+    ],
+    "אתאל": [
+      "international",
+      "virtues"
+    ],
+    "אתי": [
+      "nature",
+      "mythology",
+      "light"
+    ],
+    "אתיר": [
+      "international"
+    ],
+    "אתל": [
+      "international",
+      "virtues"
+    ],
+    "באנה": [
+      "nature",
+      "international"
+    ],
+    "באסל": [
+      "international",
+      "strength"
+    ],
+    "באסם": [
+      "international",
+      "joy"
+    ],
+    "באסמה": [
+      "international",
+      "joy"
+    ],
+    "באר": [
+      "nature"
+    ],
+    "בארי": [
+      "nature",
+      "biblical"
+    ],
+    "באשא": [
+      "unclassified"
+    ],
+    "באשע": [
+      "unclassified"
+    ],
+    "בדר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "בהאא": [
+      "nature",
+      "international",
+      "light",
+      "virtues"
+    ],
+    "בולוס": [
+      "international"
+    ],
+    "בועז": [
+      "biblical",
+      "strength"
+    ],
+    "בוראק": [
+      "international",
+      "light"
+    ],
+    "בושרא": [
+      "international"
+    ],
+    "ביאן": [
+      "international"
+    ],
+    "ביילה": [
+      "unclassified"
+    ],
+    "ביילסאן": [
+      "international"
+    ],
+    "ביירות": [
+      "international",
+      "places"
+    ],
+    "בילא": [
+      "unclassified"
+    ],
+    "בילה": [
+      "unclassified"
+    ],
+    "בילי": [
+      "international"
+    ],
+    "בינה": [
+      "virtues"
+    ],
+    "ביסאן": [
+      "unclassified"
+    ],
+    "בירות": [
+      "international",
+      "places"
+    ],
+    "ביתיה": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "בכר": [
+      "international",
+      "life"
+    ],
+    "בל": [
+      "international",
+      "virtues"
+    ],
+    "בלאל": [
+      "unclassified"
+    ],
+    "בלה": [
+      "international",
+      "virtues"
+    ],
+    "בלהה": [
+      "unclassified"
+    ],
+    "בלומה": [
+      "nature",
+      "international"
+    ],
+    "בלימי": [
+      "nature",
+      "international"
+    ],
+    "בלן": [
+      "unclassified"
+    ],
+    "בלסם": [
+      "nature",
+      "international"
+    ],
+    "בלקיס": [
+      "unclassified"
+    ],
+    "בן": [
+      "life"
+    ],
+    "בנאל": [
+      "unclassified"
+    ],
+    "בנאן": [
+      "international"
+    ],
+    "בנג'מין": [
+      "international",
+      "life"
+    ],
+    "בני": [
+      "nature",
+      "light",
+      "life"
+    ],
+    "בניה": [
+      "biblical",
+      "faith"
+    ],
+    "בניהו": [
+      "biblical",
+      "faith"
+    ],
+    "בנייה": [
+      "biblical",
+      "faith"
+    ],
+    "בנימין": [
+      "biblical",
+      "life"
+    ],
+    "בנציון": [
+      "biblical",
+      "places",
+      "life"
+    ],
+    "בסמה": [
+      "international"
+    ],
+    "בסמלה": [
+      "international"
+    ],
+    "בצלאל": [
+      "biblical",
+      "faith"
+    ],
+    "בר": [
+      "nature",
+      "virtues",
+      "life"
+    ],
+    "בראאה": [
+      "unclassified"
+    ],
+    "בראל": [
+      "faith",
+      "life"
+    ],
+    "בראנדל": [
+      "unclassified"
+    ],
+    "בראשית": [
+      "biblical"
+    ],
+    "ברוך": [
+      "biblical",
+      "faith"
+    ],
+    "ברוק": [
+      "unclassified"
+    ],
+    "ברוריה": [
+      "biblical",
+      "light"
+    ],
+    "ברי": [
+      "strength"
+    ],
+    "בריינא": [
+      "unclassified"
+    ],
+    "בריינדל": [
+      "unclassified"
+    ],
+    "ברית": [
+      "faith"
+    ],
+    "ברכה": [
+      "faith",
+      "precious",
+      "virtues"
+    ],
+    "ברכי": [
+      "faith",
+      "precious",
+      "virtues"
+    ],
+    "ברק": [
+      "nature",
+      "light"
+    ],
+    "ברקת": [
+      "nature",
+      "precious"
+    ],
+    "בשאיר": [
+      "international",
+      "joy"
+    ],
+    "בשאר": [
+      "international",
+      "joy"
+    ],
+    "בשארה": [
+      "international",
+      "virtues"
+    ],
+    "בשיר": [
+      "international",
+      "joy"
+    ],
+    "בת": [
+      "biblical",
+      "life"
+    ],
+    "בת אל": [
+      "faith",
+      "life"
+    ],
+    "בת ציון": [
+      "places",
+      "life"
+    ],
+    "בת שבע": [
+      "biblical",
+      "life"
+    ],
+    "בתאל": [
+      "faith",
+      "life"
+    ],
+    "בתול": [
+      "international",
+      "virtues"
+    ],
+    "בתיה": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "בתשבע": [
+      "biblical",
+      "life"
+    ],
+    "ג'אבר": [
+      "international"
+    ],
+    "ג'אד": [
+      "international",
+      "virtues"
+    ],
+    "ג'אית": [
+      "nature",
+      "international"
+    ],
+    "ג'אן": [
+      "international",
+      "faith",
+      "life"
+    ],
+    "ג'אנה": [
+      "international"
+    ],
+    "ג'אנת": [
+      "international"
+    ],
+    "ג'אסם": [
+      "international",
+      "strength"
+    ],
+    "ג'אסר": [
+      "international",
+      "strength"
+    ],
+    "ג'בל": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "ג'בר": [
+      "international",
+      "strength"
+    ],
+    "ג'בריל": [
+      "international",
+      "strength",
+      "faith"
+    ],
+    "ג'ברין": [
+      "international",
+      "strength",
+      "faith"
+    ],
+    "ג'ואד": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "ג'ואהר": [
+      "international",
+      "precious"
+    ],
+    "ג'ואן": [
+      "international",
+      "faith"
+    ],
+    "ג'ואנא": [
+      "international",
+      "faith"
+    ],
+    "ג'ואנה": [
+      "international",
+      "faith"
+    ],
+    "ג'ובראן": [
+      "international"
+    ],
+    "ג'וד": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "ג'ודי": [
+      "international"
+    ],
+    "ג'וואד": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "ג'וזף": [
+      "international",
+      "faith"
+    ],
+    "ג'וי": [
+      "international",
+      "joy"
+    ],
+    "ג'ויס": [
+      "international",
+      "joy",
+      "faith"
+    ],
+    "ג'ולאן": [
+      "unclassified"
+    ],
+    "ג'ולי": [
+      "mythology",
+      "international"
+    ],
+    "ג'וליא": [
+      "mythology",
+      "international"
+    ],
+    "ג'וליאן": [
+      "mythology",
+      "international"
+    ],
+    "ג'וליאנה": [
+      "mythology",
+      "international"
+    ],
+    "ג'וליה": [
+      "mythology",
+      "international"
+    ],
+    "ג'ולין": [
+      "unclassified"
+    ],
+    "ג'ומאן": [
+      "international",
+      "precious"
+    ],
+    "ג'ומאנה": [
+      "international",
+      "precious"
+    ],
+    "ג'ומעה": [
+      "international"
+    ],
+    "ג'ון": [
+      "international",
+      "faith"
+    ],
+    "ג'ונא": [
+      "unclassified"
+    ],
+    "ג'ונתן": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "ג'ורג": [
+      "nature",
+      "international"
+    ],
+    "ג'ורג'": [
+      "nature",
+      "international"
+    ],
+    "ג'ורי": [
+      "nature",
+      "international"
+    ],
+    "ג'ורין": [
+      "unclassified"
+    ],
+    "ג'זל": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "ג'יה": [
+      "unclassified"
+    ],
+    "ג'יהאד": [
+      "international"
+    ],
+    "ג'יהאן": [
+      "international"
+    ],
+    "ג'יימי": [
+      "international"
+    ],
+    "ג'יית": [
+      "nature",
+      "international"
+    ],
+    "ג'יית'": [
+      "nature",
+      "international"
+    ],
+    "ג'ילאן": [
+      "places"
+    ],
+    "ג'ינא": [
+      "international",
+      "strength"
+    ],
+    "ג'ינאן": [
+      "international"
+    ],
+    "ג'ינה": [
+      "international",
+      "strength"
+    ],
+    "ג'יריס": [
+      "nature",
+      "international"
+    ],
+    "ג'ית": [
+      "nature",
+      "international"
+    ],
+    "ג'לא": [
+      "unclassified"
+    ],
+    "ג'לאל": [
+      "international",
+      "strength"
+    ],
+    "ג'מאל": [
+      "international",
+      "virtues"
+    ],
+    "ג'מיל": [
+      "international",
+      "virtues"
+    ],
+    "ג'מילה": [
+      "international",
+      "virtues"
+    ],
+    "ג'נא": [
+      "international"
+    ],
+    "ג'נאן": [
+      "international"
+    ],
+    "ג'נאת": [
+      "international"
+    ],
+    "ג'נה": [
+      "international"
+    ],
+    "ג'סיקה": [
+      "international",
+      "strength"
+    ],
+    "ג'עפר": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "ג'רייס": [
+      "nature",
+      "international"
+    ],
+    "גאולה": [
+      "other"
+    ],
+    "גאזי": [
+      "unclassified"
+    ],
+    "גאזל": [
+      "nature",
+      "international"
+    ],
+    "גאיה": [
+      "nature",
+      "mythology",
+      "international"
+    ],
+    "גאיית": [
+      "nature",
+      "international"
+    ],
+    "גאית": [
+      "nature",
+      "international"
+    ],
+    "גאית'": [
+      "nature",
+      "international"
+    ],
+    "גאל": [
+      "faith"
+    ],
+    "גאלא": [
+      "unclassified"
+    ],
+    "גאלב": [
+      "international",
+      "strength"
+    ],
+    "גאלדא": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "גאליה": [
+      "unclassified"
+    ],
+    "גאמר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "גאנם": [
+      "international"
+    ],
+    "גאסם": [
+      "international"
+    ],
+    "גב": [
+      "nature"
+    ],
+    "גבי": [
+      "international",
+      "faith"
+    ],
+    "גבל": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "גבע": [
+      "nature",
+      "places"
+    ],
+    "גבריאל": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "גבריאלה": [
+      "international",
+      "faith"
+    ],
+    "גד": [
+      "nature",
+      "biblical",
+      "virtues"
+    ],
+    "גדי": [
+      "nature"
+    ],
+    "גדיר": [
+      "nature",
+      "international"
+    ],
+    "גדליה": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "גדליהו": [
+      "biblical",
+      "faith"
+    ],
+    "גדעון": [
+      "biblical"
+    ],
+    "גואהר": [
+      "international",
+      "precious"
+    ],
+    "גואן": [
+      "international",
+      "faith"
+    ],
+    "גואנא": [
+      "international",
+      "faith"
+    ],
+    "גוד": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "גודי": [
+      "international"
+    ],
+    "גוטא": [
+      "unclassified"
+    ],
+    "גולאן": [
+      "unclassified"
+    ],
+    "גולדה": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "גולדי": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "גולי": [
+      "mythology",
+      "international"
+    ],
+    "גוליא": [
+      "mythology",
+      "international"
+    ],
+    "גוליה": [
+      "mythology",
+      "international"
+    ],
+    "גולן": [
+      "biblical",
+      "places"
+    ],
+    "גומא": [
+      "nature"
+    ],
+    "גומאן": [
+      "international",
+      "precious"
+    ],
+    "גומאנה": [
+      "international",
+      "precious"
+    ],
+    "גון": [
+      "arts"
+    ],
+    "גוני": [
+      "biblical",
+      "strength"
+    ],
+    "גור": [
+      "nature",
+      "life"
+    ],
+    "גורי": [
+      "unclassified"
+    ],
+    "גזאל": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "גזאלה": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "גזל": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "גיא": [
+      "nature",
+      "places"
+    ],
+    "גידאא": [
+      "international",
+      "virtues"
+    ],
+    "גידי": [
+      "unclassified"
+    ],
+    "גיה": [
+      "unclassified"
+    ],
+    "גיטא": [
+      "international"
+    ],
+    "גיטה": [
+      "international"
+    ],
+    "גיטי": [
+      "international"
+    ],
+    "גיטל": [
+      "international"
+    ],
+    "גיית": [
+      "nature",
+      "international"
+    ],
+    "גיית'": [
+      "nature",
+      "international"
+    ],
+    "גיל": [
+      "joy"
+    ],
+    "גילאן": [
+      "unclassified"
+    ],
+    "גילה": [
+      "joy"
+    ],
+    "גילי": [
+      "joy"
+    ],
+    "גינא": [
+      "international",
+      "strength"
+    ],
+    "גינאן": [
+      "international"
+    ],
+    "גינה": [
+      "international",
+      "strength"
+    ],
+    "גינענדל": [
+      "unclassified"
+    ],
+    "גית": [
+      "nature",
+      "international"
+    ],
+    "גל": [
+      "nature"
+    ],
+    "גלא": [
+      "unclassified"
+    ],
+    "גלבוע": [
+      "nature",
+      "places"
+    ],
+    "גלי": [
+      "nature"
+    ],
+    "גליה": [
+      "unclassified"
+    ],
+    "גליל": [
+      "nature",
+      "places"
+    ],
+    "גליקא": [
+      "international",
+      "joy"
+    ],
+    "גלית": [
+      "nature"
+    ],
+    "גלעד": [
+      "nature",
+      "biblical"
+    ],
+    "גמילה": [
+      "international",
+      "virtues"
+    ],
+    "גמר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "גנאת": [
+      "international"
+    ],
+    "גסאן": [
+      "unclassified"
+    ],
+    "גפן": [
+      "nature"
+    ],
+    "גראם": [
+      "international",
+      "joy"
+    ],
+    "גרשון": [
+      "biblical"
+    ],
+    "דאהר": [
+      "international"
+    ],
+    "דאוד": [
+      "international",
+      "joy"
+    ],
+    "דאווד": [
+      "international",
+      "joy"
+    ],
+    "דאנה": [
+      "unclassified"
+    ],
+    "דאניה": [
+      "international"
+    ],
+    "דארין": [
+      "unclassified"
+    ],
+    "דב": [
+      "nature",
+      "life"
+    ],
+    "דבורה": [
+      "nature",
+      "biblical"
+    ],
+    "דבי": [
+      "nature",
+      "international"
+    ],
+    "דביר": [
+      "biblical"
+    ],
+    "דבש": [
+      "joy"
+    ],
+    "דגן": [
+      "nature"
+    ],
+    "דהאם": [
+      "unclassified"
+    ],
+    "דהב": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "דובער": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "דוד": [
+      "biblical",
+      "joy"
+    ],
+    "דוחא": [
+      "unclassified"
+    ],
+    "דולב": [
+      "nature"
+    ],
+    "דומיניק": [
+      "international",
+      "faith"
+    ],
+    "דון": [
+      "international",
+      "strength"
+    ],
+    "דוניא": [
+      "international",
+      "life"
+    ],
+    "דועאא": [
+      "international",
+      "faith"
+    ],
+    "דור": [
+      "life"
+    ],
+    "דוראל": [
+      "faith",
+      "life"
+    ],
+    "דורון": [
+      "international",
+      "precious"
+    ],
+    "דורי": [
+      "life"
+    ],
+    "דוריאן": [
+      "international"
+    ],
+    "דוריה": [
+      "faith",
+      "life"
+    ],
+    "דורין": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "דותן": [
+      "biblical"
+    ],
+    "דיאא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "דיאב": [
+      "international"
+    ],
+    "דיאלא": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "דיאלה": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "דיאן": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "דיאנה": [
+      "nature",
+      "mythology",
+      "international",
+      "light",
+      "faith"
+    ],
+    "דיאר": [
+      "international"
+    ],
+    "דיב": [
+      "unclassified"
+    ],
+    "דיה": [
+      "nature",
+      "biblical"
+    ],
+    "דיויד": [
+      "international",
+      "joy"
+    ],
+    "דיין": [
+      "international"
+    ],
+    "דילאן": [
+      "nature",
+      "international"
+    ],
+    "דילן": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "דים": [
+      "nature",
+      "international"
+    ],
+    "דימא": [
+      "nature",
+      "international"
+    ],
+    "דין": [
+      "virtues"
+    ],
+    "דינא": [
+      "virtues"
+    ],
+    "דינה": [
+      "biblical",
+      "virtues"
+    ],
+    "דלאל": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "דליה": [
+      "nature"
+    ],
+    "דלע": [
+      "international",
+      "joy"
+    ],
+    "דמיאן": [
+      "international"
+    ],
+    "דן": [
+      "biblical"
+    ],
+    "דנה": [
+      "virtues"
+    ],
+    "דני": [
+      "faith"
+    ],
+    "דניאל": [
+      "biblical",
+      "faith",
+      "virtues"
+    ],
+    "דניאלה": [
+      "biblical",
+      "faith"
+    ],
+    "דפנה": [
+      "nature",
+      "mythology",
+      "international",
+      "virtues"
+    ],
+    "דפני": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "דקל": [
+      "nature"
+    ],
+    "דר": [
+      "nature",
+      "precious"
+    ],
+    "דרור": [
+      "nature"
+    ],
+    "דריה": [
+      "international",
+      "virtues"
+    ],
+    "האג'ר": [
+      "biblical",
+      "international"
+    ],
+    "האגר": [
+      "biblical",
+      "international"
+    ],
+    "האדי": [
+      "international"
+    ],
+    "האיל": [
+      "international",
+      "strength"
+    ],
+    "האלה": [
+      "nature",
+      "international",
+      "light",
+      "precious"
+    ],
+    "האני": [
+      "international",
+      "virtues"
+    ],
+    "הארון": [
+      "unclassified"
+    ],
+    "הארי": [
+      "international",
+      "strength"
+    ],
+    "האשם": [
+      "international"
+    ],
+    "הגר": [
+      "biblical",
+      "international"
+    ],
+    "הדאיה": [
+      "international",
+      "virtues"
+    ],
+    "הדיל": [
+      "international"
+    ],
+    "הדס": [
+      "nature",
+      "biblical"
+    ],
+    "הדסה": [
+      "biblical"
+    ],
+    "הדר": [
+      "virtues"
+    ],
+    "הוד": [
+      "international",
+      "strength"
+    ],
+    "הודא": [
+      "international"
+    ],
+    "הודאל": [
+      "faith"
+    ],
+    "הודיה": [
+      "faith"
+    ],
+    "הזאר": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "היא": [
+      "unclassified"
+    ],
+    "היא-לי": [
+      "other"
+    ],
+    "היאלי": [
+      "other"
+    ],
+    "היאם": [
+      "international",
+      "joy"
+    ],
+    "היבא": [
+      "international",
+      "precious"
+    ],
+    "הייא": [
+      "unclassified"
+    ],
+    "היידי": [
+      "international",
+      "virtues"
+    ],
+    "היילי": [
+      "nature",
+      "international"
+    ],
+    "היית'ם": [
+      "international"
+    ],
+    "הילאי": [
+      "unclassified"
+    ],
+    "הילה": [
+      "nature",
+      "light"
+    ],
+    "הילי": [
+      "unclassified"
+    ],
+    "הילל": [
+      "nature",
+      "biblical",
+      "light"
+    ],
+    "הילני": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "הינדא": [
+      "unclassified"
+    ],
+    "הינדי": [
+      "unclassified"
+    ],
+    "הינדל": [
+      "unclassified"
+    ],
+    "היפא": [
+      "international",
+      "virtues"
+    ],
+    "הישאם": [
+      "international",
+      "virtues"
+    ],
+    "הלאל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "הלה": [
+      "nature",
+      "light"
+    ],
+    "הלי": [
+      "unclassified"
+    ],
+    "הלל": [
+      "biblical",
+      "faith"
+    ],
+    "הללי": [
+      "faith"
+    ],
+    "הלליה": [
+      "biblical",
+      "faith"
+    ],
+    "הלן": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "הלנה": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "הלני": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "המאם": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "הנא": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "הנאדי": [
+      "unclassified"
+    ],
+    "הנאי": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "הנד": [
+      "unclassified"
+    ],
+    "הנדל": [
+      "unclassified"
+    ],
+    "הנוק": [
+      "unclassified"
+    ],
+    "הני": [
+      "unclassified"
+    ],
+    "הניא": [
+      "unclassified"
+    ],
+    "הניה": [
+      "unclassified"
+    ],
+    "הענא": [
+      "unclassified"
+    ],
+    "הענדל": [
+      "unclassified"
+    ],
+    "הענטשא": [
+      "unclassified"
+    ],
+    "העני": [
+      "unclassified"
+    ],
+    "העניא": [
+      "unclassified"
+    ],
+    "הראל": [
+      "nature",
+      "biblical",
+      "faith",
+      "places"
+    ],
+    "ואטין": [
+      "international",
+      "life"
+    ],
+    "ואטן": [
+      "nature",
+      "international"
+    ],
+    "ואיל": [
+      "unclassified"
+    ],
+    "ואתין": [
+      "international",
+      "life"
+    ],
+    "וג'דאן": [
+      "international"
+    ],
+    "וג'יה": [
+      "international"
+    ],
+    "וגדאן": [
+      "international"
+    ],
+    "ודאד": [
+      "unclassified"
+    ],
+    "ודיע": [
+      "international",
+      "virtues"
+    ],
+    "והיב": [
+      "international",
+      "precious"
+    ],
+    "וואטין": [
+      "international",
+      "life"
+    ],
+    "ווארד": [
+      "nature",
+      "international"
+    ],
+    "וואתין": [
+      "international",
+      "life"
+    ],
+    "ווג'דאן": [
+      "international"
+    ],
+    "ווטין": [
+      "international",
+      "life"
+    ],
+    "ווטן": [
+      "international"
+    ],
+    "וועד": [
+      "international"
+    ],
+    "וופא": [
+      "international"
+    ],
+    "וופאא": [
+      "international"
+    ],
+    "וורדה": [
+      "nature",
+      "international"
+    ],
+    "וורוד": [
+      "nature",
+      "international"
+    ],
+    "וותין": [
+      "international",
+      "life"
+    ],
+    "וחיד": [
+      "international"
+    ],
+    "וטין": [
+      "international",
+      "life"
+    ],
+    "וטן": [
+      "international"
+    ],
+    "ויאם": [
+      "international",
+      "virtues"
+    ],
+    "וידאד": [
+      "unclassified"
+    ],
+    "ויליאם": [
+      "international",
+      "strength"
+    ],
+    "ויסאל": [
+      "international"
+    ],
+    "ויקטור": [
+      "international",
+      "strength"
+    ],
+    "ויקטוריה": [
+      "mythology",
+      "international",
+      "strength"
+    ],
+    "ולאא": [
+      "international"
+    ],
+    "וליד": [
+      "international",
+      "life"
+    ],
+    "ולריה": [
+      "international",
+      "strength"
+    ],
+    "וסאם": [
+      "international",
+      "precious"
+    ],
+    "וסים": [
+      "international",
+      "virtues"
+    ],
+    "ועד": [
+      "international"
+    ],
+    "ורד": [
+      "nature",
+      "international"
+    ],
+    "ורדה": [
+      "nature",
+      "international"
+    ],
+    "ורוד": [
+      "nature",
+      "international"
+    ],
+    "ורוניקה": [
+      "international",
+      "strength"
+    ],
+    "ותיין": [
+      "international",
+      "life"
+    ],
+    "ותין": [
+      "international",
+      "life"
+    ],
+    "ותר": [
+      "international",
+      "arts"
+    ],
+    "זאב": [
+      "nature",
+      "life"
+    ],
+    "זאהי": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "זאהר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "זאיד": [
+      "international",
+      "precious"
+    ],
+    "זאין": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "זאן": [
+      "international",
+      "faith"
+    ],
+    "זבולון": [
+      "biblical"
+    ],
+    "זהבה": [
+      "nature",
+      "precious"
+    ],
+    "זהרא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "זהראא": [
+      "nature",
+      "international"
+    ],
+    "זהרה": [
+      "nature",
+      "international"
+    ],
+    "זואי": [
+      "international",
+      "life"
+    ],
+    "זוהיר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "זוהר": [
+      "nature",
+      "light"
+    ],
+    "זוהרה": [
+      "nature",
+      "light"
+    ],
+    "זונדל": [
+      "unclassified"
+    ],
+    "זושא": [
+      "unclassified"
+    ],
+    "זיאד": [
+      "international",
+      "precious"
+    ],
+    "זיו": [
+      "nature",
+      "light",
+      "joy"
+    ],
+    "זייד": [
+      "international",
+      "precious"
+    ],
+    "זיידאן": [
+      "international",
+      "precious"
+    ],
+    "זיין": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "זיינה": [
+      "international",
+      "precious"
+    ],
+    "זין": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "זינא": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "זינאלדין": [
+      "international"
+    ],
+    "זינב": [
+      "unclassified"
+    ],
+    "זינדין": [
+      "international"
+    ],
+    "זינה": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "זיסי": [
+      "international",
+      "joy"
+    ],
+    "זיסל": [
+      "international"
+    ],
+    "זכי": [
+      "international",
+      "virtues"
+    ],
+    "זכריא": [
+      "international",
+      "faith"
+    ],
+    "זכריה": [
+      "faith"
+    ],
+    "זליג": [
+      "international",
+      "joy"
+    ],
+    "זלמן": [
+      "international",
+      "virtues"
+    ],
+    "זמזם": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "זן": [
+      "other"
+    ],
+    "זעלדא": [
+      "international"
+    ],
+    "זרח": [
+      "nature",
+      "biblical",
+      "light"
+    ],
+    "ח'אלד": [
+      "international"
+    ],
+    "ח'דיג'ה": [
+      "international"
+    ],
+    "ח'דר": [
+      "international",
+      "arts"
+    ],
+    "ח'טאב": [
+      "international"
+    ],
+    "ח'ליל": [
+      "international",
+      "joy"
+    ],
+    "ח'מיס": [
+      "international"
+    ],
+    "חאזם": [
+      "international"
+    ],
+    "חאלא": [
+      "international",
+      "joy"
+    ],
+    "חאלד": [
+      "international"
+    ],
+    "חאמד": [
+      "international",
+      "faith"
+    ],
+    "חאפז": [
+      "international",
+      "strength"
+    ],
+    "חאתם": [
+      "unclassified"
+    ],
+    "חביב": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "חביבה": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "חגי": [
+      "biblical"
+    ],
+    "חגית": [
+      "biblical"
+    ],
+    "חדוה": [
+      "joy"
+    ],
+    "חדיגה": [
+      "international"
+    ],
+    "חודיפה": [
+      "unclassified"
+    ],
+    "חוה": [
+      "biblical",
+      "life"
+    ],
+    "חווה": [
+      "biblical",
+      "life"
+    ],
+    "חולוד": [
+      "international"
+    ],
+    "חוסאם": [
+      "international"
+    ],
+    "חוסין": [
+      "international",
+      "virtues"
+    ],
+    "חוסני": [
+      "international",
+      "virtues"
+    ],
+    "חור": [
+      "nature",
+      "international",
+      "light",
+      "life"
+    ],
+    "חוריה": [
+      "nature",
+      "international",
+      "light",
+      "life"
+    ],
+    "חושן": [
+      "biblical",
+      "strength"
+    ],
+    "חזקיהו": [
+      "biblical",
+      "faith"
+    ],
+    "חטאב": [
+      "international"
+    ],
+    "חי": [
+      "nature",
+      "life"
+    ],
+    "חיאה": [
+      "international",
+      "life"
+    ],
+    "חיאת": [
+      "international",
+      "life"
+    ],
+    "חיה": [
+      "life"
+    ],
+    "חייאת": [
+      "international",
+      "life"
+    ],
+    "חיידר": [
+      "nature",
+      "international"
+    ],
+    "חיים": [
+      "biblical",
+      "life"
+    ],
+    "חיתאם": [
+      "international",
+      "virtues"
+    ],
+    "חלא": [
+      "international",
+      "joy"
+    ],
+    "חלוד": [
+      "international"
+    ],
+    "חלימה": [
+      "international"
+    ],
+    "חלמי": [
+      "international",
+      "virtues"
+    ],
+    "חמד": [
+      "international",
+      "faith"
+    ],
+    "חמדאללה": [
+      "international",
+      "faith"
+    ],
+    "חמדאן": [
+      "international",
+      "faith"
+    ],
+    "חמדי": [
+      "international",
+      "faith",
+      "life"
+    ],
+    "חמזה": [
+      "nature",
+      "international"
+    ],
+    "חמיד": [
+      "international",
+      "faith"
+    ],
+    "חן": [
+      "joy",
+      "virtues"
+    ],
+    "חנא": [
+      "unclassified"
+    ],
+    "חנאן": [
+      "international",
+      "joy"
+    ],
+    "חנה": [
+      "biblical",
+      "joy",
+      "virtues"
+    ],
+    "חנוך": [
+      "biblical"
+    ],
+    "חני": [
+      "unclassified"
+    ],
+    "חנין": [
+      "international"
+    ],
+    "חנן": [
+      "biblical",
+      "virtues"
+    ],
+    "חננאל": [
+      "biblical",
+      "faith",
+      "virtues"
+    ],
+    "חנניה": [
+      "biblical",
+      "faith"
+    ],
+    "חסאן": [
+      "international",
+      "virtues"
+    ],
+    "חסד": [
+      "joy",
+      "virtues"
+    ],
+    "חסיה": [
+      "unclassified"
+    ],
+    "חסן": [
+      "international",
+      "virtues"
+    ],
+    "חרות": [
+      "other"
+    ],
+    "טאבא": [
+      "unclassified"
+    ],
+    "טאהא": [
+      "international"
+    ],
+    "טאהר": [
+      "international",
+      "virtues"
+    ],
+    "טאי": [
+      "unclassified"
+    ],
+    "טאיה": [
+      "unclassified"
+    ],
+    "טאלב": [
+      "international"
+    ],
+    "טארק": [
+      "international"
+    ],
+    "טבע": [
+      "other"
+    ],
+    "טהר": [
+      "virtues"
+    ],
+    "טוב": [
+      "joy",
+      "virtues"
+    ],
+    "טובה": [
+      "strength",
+      "virtues"
+    ],
+    "טובי": [
+      "unclassified"
+    ],
+    "טוביה": [
+      "biblical",
+      "faith",
+      "virtues"
+    ],
+    "טוהר": [
+      "virtues"
+    ],
+    "טויבא": [
+      "nature",
+      "international"
+    ],
+    "טולין": [
+      "unclassified"
+    ],
+    "טוליפ": [
+      "nature"
+    ],
+    "טום": [
+      "international"
+    ],
+    "טומי": [
+      "international"
+    ],
+    "טוני": [
+      "unclassified"
+    ],
+    "טופז": [
+      "nature",
+      "precious",
+      "arts"
+    ],
+    "טיבה": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "טיגיסט": [
+      "unclassified"
+    ],
+    "טילא": [
+      "unclassified"
+    ],
+    "טימור": [
+      "unclassified"
+    ],
+    "טל": [
+      "nature"
+    ],
+    "טלאור": [
+      "nature",
+      "light"
+    ],
+    "טלאל": [
+      "unclassified"
+    ],
+    "טלב": [
+      "international"
+    ],
+    "טלי": [
+      "nature",
+      "joy"
+    ],
+    "טליה": [
+      "nature",
+      "faith"
+    ],
+    "טמסגן": [
+      "unclassified"
+    ],
+    "טנא": [
+      "other"
+    ],
+    "טשארנא": [
+      "international"
+    ],
+    "יאגות": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "יאיר": [
+      "nature",
+      "biblical",
+      "light"
+    ],
+    "יאמאן": [
+      "international"
+    ],
+    "יאמן": [
+      "unclassified"
+    ],
+    "יאן": [
+      "international",
+      "faith"
+    ],
+    "יאנא": [
+      "international",
+      "faith"
+    ],
+    "יאנה": [
+      "international",
+      "faith"
+    ],
+    "יאסין": [
+      "international"
+    ],
+    "יאסמה": [
+      "nature",
+      "international"
+    ],
+    "יאסמינא": [
+      "nature",
+      "international"
+    ],
+    "יאסמינה": [
+      "nature",
+      "international"
+    ],
+    "יאסר": [
+      "international",
+      "virtues"
+    ],
+    "יאפה": [
+      "international",
+      "places"
+    ],
+    "יאקוט": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "יאקות": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "יאקין": [
+      "international"
+    ],
+    "יאר": [
+      "unclassified"
+    ],
+    "יארא": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "יארין": [
+      "unclassified"
+    ],
+    "יגאל": [
+      "biblical"
+    ],
+    "יגין": [
+      "international"
+    ],
+    "יגל": [
+      "joy"
+    ],
+    "ידיד": [
+      "joy"
+    ],
+    "ידידיה": [
+      "biblical",
+      "faith"
+    ],
+    "יה-לי": [
+      "faith"
+    ],
+    "יהב": [
+      "precious"
+    ],
+    "יהודה": [
+      "biblical",
+      "faith"
+    ],
+    "יהודית": [
+      "biblical"
+    ],
+    "יהוידע": [
+      "biblical",
+      "faith"
+    ],
+    "יהונתן": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "יהוסף": [
+      "biblical",
+      "faith"
+    ],
+    "יהושע": [
+      "biblical",
+      "faith"
+    ],
+    "יהל": [
+      "unclassified"
+    ],
+    "יהלום": [
+      "nature",
+      "precious"
+    ],
+    "יהלי": [
+      "faith"
+    ],
+    "יואב": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "יואל": [
+      "biblical",
+      "faith"
+    ],
+    "יובל": [
+      "nature",
+      "biblical"
+    ],
+    "יוגב": [
+      "nature"
+    ],
+    "יוחאי": [
+      "biblical"
+    ],
+    "יוחנן": [
+      "biblical",
+      "faith"
+    ],
+    "יוטא": [
+      "unclassified"
+    ],
+    "יוטל": [
+      "unclassified"
+    ],
+    "יוכבד": [
+      "biblical",
+      "faith"
+    ],
+    "יולי": [
+      "international"
+    ],
+    "יוליה": [
+      "mythology",
+      "international"
+    ],
+    "יולין": [
+      "unclassified"
+    ],
+    "יום": [
+      "nature",
+      "light"
+    ],
+    "יומנא": [
+      "international",
+      "life"
+    ],
+    "יונאן": [
+      "nature",
+      "international"
+    ],
+    "יונה": [
+      "nature",
+      "biblical"
+    ],
+    "יוני": [
+      "faith",
+      "precious"
+    ],
+    "יונית": [
+      "nature",
+      "joy"
+    ],
+    "יונס": [
+      "nature",
+      "international"
+    ],
+    "יונתן": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "יוסוף": [
+      "international"
+    ],
+    "יוסי": [
+      "faith"
+    ],
+    "יוסף": [
+      "biblical"
+    ],
+    "יוסרא": [
+      "international"
+    ],
+    "יועד": [
+      "biblical"
+    ],
+    "יורם": [
+      "nature",
+      "biblical",
+      "faith"
+    ],
+    "יותם": [
+      "biblical",
+      "faith",
+      "virtues"
+    ],
+    "יזיד": [
+      "international"
+    ],
+    "יזן": [
+      "unclassified"
+    ],
+    "יחזקאל": [
+      "biblical",
+      "faith"
+    ],
+    "יחיא": [
+      "international"
+    ],
+    "יחיאל": [
+      "biblical",
+      "faith",
+      "life"
+    ],
+    "יטל": [
+      "unclassified"
+    ],
+    "ילין": [
+      "unclassified"
+    ],
+    "ים": [
+      "nature",
+      "strength"
+    ],
+    "ימאמה": [
+      "nature",
+      "international"
+    ],
+    "ימאן": [
+      "unclassified"
+    ],
+    "ינאי": [
+      "biblical"
+    ],
+    "ינאל": [
+      "unclassified"
+    ],
+    "ינון": [
+      "biblical"
+    ],
+    "יניב": [
+      "unclassified"
+    ],
+    "יסכה": [
+      "biblical"
+    ],
+    "יסמה": [
+      "unclassified"
+    ],
+    "יסמין": [
+      "nature",
+      "international"
+    ],
+    "יסמינה": [
+      "nature",
+      "international"
+    ],
+    "יעגוב": [
+      "international"
+    ],
+    "יעל": [
+      "nature",
+      "biblical",
+      "life"
+    ],
+    "יעלה": [
+      "nature"
+    ],
+    "יעלי": [
+      "nature",
+      "joy"
+    ],
+    "יעלת חן": [
+      "nature",
+      "virtues"
+    ],
+    "יענטא": [
+      "unclassified"
+    ],
+    "יענטע": [
+      "unclassified"
+    ],
+    "יעקב": [
+      "biblical"
+    ],
+    "יעקוב": [
+      "international"
+    ],
+    "יער": [
+      "nature"
+    ],
+    "יערה": [
+      "nature"
+    ],
+    "יערי": [
+      "nature"
+    ],
+    "יפה": [
+      "virtues"
+    ],
+    "יפית": [
+      "virtues"
+    ],
+    "יפתח": [
+      "biblical",
+      "virtues"
+    ],
+    "יצחק": [
+      "biblical"
+    ],
+    "יקוט": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "יקות": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "יקותיאל": [
+      "biblical",
+      "faith"
+    ],
+    "יקין": [
+      "international"
+    ],
+    "יקיר": [
+      "joy",
+      "precious"
+    ],
+    "יקירה": [
+      "joy",
+      "precious"
+    ],
+    "ירדן": [
+      "nature",
+      "biblical",
+      "places"
+    ],
+    "ירוחם": [
+      "biblical"
+    ],
+    "ירון": [
+      "joy"
+    ],
+    "ירחמיאל": [
+      "faith"
+    ],
+    "ירין": [
+      "joy",
+      "arts"
+    ],
+    "ירמי": [
+      "biblical"
+    ],
+    "ירמיהו": [
+      "biblical",
+      "faith"
+    ],
+    "ישי": [
+      "biblical"
+    ],
+    "ישכר": [
+      "biblical"
+    ],
+    "ישעי": [
+      "faith"
+    ],
+    "ישעיה": [
+      "biblical",
+      "faith"
+    ],
+    "ישעיהו": [
+      "biblical",
+      "faith"
+    ],
+    "ישראל": [
+      "biblical",
+      "faith"
+    ],
+    "יששכר": [
+      "biblical"
+    ],
+    "כאזם": [
+      "international"
+    ],
+    "כאיד": [
+      "international"
+    ],
+    "כאמלה": [
+      "international",
+      "virtues"
+    ],
+    "כארם": [
+      "international",
+      "virtues"
+    ],
+    "כארמן": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "כחל": [
+      "nature"
+    ],
+    "כיאן": [
+      "international"
+    ],
+    "כינאן": [
+      "unclassified"
+    ],
+    "כליל": [
+      "virtues"
+    ],
+    "כמאל": [
+      "international",
+      "virtues"
+    ],
+    "כמיל": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "כנאן": [
+      "unclassified"
+    ],
+    "כנדא": [
+      "international"
+    ],
+    "כנדה": [
+      "international"
+    ],
+    "כנה": [
+      "virtues"
+    ],
+    "כנרת": [
+      "biblical",
+      "places"
+    ],
+    "כפיר": [
+      "nature"
+    ],
+    "כרים": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "כריסטיאן": [
+      "international"
+    ],
+    "כריסטיאנו": [
+      "international"
+    ],
+    "כרם": [
+      "nature"
+    ],
+    "כרמי": [
+      "nature"
+    ],
+    "כרמל": [
+      "nature",
+      "biblical",
+      "places"
+    ],
+    "כתר": [
+      "strength",
+      "precious"
+    ],
+    "כתריאל": [
+      "faith",
+      "precious"
+    ],
+    "לאב": [
+      "unclassified"
+    ],
+    "לאה": [
+      "biblical"
+    ],
+    "לאו": [
+      "nature",
+      "international"
+    ],
+    "לאון": [
+      "nature",
+      "international"
+    ],
+    "לאונרד": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "לאור": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "לאיא": [
+      "unclassified"
+    ],
+    "לאיה": [
+      "unclassified"
+    ],
+    "לאיו": [
+      "unclassified"
+    ],
+    "לאל": [
+      "biblical",
+      "faith"
+    ],
+    "לאנה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לאני": [
+      "international",
+      "light",
+      "strength"
+    ],
+    "לאפי": [
+      "unclassified"
+    ],
+    "לארא": [
+      "unclassified"
+    ],
+    "לארין": [
+      "unclassified"
+    ],
+    "לב": [
+      "other"
+    ],
+    "לבונה": [
+      "nature"
+    ],
+    "לביא": [
+      "nature",
+      "biblical"
+    ],
+    "לביאה": [
+      "nature"
+    ],
+    "לבנה": [
+      "nature",
+      "light",
+      "arts",
+      "life"
+    ],
+    "לגין": [
+      "nature",
+      "international"
+    ],
+    "להב": [
+      "nature"
+    ],
+    "להבה": [
+      "nature",
+      "light"
+    ],
+    "להיה": [
+      "unclassified"
+    ],
+    "לו": [
+      "virtues"
+    ],
+    "לואי": [
+      "nature",
+      "international"
+    ],
+    "לואן": [
+      "nature"
+    ],
+    "לובנה": [
+      "nature",
+      "international"
+    ],
+    "לוג'אין": [
+      "nature",
+      "international"
+    ],
+    "לוג'יין": [
+      "nature",
+      "international"
+    ],
+    "לוג'ין": [
+      "nature",
+      "international"
+    ],
+    "לוגיין": [
+      "nature",
+      "international"
+    ],
+    "לוגין": [
+      "nature",
+      "international"
+    ],
+    "לוטם": [
+      "nature"
+    ],
+    "לוטן": [
+      "biblical"
+    ],
+    "לוטפי": [
+      "international",
+      "virtues"
+    ],
+    "לוי": [
+      "biblical"
+    ],
+    "לוין": [
+      "unclassified"
+    ],
+    "לונא": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "לונה": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "לוסי": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לוסיה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לוסייל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לוסיל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לוסין": [
+      "unclassified"
+    ],
+    "לוקא": [
+      "international"
+    ],
+    "לוקאס": [
+      "international"
+    ],
+    "לוקה": [
+      "international"
+    ],
+    "לוקמאן": [
+      "unclassified"
+    ],
+    "לור": [
+      "nature",
+      "international"
+    ],
+    "לורא": [
+      "nature",
+      "international"
+    ],
+    "לורד": [
+      "unclassified"
+    ],
+    "לורה": [
+      "nature",
+      "international"
+    ],
+    "לורי": [
+      "nature",
+      "international"
+    ],
+    "לוריא": [
+      "unclassified"
+    ],
+    "לוריאן": [
+      "unclassified"
+    ],
+    "לורין": [
+      "unclassified"
+    ],
+    "לורן": [
+      "unclassified"
+    ],
+    "לטיפה": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "לי": [
+      "other"
+    ],
+    "לי-אור": [
+      "nature",
+      "light"
+    ],
+    "לי-יה": [
+      "faith"
+    ],
+    "לי-ים": [
+      "nature"
+    ],
+    "לי-נס": [
+      "faith"
+    ],
+    "לי-שי": [
+      "precious"
+    ],
+    "ליא": [
+      "nature"
+    ],
+    "ליאב": [
+      "life"
+    ],
+    "ליאה": [
+      "nature"
+    ],
+    "ליאו": [
+      "nature",
+      "international"
+    ],
+    "ליאון": [
+      "nature",
+      "international"
+    ],
+    "ליאור": [
+      "nature",
+      "light"
+    ],
+    "ליאורה": [
+      "nature",
+      "light"
+    ],
+    "ליאל": [
+      "faith"
+    ],
+    "ליאלי": [
+      "international"
+    ],
+    "ליאם": [
+      "international"
+    ],
+    "ליאן": [
+      "international",
+      "joy"
+    ],
+    "ליאנא": [
+      "international",
+      "joy"
+    ],
+    "ליאנה": [
+      "international",
+      "joy"
+    ],
+    "ליאת": [
+      "other"
+    ],
+    "ליב": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "ליבא": [
+      "international",
+      "joy"
+    ],
+    "ליבה": [
+      "international",
+      "joy"
+    ],
+    "ליבי": [
+      "other"
+    ],
+    "ליבנת": [
+      "arts"
+    ],
+    "ליבר": [
+      "international",
+      "virtues"
+    ],
+    "לידור": [
+      "life"
+    ],
+    "לידר": [
+      "unclassified"
+    ],
+    "ליה": [
+      "nature"
+    ],
+    "ליהוא": [
+      "unclassified"
+    ],
+    "ליהי": [
+      "faith"
+    ],
+    "ליהיא": [
+      "other"
+    ],
+    "ליו": [
+      "nature",
+      "international"
+    ],
+    "ליונל": [
+      "nature",
+      "international"
+    ],
+    "ליז": [
+      "international",
+      "faith"
+    ],
+    "ליטל": [
+      "nature"
+    ],
+    "לייא": [
+      "nature"
+    ],
+    "לייה": [
+      "nature"
+    ],
+    "ליילה": [
+      "nature",
+      "international"
+    ],
+    "ליין": [
+      "international",
+      "virtues"
+    ],
+    "ליית": [
+      "nature",
+      "international"
+    ],
+    "ליית'": [
+      "nature",
+      "international"
+    ],
+    "לילאס": [
+      "nature",
+      "international"
+    ],
+    "לילה": [
+      "nature",
+      "international"
+    ],
+    "לילי": [
+      "nature",
+      "international"
+    ],
+    "ליליא": [
+      "nature"
+    ],
+    "ליליאן": [
+      "nature",
+      "international"
+    ],
+    "ליליה": [
+      "nature",
+      "international"
+    ],
+    "לילך": [
+      "nature",
+      "international",
+      "light",
+      "arts"
+    ],
+    "לים": [
+      "unclassified"
+    ],
+    "לימאי": [
+      "unclassified"
+    ],
+    "לימאר": [
+      "international"
+    ],
+    "לין": [
+      "international",
+      "virtues"
+    ],
+    "לינא": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "לינדה": [
+      "international",
+      "virtues"
+    ],
+    "לינה": [
+      "unclassified"
+    ],
+    "לינוי": [
+      "virtues"
+    ],
+    "לינור": [
+      "international"
+    ],
+    "לינס": [
+      "unclassified"
+    ],
+    "ליסה": [
+      "international",
+      "faith"
+    ],
+    "ליעד": [
+      "other"
+    ],
+    "ליעוז": [
+      "strength"
+    ],
+    "ליעם": [
+      "other"
+    ],
+    "ליפא": [
+      "unclassified"
+    ],
+    "ליפז": [
+      "nature",
+      "precious"
+    ],
+    "ליר": [
+      "unclassified"
+    ],
+    "לירוי": [
+      "international",
+      "strength"
+    ],
+    "לירום": [
+      "strength"
+    ],
+    "לירון": [
+      "joy"
+    ],
+    "לירז": [
+      "other"
+    ],
+    "לירי": [
+      "unclassified"
+    ],
+    "לירם": [
+      "strength"
+    ],
+    "לירן": [
+      "joy",
+      "arts"
+    ],
+    "לישי": [
+      "precious"
+    ],
+    "לית'": [
+      "nature",
+      "international"
+    ],
+    "לליאן": [
+      "nature"
+    ],
+    "למא": [
+      "international",
+      "arts"
+    ],
+    "למאר": [
+      "international"
+    ],
+    "למיס": [
+      "international",
+      "virtues"
+    ],
+    "לנא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לנה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "לנואל": [
+      "unclassified"
+    ],
+    "לני": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "לרין": [
+      "unclassified"
+    ],
+    "לשם": [
+      "nature",
+      "precious"
+    ],
+    "לתין": [
+      "unclassified"
+    ],
+    "מאג'ד": [
+      "international"
+    ],
+    "מאג'דה": [
+      "international"
+    ],
+    "מאגדה": [
+      "international"
+    ],
+    "מאהר": [
+      "international"
+    ],
+    "מאודה": [
+      "international",
+      "joy"
+    ],
+    "מאודי": [
+      "unclassified"
+    ],
+    "מאור": [
+      "nature",
+      "light"
+    ],
+    "מאורי": [
+      "nature",
+      "light"
+    ],
+    "מאזן": [
+      "unclassified"
+    ],
+    "מאטיל": [
+      "unclassified"
+    ],
+    "מאטל": [
+      "unclassified"
+    ],
+    "מאי": [
+      "international"
+    ],
+    "מאי-לי": [
+      "unclassified"
+    ],
+    "מאיאן": [
+      "unclassified"
+    ],
+    "מאיה": [
+      "mythology",
+      "international"
+    ],
+    "מאילי": [
+      "unclassified"
+    ],
+    "מאיר": [
+      "nature",
+      "light"
+    ],
+    "מאירה": [
+      "nature",
+      "light"
+    ],
+    "מאל": [
+      "unclassified"
+    ],
+    "מאלאק": [
+      "international"
+    ],
+    "מאלי": [
+      "unclassified"
+    ],
+    "מאמון": [
+      "international"
+    ],
+    "מאניסא": [
+      "unclassified"
+    ],
+    "מאניסה": [
+      "unclassified"
+    ],
+    "מאס": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מאסא": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מאסאל": [
+      "international"
+    ],
+    "מאסה": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מארי": [
+      "international",
+      "joy"
+    ],
+    "מארים": [
+      "biblical",
+      "international",
+      "joy"
+    ],
+    "מארסיל": [
+      "mythology",
+      "international"
+    ],
+    "מאשא": [
+      "international",
+      "joy"
+    ],
+    "מאשה": [
+      "international",
+      "joy"
+    ],
+    "מבשר": [
+      "joy"
+    ],
+    "מבשרת": [
+      "joy"
+    ],
+    "מג'ד": [
+      "international"
+    ],
+    "מג'די": [
+      "international"
+    ],
+    "מגן": [
+      "strength"
+    ],
+    "מדלין": [
+      "international"
+    ],
+    "מהא": [
+      "unclassified"
+    ],
+    "מהדי": [
+      "international"
+    ],
+    "מהראן": [
+      "unclassified"
+    ],
+    "מואדה": [
+      "international",
+      "joy"
+    ],
+    "מואייד": [
+      "international",
+      "strength"
+    ],
+    "מואמן": [
+      "international",
+      "faith"
+    ],
+    "מודה": [
+      "international",
+      "joy"
+    ],
+    "מוהאב": [
+      "international",
+      "strength"
+    ],
+    "מוהיב": [
+      "international",
+      "strength"
+    ],
+    "מוהנד": [
+      "international"
+    ],
+    "מוחיי": [
+      "unclassified"
+    ],
+    "מוחמד": [
+      "international",
+      "faith"
+    ],
+    "מוחסן": [
+      "international",
+      "virtues"
+    ],
+    "מוטי": [
+      "mythology"
+    ],
+    "מון": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "מונא": [
+      "international"
+    ],
+    "מונאי": [
+      "international"
+    ],
+    "מונד'ר": [
+      "international"
+    ],
+    "מוניב": [
+      "international",
+      "faith"
+    ],
+    "מוניר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "מונירה": [
+      "international",
+      "light"
+    ],
+    "מונתסר": [
+      "international",
+      "strength"
+    ],
+    "מוסא": [
+      "nature",
+      "international"
+    ],
+    "מוסטפא": [
+      "international"
+    ],
+    "מוסיא": [
+      "unclassified"
+    ],
+    "מוסלם": [
+      "international",
+      "faith"
+    ],
+    "מוסעב": [
+      "unclassified"
+    ],
+    "מועאד": [
+      "international",
+      "strength"
+    ],
+    "מועאד'": [
+      "international",
+      "strength"
+    ],
+    "מועין": [
+      "nature",
+      "international"
+    ],
+    "מועתז": [
+      "international",
+      "strength"
+    ],
+    "מועתסם": [
+      "international",
+      "strength"
+    ],
+    "מופיד": [
+      "international"
+    ],
+    "מור": [
+      "nature"
+    ],
+    "מוראד": [
+      "international"
+    ],
+    "מורג'אן": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מורגאן": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מורי": [
+      "unclassified"
+    ],
+    "מוריאל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "מוריה": [
+      "biblical",
+      "faith"
+    ],
+    "מורן": [
+      "nature"
+    ],
+    "מושקא": [
+      "international"
+    ],
+    "מותיים": [
+      "international",
+      "joy",
+      "strength"
+    ],
+    "מזל": [
+      "nature",
+      "light"
+    ],
+    "מחמד": [
+      "international",
+      "faith"
+    ],
+    "מחמוד": [
+      "international",
+      "faith"
+    ],
+    "מטאו": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "מטר": [
+      "nature"
+    ],
+    "מיא": [
+      "nature"
+    ],
+    "מיאדה": [
+      "unclassified"
+    ],
+    "מיאור": [
+      "unclassified"
+    ],
+    "מיאל": [
+      "international"
+    ],
+    "מיאן": [
+      "unclassified"
+    ],
+    "מיאס": [
+      "unclassified"
+    ],
+    "מיאסין": [
+      "unclassified"
+    ],
+    "מיאר": [
+      "unclassified"
+    ],
+    "מידן": [
+      "unclassified"
+    ],
+    "מיטב": [
+      "virtues"
+    ],
+    "מיטל": [
+      "nature"
+    ],
+    "מיי": [
+      "international",
+      "virtues"
+    ],
+    "מייה": [
+      "unclassified"
+    ],
+    "מיילו": [
+      "unclassified"
+    ],
+    "מיילי": [
+      "international",
+      "joy"
+    ],
+    "מייס": [
+      "nature",
+      "international"
+    ],
+    "מייסא": [
+      "unclassified"
+    ],
+    "מייסון": [
+      "unclassified"
+    ],
+    "מייסם": [
+      "international"
+    ],
+    "מייק": [
+      "international",
+      "faith"
+    ],
+    "מייקי": [
+      "international",
+      "faith"
+    ],
+    "מייקל": [
+      "international",
+      "faith"
+    ],
+    "מיכאל": [
+      "biblical",
+      "faith"
+    ],
+    "מיכאלה": [
+      "faith"
+    ],
+    "מיכה": [
+      "faith"
+    ],
+    "מיכל": [
+      "nature",
+      "biblical"
+    ],
+    "מילא": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מילאד": [
+      "international",
+      "life"
+    ],
+    "מילאן": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מילאנא": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מילאנה": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מילה": [
+      "nature"
+    ],
+    "מילוא": [
+      "strength"
+    ],
+    "מילי": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "מיליא": [
+      "unclassified"
+    ],
+    "מיליה": [
+      "unclassified"
+    ],
+    "מילין": [
+      "unclassified"
+    ],
+    "מיליסא": [
+      "nature",
+      "international"
+    ],
+    "מילכה": [
+      "biblical",
+      "strength"
+    ],
+    "מילן": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מילנה": [
+      "international",
+      "joy",
+      "precious"
+    ],
+    "מימונה": [
+      "international",
+      "life"
+    ],
+    "מימנה": [
+      "international"
+    ],
+    "מינא": [
+      "unclassified"
+    ],
+    "מינדי": [
+      "nature",
+      "international"
+    ],
+    "מינדל": [
+      "unclassified"
+    ],
+    "מינה": [
+      "unclassified"
+    ],
+    "מיסא": [
+      "nature",
+      "international"
+    ],
+    "מיסאן": [
+      "international",
+      "places"
+    ],
+    "מיקאלה": [
+      "international",
+      "faith"
+    ],
+    "מיקה": [
+      "faith"
+    ],
+    "מיקי": [
+      "international",
+      "faith"
+    ],
+    "מירא": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "מיראי": [
+      "unclassified"
+    ],
+    "מיראל": [
+      "nature",
+      "international"
+    ],
+    "מיראן": [
+      "unclassified"
+    ],
+    "מירב": [
+      "precious"
+    ],
+    "מירה": [
+      "nature",
+      "light",
+      "virtues"
+    ],
+    "מירון": [
+      "unclassified"
+    ],
+    "מירי": [
+      "joy"
+    ],
+    "מיריל": [
+      "joy"
+    ],
+    "מירל": [
+      "international",
+      "joy"
+    ],
+    "מירן": [
+      "unclassified"
+    ],
+    "מירנא": [
+      "international",
+      "joy"
+    ],
+    "מירנה": [
+      "international",
+      "joy"
+    ],
+    "מירפת": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "מישאל": [
+      "biblical",
+      "faith"
+    ],
+    "מישיל": [
+      "international",
+      "faith"
+    ],
+    "מישל": [
+      "international",
+      "faith"
+    ],
+    "מיתר": [
+      "arts"
+    ],
+    "מכה": [
+      "international",
+      "places"
+    ],
+    "מל": [
+      "international"
+    ],
+    "מלאא": [
+      "international"
+    ],
+    "מלאכי": [
+      "biblical"
+    ],
+    "מלאני": [
+      "international"
+    ],
+    "מלאק": [
+      "international"
+    ],
+    "מלודי": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "מלי": [
+      "joy"
+    ],
+    "מליא": [
+      "international",
+      "virtues"
+    ],
+    "מליה": [
+      "international",
+      "virtues"
+    ],
+    "מליחה": [
+      "international",
+      "virtues"
+    ],
+    "מליכה": [
+      "international",
+      "strength"
+    ],
+    "מליסה": [
+      "nature",
+      "international"
+    ],
+    "מליקה": [
+      "international",
+      "strength"
+    ],
+    "מלכה": [
+      "biblical",
+      "strength"
+    ],
+    "מלכות": [
+      "strength"
+    ],
+    "מלכי": [
+      "strength"
+    ],
+    "מלכיאל": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "מלקה": [
+      "international",
+      "strength"
+    ],
+    "ממדוח": [
+      "international",
+      "faith"
+    ],
+    "מנאל": [
+      "international"
+    ],
+    "מנאר": [
+      "international"
+    ],
+    "מנדי": [
+      "international",
+      "joy"
+    ],
+    "מנדל": [
+      "international",
+      "joy"
+    ],
+    "מנה": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "מנואל": [
+      "international",
+      "faith"
+    ],
+    "מנוחה": [
+      "virtues"
+    ],
+    "מנור": [
+      "other"
+    ],
+    "מנחם": [
+      "biblical",
+      "joy"
+    ],
+    "מני": [
+      "unclassified"
+    ],
+    "מניסה": [
+      "unclassified"
+    ],
+    "מנסור": [
+      "international",
+      "strength"
+    ],
+    "מנשה": [
+      "biblical"
+    ],
+    "מסאל": [
+      "international"
+    ],
+    "מסק": [
+      "international"
+    ],
+    "מעוז": [
+      "strength"
+    ],
+    "מעיין": [
+      "nature"
+    ],
+    "מפל": [
+      "nature",
+      "strength"
+    ],
+    "מקה": [
+      "international",
+      "places"
+    ],
+    "מקס": [
+      "international",
+      "strength"
+    ],
+    "מקסים": [
+      "strength"
+    ],
+    "מראם": [
+      "international"
+    ],
+    "מרג'אן": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מרגאן": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "מרגלית": [
+      "nature",
+      "precious"
+    ],
+    "מרדכי": [
+      "biblical",
+      "mythology",
+      "faith"
+    ],
+    "מרואן": [
+      "nature",
+      "international"
+    ],
+    "מרווה": [
+      "nature",
+      "international"
+    ],
+    "מרוות": [
+      "international",
+      "virtues"
+    ],
+    "מרום": [
+      "strength"
+    ],
+    "מרח": [
+      "international",
+      "joy"
+    ],
+    "מרטין": [
+      "mythology",
+      "international",
+      "strength",
+      "faith"
+    ],
+    "מריאל": [
+      "international",
+      "joy"
+    ],
+    "מריאם": [
+      "biblical",
+      "international",
+      "joy"
+    ],
+    "מריאן": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "מריאנה": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "מריה": [
+      "international",
+      "joy"
+    ],
+    "מריים": [
+      "biblical",
+      "international",
+      "joy"
+    ],
+    "מרים": [
+      "biblical",
+      "international",
+      "joy"
+    ],
+    "מרין": [
+      "nature",
+      "international"
+    ],
+    "מרסל": [
+      "mythology",
+      "international"
+    ],
+    "מרעי": [
+      "unclassified"
+    ],
+    "מרק": [
+      "mythology",
+      "international",
+      "strength",
+      "faith"
+    ],
+    "משה": [
+      "nature",
+      "biblical"
+    ],
+    "משולם": [
+      "biblical",
+      "faith"
+    ],
+    "משי": [
+      "precious"
+    ],
+    "מתאו": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "מתי": [
+      "faith",
+      "precious"
+    ],
+    "מתיא": [
+      "international",
+      "faith"
+    ],
+    "מתיאו": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "מתין": [
+      "international",
+      "strength"
+    ],
+    "מתן": [
+      "biblical",
+      "precious"
+    ],
+    "מתנאל": [
+      "faith",
+      "precious"
+    ],
+    "מתניה": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "מתתיהו": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "נאג'י": [
+      "international"
+    ],
+    "נאדיה": [
+      "international",
+      "virtues"
+    ],
+    "נאדר": [
+      "international",
+      "precious"
+    ],
+    "נאדרה": [
+      "international"
+    ],
+    "נאוה": [
+      "virtues"
+    ],
+    "נאווה": [
+      "virtues"
+    ],
+    "נאור": [
+      "nature",
+      "light"
+    ],
+    "נאורס": [
+      "international"
+    ],
+    "נאי": [
+      "international"
+    ],
+    "נאיא": [
+      "international"
+    ],
+    "נאיה": [
+      "international"
+    ],
+    "נאיל": [
+      "international"
+    ],
+    "נאילה": [
+      "international"
+    ],
+    "נאיף": [
+      "unclassified"
+    ],
+    "נאיפה": [
+      "unclassified"
+    ],
+    "נאסר": [
+      "international",
+      "strength"
+    ],
+    "נאפז": [
+      "international"
+    ],
+    "נארין": [
+      "international",
+      "virtues"
+    ],
+    "נבא": [
+      "international"
+    ],
+    "נבאא": [
+      "international"
+    ],
+    "נבו": [
+      "nature",
+      "faith",
+      "places",
+      "virtues"
+    ],
+    "נביל": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "נבילה": [
+      "international",
+      "virtues"
+    ],
+    "נביעה": [
+      "unclassified"
+    ],
+    "נג'אח": [
+      "international"
+    ],
+    "נג'ד": [
+      "international",
+      "strength"
+    ],
+    "נג'ואן": [
+      "international"
+    ],
+    "נג'יב": [
+      "international",
+      "virtues"
+    ],
+    "נג'ם": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נג'מה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נגאח": [
+      "international"
+    ],
+    "נגב": [
+      "nature"
+    ],
+    "נגה": [
+      "nature",
+      "light"
+    ],
+    "נגם": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "נגסט": [
+      "unclassified"
+    ],
+    "נדא": [
+      "nature",
+      "international"
+    ],
+    "נדאא": [
+      "nature",
+      "international"
+    ],
+    "נדב": [
+      "biblical",
+      "virtues"
+    ],
+    "נדי": [
+      "nature",
+      "international"
+    ],
+    "נדיה": [
+      "international",
+      "virtues"
+    ],
+    "נדים": [
+      "international",
+      "joy",
+      "life"
+    ],
+    "נדין": [
+      "international",
+      "virtues"
+    ],
+    "נהוראי": [
+      "nature",
+      "light"
+    ],
+    "נהורה": [
+      "nature",
+      "light"
+    ],
+    "נהלה": [
+      "unclassified"
+    ],
+    "נהר": [
+      "nature",
+      "strength"
+    ],
+    "נהרה": [
+      "nature",
+      "light"
+    ],
+    "נהרי": [
+      "nature",
+      "light"
+    ],
+    "נואה": [
+      "unclassified"
+    ],
+    "נואל": [
+      "international",
+      "faith"
+    ],
+    "נואף": [
+      "unclassified"
+    ],
+    "נוב": [
+      "nature"
+    ],
+    "נובה": [
+      "nature",
+      "light"
+    ],
+    "נוה": [
+      "joy"
+    ],
+    "נוהא": [
+      "international",
+      "virtues"
+    ],
+    "נוהר": [
+      "nature",
+      "light",
+      "places"
+    ],
+    "נוח": [
+      "biblical",
+      "virtues"
+    ],
+    "נוי": [
+      "precious",
+      "virtues"
+    ],
+    "נויאל": [
+      "faith",
+      "virtues"
+    ],
+    "נויה": [
+      "virtues"
+    ],
+    "נוייה": [
+      "virtues"
+    ],
+    "נועה": [
+      "biblical"
+    ],
+    "נועם": [
+      "biblical",
+      "joy"
+    ],
+    "נוף": [
+      "unclassified"
+    ],
+    "נופר": [
+      "unclassified"
+    ],
+    "נור": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נוראלדין": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נוראן": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נורה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נורהאן": [
+      "unclassified"
+    ],
+    "נורי": [
+      "nature",
+      "light"
+    ],
+    "נוריאל": [
+      "nature",
+      "light",
+      "faith"
+    ],
+    "נורין": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "נורית": [
+      "nature"
+    ],
+    "נורסאן": [
+      "unclassified"
+    ],
+    "נורסין": [
+      "unclassified"
+    ],
+    "נזיה": [
+      "international",
+      "virtues"
+    ],
+    "נח": [
+      "biblical",
+      "virtues"
+    ],
+    "נחום": [
+      "biblical",
+      "joy"
+    ],
+    "נחל": [
+      "nature"
+    ],
+    "נחלה": [
+      "nature"
+    ],
+    "נחמה": [
+      "joy"
+    ],
+    "נחמיה": [
+      "biblical",
+      "joy",
+      "faith"
+    ],
+    "נחמן": [
+      "biblical",
+      "joy"
+    ],
+    "נחשון": [
+      "biblical"
+    ],
+    "נטלי": [
+      "international",
+      "life"
+    ],
+    "נטע": [
+      "nature"
+    ],
+    "ניאו": [
+      "international"
+    ],
+    "ניב": [
+      "other"
+    ],
+    "ניבאל": [
+      "international"
+    ],
+    "ניבי": [
+      "other"
+    ],
+    "ניבין": [
+      "international"
+    ],
+    "ניבר": [
+      "unclassified"
+    ],
+    "ניגון": [
+      "joy",
+      "virtues",
+      "arts"
+    ],
+    "נידאל": [
+      "international"
+    ],
+    "ניה": [
+      "international"
+    ],
+    "ניהאד": [
+      "nature",
+      "international"
+    ],
+    "ניהאל": [
+      "nature",
+      "international"
+    ],
+    "ניזאר": [
+      "international"
+    ],
+    "נייל": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "ניל": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "נילאי": [
+      "unclassified"
+    ],
+    "נילאן": [
+      "unclassified"
+    ],
+    "נילי": [
+      "unclassified"
+    ],
+    "נימר": [
+      "international"
+    ],
+    "נינה": [
+      "joy",
+      "virtues"
+    ],
+    "ניסאן": [
+      "international"
+    ],
+    "ניסים": [
+      "faith"
+    ],
+    "ניסל": [
+      "unclassified"
+    ],
+    "ניסן": [
+      "nature"
+    ],
+    "ניצן": [
+      "nature"
+    ],
+    "ניק": [
+      "international",
+      "strength"
+    ],
+    "ניקה": [
+      "international",
+      "strength"
+    ],
+    "ניקו": [
+      "international",
+      "strength"
+    ],
+    "ניקול": [
+      "international",
+      "strength"
+    ],
+    "ניקיטה": [
+      "international",
+      "strength"
+    ],
+    "ניר": [
+      "nature",
+      "light"
+    ],
+    "נירי": [
+      "nature",
+      "light"
+    ],
+    "ניתאי": [
+      "unclassified"
+    ],
+    "נל": [
+      "unclassified"
+    ],
+    "נלי": [
+      "unclassified"
+    ],
+    "נמרוד": [
+      "faith"
+    ],
+    "נס": [
+      "other"
+    ],
+    "נסה": [
+      "unclassified"
+    ],
+    "נסיה": [
+      "faith"
+    ],
+    "נסים": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "נסלי": [
+      "faith"
+    ],
+    "נסם": [
+      "nature",
+      "international"
+    ],
+    "נסמה": [
+      "nature",
+      "international"
+    ],
+    "נסרי": [
+      "international",
+      "strength"
+    ],
+    "נסרין": [
+      "nature",
+      "international"
+    ],
+    "נעומי": [
+      "joy"
+    ],
+    "נעים": [
+      "joy"
+    ],
+    "נעימה": [
+      "international",
+      "joy",
+      "life"
+    ],
+    "נעמה": [
+      "biblical",
+      "joy"
+    ],
+    "נעמי": [
+      "biblical",
+      "joy"
+    ],
+    "נענא": [
+      "unclassified"
+    ],
+    "נפס": [
+      "international"
+    ],
+    "נפתלי": [
+      "biblical"
+    ],
+    "נצח": [
+      "nature",
+      "light"
+    ],
+    "נצר": [
+      "nature",
+      "life"
+    ],
+    "נרג'ס": [
+      "nature",
+      "international"
+    ],
+    "נרגס": [
+      "nature",
+      "international"
+    ],
+    "נרדין": [
+      "nature",
+      "international"
+    ],
+    "נרי": [
+      "light"
+    ],
+    "נריה": [
+      "nature",
+      "biblical",
+      "light",
+      "faith"
+    ],
+    "נרימאן": [
+      "international",
+      "strength"
+    ],
+    "נרמין": [
+      "international",
+      "virtues"
+    ],
+    "נשאת": [
+      "unclassified"
+    ],
+    "נתאלי": [
+      "international",
+      "life"
+    ],
+    "נתי": [
+      "precious"
+    ],
+    "נתיב": [
+      "other"
+    ],
+    "נתן": [
+      "biblical",
+      "precious"
+    ],
+    "נתנאל": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "סאבר": [
+      "international"
+    ],
+    "סאג'ד": [
+      "international"
+    ],
+    "סאדק": [
+      "international",
+      "virtues"
+    ],
+    "סאהר": [
+      "nature",
+      "international"
+    ],
+    "סאוסן": [
+      "nature",
+      "international"
+    ],
+    "סאיד": [
+      "international",
+      "joy"
+    ],
+    "סאלח": [
+      "international",
+      "virtues"
+    ],
+    "סאלי": [
+      "international"
+    ],
+    "סאלם": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "סאם": [
+      "unclassified"
+    ],
+    "סאמא": [
+      "international",
+      "light"
+    ],
+    "סאמח": [
+      "international",
+      "virtues"
+    ],
+    "סאמי": [
+      "international",
+      "strength"
+    ],
+    "סאמיה": [
+      "international",
+      "strength"
+    ],
+    "סאן": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סאנדי": [
+      "international",
+      "strength"
+    ],
+    "סאני": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סארא": [
+      "international",
+      "virtues"
+    ],
+    "סארה": [
+      "international",
+      "virtues"
+    ],
+    "סארי": [
+      "unclassified"
+    ],
+    "סבא": [
+      "unclassified"
+    ],
+    "סבאח": [
+      "international"
+    ],
+    "סבחה": [
+      "international"
+    ],
+    "סביח": [
+      "international",
+      "virtues"
+    ],
+    "סביל": [
+      "international"
+    ],
+    "סברי": [
+      "international",
+      "virtues"
+    ],
+    "סברין": [
+      "international"
+    ],
+    "סג'וד": [
+      "international"
+    ],
+    "סגא": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "סגר": [
+      "international"
+    ],
+    "סדאם": [
+      "international"
+    ],
+    "סדיל": [
+      "international"
+    ],
+    "סדין": [
+      "unclassified"
+    ],
+    "סדן": [
+      "international",
+      "strength"
+    ],
+    "סדרה": [
+      "nature",
+      "international"
+    ],
+    "סהר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סואר": [
+      "international"
+    ],
+    "סובחי": [
+      "international"
+    ],
+    "סובחיה": [
+      "international"
+    ],
+    "סוג'וד": [
+      "international"
+    ],
+    "סוהא": [
+      "unclassified"
+    ],
+    "סוהייב": [
+      "unclassified"
+    ],
+    "סוהיל": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סוהילה": [
+      "international"
+    ],
+    "סוהיר": [
+      "nature",
+      "international"
+    ],
+    "סוואר": [
+      "international"
+    ],
+    "סוזאן": [
+      "nature"
+    ],
+    "סול": [
+      "nature",
+      "light",
+      "arts"
+    ],
+    "סולאף": [
+      "international",
+      "joy"
+    ],
+    "סולטאן": [
+      "international",
+      "strength"
+    ],
+    "סולימאן": [
+      "international",
+      "virtues"
+    ],
+    "סומיה": [
+      "unclassified"
+    ],
+    "סונדוס": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "סוסן": [
+      "nature",
+      "international"
+    ],
+    "סועאד": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "סוף": [
+      "nature"
+    ],
+    "סופי": [
+      "international",
+      "virtues"
+    ],
+    "סופיא": [
+      "international",
+      "virtues"
+    ],
+    "סופיאן": [
+      "unclassified"
+    ],
+    "סופיה": [
+      "international",
+      "virtues"
+    ],
+    "סחר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סטיב": [
+      "international",
+      "precious"
+    ],
+    "סטלה": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סטערנא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סיאל": [
+      "nature",
+      "international"
+    ],
+    "סיאף": [
+      "international"
+    ],
+    "סיבא": [
+      "unclassified"
+    ],
+    "סיבאל": [
+      "international"
+    ],
+    "סידרא": [
+      "nature",
+      "international"
+    ],
+    "סידרה": [
+      "nature",
+      "international"
+    ],
+    "סיהאם": [
+      "international"
+    ],
+    "סיוואר": [
+      "international"
+    ],
+    "סיון": [
+      "other"
+    ],
+    "סייל": [
+      "nature",
+      "international"
+    ],
+    "סילא": [
+      "international"
+    ],
+    "סילאן": [
+      "nature",
+      "international"
+    ],
+    "סילה": [
+      "international"
+    ],
+    "סיליא": [
+      "international",
+      "light"
+    ],
+    "סיליה": [
+      "international",
+      "light"
+    ],
+    "סילין": [
+      "international",
+      "light"
+    ],
+    "סילינא": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "סילינה": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "סימא": [
+      "precious"
+    ],
+    "סימה": [
+      "precious"
+    ],
+    "סימי": [
+      "unclassified"
+    ],
+    "סינא": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "סינאם": [
+      "international"
+    ],
+    "סיני": [
+      "nature",
+      "biblical",
+      "international",
+      "places"
+    ],
+    "סינין": [
+      "international"
+    ],
+    "סיף": [
+      "international"
+    ],
+    "סיראג'": [
+      "international",
+      "light"
+    ],
+    "סירין": [
+      "unclassified"
+    ],
+    "סכר": [
+      "international"
+    ],
+    "סלאח": [
+      "international",
+      "virtues"
+    ],
+    "סלאם": [
+      "international",
+      "virtues"
+    ],
+    "סלאמה": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "סלוא": [
+      "nature",
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "סלטאן": [
+      "international",
+      "strength"
+    ],
+    "סלים": [
+      "international",
+      "strength",
+      "virtues"
+    ],
+    "סלימאן": [
+      "international",
+      "virtues"
+    ],
+    "סלין": [
+      "international",
+      "light"
+    ],
+    "סלינה": [
+      "nature",
+      "mythology",
+      "international",
+      "light"
+    ],
+    "סלם": [
+      "unclassified"
+    ],
+    "סלמא": [
+      "international",
+      "virtues"
+    ],
+    "סלמה": [
+      "international",
+      "virtues"
+    ],
+    "סלסביל": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "סלע": [
+      "nature",
+      "strength"
+    ],
+    "סמא": [
+      "international",
+      "light"
+    ],
+    "סמאח": [
+      "international",
+      "virtues"
+    ],
+    "סמה": [
+      "international",
+      "light"
+    ],
+    "סמואל": [
+      "international",
+      "faith"
+    ],
+    "סמיח": [
+      "international",
+      "virtues"
+    ],
+    "סמיחה": [
+      "international",
+      "virtues"
+    ],
+    "סמיר": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "סמירה": [
+      "nature",
+      "international",
+      "life"
+    ],
+    "סמר": [
+      "nature",
+      "international"
+    ],
+    "סנא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "סנאבל": [
+      "international"
+    ],
+    "סנד": [
+      "international",
+      "strength"
+    ],
+    "סנדר": [
+      "international",
+      "strength"
+    ],
+    "סנין": [
+      "international"
+    ],
+    "סעד": [
+      "strength"
+    ],
+    "סעדי": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "סעוד": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "סעיד": [
+      "international",
+      "joy"
+    ],
+    "סער": [
+      "nature"
+    ],
+    "סערל": [
+      "unclassified"
+    ],
+    "ספא": [
+      "international",
+      "virtues"
+    ],
+    "ספואן": [
+      "unclassified"
+    ],
+    "ספיה": [
+      "international",
+      "virtues"
+    ],
+    "ספיר": [
+      "nature",
+      "precious"
+    ],
+    "סקר": [
+      "international"
+    ],
+    "סשה": [
+      "international",
+      "strength"
+    ],
+    "סתיו": [
+      "nature"
+    ],
+    "עאאשה": [
+      "international",
+      "life"
+    ],
+    "עאדל": [
+      "international",
+      "virtues"
+    ],
+    "עאהד": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "עאוני": [
+      "international",
+      "strength"
+    ],
+    "עאטף": [
+      "international",
+      "joy"
+    ],
+    "עאיד": [
+      "international"
+    ],
+    "עאידה": [
+      "international"
+    ],
+    "עאיישה": [
+      "international",
+      "life"
+    ],
+    "עאישה": [
+      "international",
+      "life"
+    ],
+    "עאמר": [
+      "international"
+    ],
+    "עאסם": [
+      "international",
+      "strength"
+    ],
+    "עארף": [
+      "international"
+    ],
+    "עבאס": [
+      "international"
+    ],
+    "עבד": [
+      "faith"
+    ],
+    "עבדאל": [
+      "biblical",
+      "faith"
+    ],
+    "עבדאללה": [
+      "international",
+      "faith"
+    ],
+    "עבדאלרחמאן": [
+      "international",
+      "faith"
+    ],
+    "עביר": [
+      "international",
+      "joy"
+    ],
+    "עברי": [
+      "other"
+    ],
+    "עדאל": [
+      "unclassified"
+    ],
+    "עדה": [
+      "biblical",
+      "precious"
+    ],
+    "עדי": [
+      "precious"
+    ],
+    "עדיאל": [
+      "biblical",
+      "faith",
+      "precious"
+    ],
+    "עדיה": [
+      "biblical",
+      "faith"
+    ],
+    "עדייה": [
+      "unclassified"
+    ],
+    "עדין": [
+      "biblical",
+      "joy",
+      "virtues"
+    ],
+    "עדינה": [
+      "virtues"
+    ],
+    "עדן": [
+      "joy",
+      "strength"
+    ],
+    "עדנאן": [
+      "unclassified"
+    ],
+    "עהד": [
+      "international",
+      "faith"
+    ],
+    "עובדיה": [
+      "biblical",
+      "faith"
+    ],
+    "עוביידה": [
+      "international"
+    ],
+    "עודאי": [
+      "unclassified"
+    ],
+    "עודד": [
+      "biblical"
+    ],
+    "עודה": [
+      "international"
+    ],
+    "עווד": [
+      "international"
+    ],
+    "עוז": [
+      "strength"
+    ],
+    "עוזיאל": [
+      "biblical",
+      "faith"
+    ],
+    "עולא": [
+      "international",
+      "strength"
+    ],
+    "עומייר": [
+      "international",
+      "life"
+    ],
+    "עומיר": [
+      "international",
+      "life"
+    ],
+    "עומר": [
+      "international",
+      "life"
+    ],
+    "עומראן": [
+      "international"
+    ],
+    "עומרי": [
+      "unclassified"
+    ],
+    "עופר": [
+      "nature",
+      "life"
+    ],
+    "עופרי": [
+      "nature",
+      "joy",
+      "life"
+    ],
+    "עורווה": [
+      "unclassified"
+    ],
+    "עורי": [
+      "unclassified"
+    ],
+    "עות'מאן": [
+      "international",
+      "life"
+    ],
+    "עז": [
+      "strength"
+    ],
+    "עזאלדין": [
+      "international"
+    ],
+    "עזאם": [
+      "international"
+    ],
+    "עזאת": [
+      "international",
+      "strength"
+    ],
+    "עזיז": [
+      "international",
+      "joy",
+      "strength",
+      "precious"
+    ],
+    "עזיזה": [
+      "international",
+      "joy",
+      "strength",
+      "precious"
+    ],
+    "עזמי": [
+      "international"
+    ],
+    "עזרא": [
+      "biblical",
+      "strength"
+    ],
+    "עזריאל": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "עזריה": [
+      "faith"
+    ],
+    "עטא": [
+      "international",
+      "precious"
+    ],
+    "עטאללה": [
+      "international",
+      "faith"
+    ],
+    "עטי": [
+      "unclassified"
+    ],
+    "עטיא": [
+      "unclassified"
+    ],
+    "עטיה": [
+      "international",
+      "precious"
+    ],
+    "עטיל": [
+      "unclassified"
+    ],
+    "עטל": [
+      "unclassified"
+    ],
+    "עטקא": [
+      "unclassified"
+    ],
+    "עטר": [
+      "precious"
+    ],
+    "עטרה": [
+      "precious"
+    ],
+    "עטרת": [
+      "precious"
+    ],
+    "עיאד": [
+      "unclassified"
+    ],
+    "עיד": [
+      "international"
+    ],
+    "עידו": [
+      "biblical"
+    ],
+    "עידן": [
+      "other"
+    ],
+    "עיטם": [
+      "nature",
+      "biblical"
+    ],
+    "עיינה": [
+      "unclassified"
+    ],
+    "עיישה": [
+      "international",
+      "life"
+    ],
+    "עילאי": [
+      "strength"
+    ],
+    "עילי": [
+      "biblical",
+      "strength"
+    ],
+    "עיליי": [
+      "strength"
+    ],
+    "עילם": [
+      "biblical"
+    ],
+    "עימאד": [
+      "international",
+      "strength"
+    ],
+    "עימנואל": [
+      "international",
+      "faith"
+    ],
+    "עינב": [
+      "nature"
+    ],
+    "עינה": [
+      "unclassified"
+    ],
+    "עיסא": [
+      "unclassified"
+    ],
+    "עיסאם": [
+      "international",
+      "strength"
+    ],
+    "עירא": [
+      "biblical"
+    ],
+    "עלאא": [
+      "international",
+      "strength"
+    ],
+    "עלאי": [
+      "strength"
+    ],
+    "עלי": [
+      "biblical",
+      "strength"
+    ],
+    "עליאא": [
+      "international",
+      "strength"
+    ],
+    "עליה": [
+      "nature",
+      "international"
+    ],
+    "עליזה": [
+      "unclassified"
+    ],
+    "עלמה": [
+      "other"
+    ],
+    "עלקא": [
+      "unclassified"
+    ],
+    "עמאר": [
+      "international"
+    ],
+    "עמוס": [
+      "biblical"
+    ],
+    "עמי": [
+      "other"
+    ],
+    "עמיאל": [
+      "biblical",
+      "faith"
+    ],
+    "עמיד": [
+      "international",
+      "strength"
+    ],
+    "עמיה": [
+      "faith"
+    ],
+    "עמיחי": [
+      "biblical",
+      "life"
+    ],
+    "עמינדב": [
+      "biblical",
+      "virtues",
+      "life"
+    ],
+    "עמיעד": [
+      "biblical"
+    ],
+    "עמית": [
+      "joy",
+      "life"
+    ],
+    "עמליה": [
+      "international",
+      "strength"
+    ],
+    "עמנואל": [
+      "faith"
+    ],
+    "עמנואלה": [
+      "international",
+      "faith"
+    ],
+    "עמראן": [
+      "international"
+    ],
+    "עמרו": [
+      "international",
+      "life"
+    ],
+    "עמרם": [
+      "biblical",
+      "strength"
+    ],
+    "ענא": [
+      "unclassified"
+    ],
+    "ענאד": [
+      "international"
+    ],
+    "ענאל": [
+      "faith"
+    ],
+    "ענאן": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "ענבל": [
+      "arts"
+    ],
+    "ענבר": [
+      "nature",
+      "precious",
+      "arts"
+    ],
+    "ענהאל": [
+      "faith"
+    ],
+    "ענוד": [
+      "international"
+    ],
+    "ענוה": [
+      "virtues"
+    ],
+    "ענר": [
+      "biblical"
+    ],
+    "ענת": [
+      "biblical"
+    ],
+    "עסל": [
+      "international"
+    ],
+    "עפאף": [
+      "international",
+      "virtues"
+    ],
+    "עפיף": [
+      "international",
+      "virtues"
+    ],
+    "עצאם": [
+      "international",
+      "strength"
+    ],
+    "עקאב": [
+      "international"
+    ],
+    "עקיבא": [
+      "biblical"
+    ],
+    "עקיבה": [
+      "biblical"
+    ],
+    "ערבה": [
+      "nature"
+    ],
+    "ערובה": [
+      "international"
+    ],
+    "ערין": [
+      "nature",
+      "international",
+      "strength",
+      "life"
+    ],
+    "ערן": [
+      "biblical"
+    ],
+    "ערפאת": [
+      "unclassified"
+    ],
+    "עשהאל": [
+      "biblical",
+      "faith"
+    ],
+    "עתאי": [
+      "unclassified"
+    ],
+    "עתי": [
+      "biblical"
+    ],
+    "עתליה": [
+      "biblical",
+      "faith"
+    ],
+    "עתמאן": [
+      "international",
+      "life"
+    ],
+    "פאדי": [
+      "international"
+    ],
+    "פאהד": [
+      "international"
+    ],
+    "פאוזי": [
+      "international",
+      "strength"
+    ],
+    "פאטימה": [
+      "international",
+      "life"
+    ],
+    "פאטמה": [
+      "international",
+      "life"
+    ],
+    "פאי": [
+      "unclassified"
+    ],
+    "פאיז": [
+      "international",
+      "strength"
+    ],
+    "פאיזה": [
+      "international",
+      "strength"
+    ],
+    "פאיק": [
+      "international",
+      "strength"
+    ],
+    "פאלח": [
+      "international"
+    ],
+    "פאר": [
+      "virtues"
+    ],
+    "פארוק": [
+      "unclassified"
+    ],
+    "פארח": [
+      "international",
+      "joy"
+    ],
+    "פארי": [
+      "international",
+      "virtues"
+    ],
+    "פארס": [
+      "international"
+    ],
+    "פאתן": [
+      "international",
+      "virtues"
+    ],
+    "פאתנה": [
+      "international"
+    ],
+    "פג'ר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "פגר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "פדה": [
+      "other"
+    ],
+    "פדוא": [
+      "international"
+    ],
+    "פדות": [
+      "faith"
+    ],
+    "פדל": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "פהד": [
+      "international"
+    ],
+    "פהמי": [
+      "international",
+      "virtues"
+    ],
+    "פואד": [
+      "international"
+    ],
+    "פואז": [
+      "international",
+      "strength"
+    ],
+    "פוזיה": [
+      "international",
+      "strength"
+    ],
+    "פולי": [
+      "international",
+      "joy"
+    ],
+    "פולינה": [
+      "international"
+    ],
+    "פוראת": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "פורסאן": [
+      "international"
+    ],
+    "פורת": [
+      "unclassified"
+    ],
+    "פז": [
+      "nature",
+      "precious",
+      "virtues"
+    ],
+    "פח'רי": [
+      "international"
+    ],
+    "פטל": [
+      "nature"
+    ],
+    "פיגא": [
+      "nature",
+      "international"
+    ],
+    "פידא": [
+      "international"
+    ],
+    "פיטר": [
+      "nature",
+      "international"
+    ],
+    "פייגי": [
+      "nature",
+      "international"
+    ],
+    "פייגל": [
+      "nature",
+      "international"
+    ],
+    "פייסל": [
+      "international"
+    ],
+    "פייר": [
+      "nature",
+      "international"
+    ],
+    "פיראס": [
+      "unclassified"
+    ],
+    "פירוז": [
+      "international",
+      "strength"
+    ],
+    "פלא": [
+      "faith"
+    ],
+    "פלאח": [
+      "international"
+    ],
+    "פלג": [
+      "nature"
+    ],
+    "פליאה": [
+      "other"
+    ],
+    "פלק": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "פנחס": [
+      "biblical"
+    ],
+    "פנינה": [
+      "nature",
+      "biblical",
+      "precious"
+    ],
+    "פסח": [
+      "other"
+    ],
+    "פסי": [
+      "unclassified"
+    ],
+    "פסיה": [
+      "unclassified"
+    ],
+    "פעסי": [
+      "unclassified"
+    ],
+    "פעסיא": [
+      "unclassified"
+    ],
+    "פעסיל": [
+      "unclassified"
+    ],
+    "פעסל": [
+      "unclassified"
+    ],
+    "פערי": [
+      "unclassified"
+    ],
+    "פעריל": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "פערל": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "פעשא": [
+      "unclassified"
+    ],
+    "פראדי": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פראדיל": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פראדל": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פרג'": [
+      "international",
+      "faith"
+    ],
+    "פרדוס": [
+      "international"
+    ],
+    "פרומה": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "פרומט": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "פרח": [
+      "nature"
+    ],
+    "פרחאן": [
+      "international",
+      "joy"
+    ],
+    "פריאל": [
+      "faith"
+    ],
+    "פריד": [
+      "international"
+    ],
+    "פרידא": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פרידה": [
+      "international"
+    ],
+    "פריידא": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פריידי": [
+      "international",
+      "joy",
+      "virtues"
+    ],
+    "פרל": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "פרלה": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "פרץ": [
+      "biblical"
+    ],
+    "פתחי": [
+      "international",
+      "strength"
+    ],
+    "פתחיה": [
+      "biblical",
+      "faith"
+    ],
+    "צבי": [
+      "nature",
+      "virtues",
+      "life"
+    ],
+    "צביה": [
+      "nature"
+    ],
+    "צהלה": [
+      "joy"
+    ],
+    "צוף": [
+      "other"
+    ],
+    "צופיא": [
+      "international",
+      "virtues"
+    ],
+    "צופיה": [
+      "other"
+    ],
+    "צור": [
+      "nature",
+      "biblical",
+      "strength"
+    ],
+    "צורי": [
+      "nature",
+      "biblical",
+      "strength"
+    ],
+    "צוריאל": [
+      "nature",
+      "biblical",
+      "faith"
+    ],
+    "צוריה": [
+      "faith"
+    ],
+    "ציון": [
+      "nature",
+      "biblical",
+      "places"
+    ],
+    "ציונה": [
+      "biblical",
+      "places"
+    ],
+    "צילה": [
+      "biblical",
+      "strength"
+    ],
+    "ציפא": [
+      "unclassified"
+    ],
+    "ציפי": [
+      "nature"
+    ],
+    "צירי": [
+      "unclassified"
+    ],
+    "צירל": [
+      "unclassified"
+    ],
+    "צליל": [
+      "arts"
+    ],
+    "צפורה": [
+      "nature",
+      "biblical"
+    ],
+    "צרי": [
+      "nature"
+    ],
+    "קאדר": [
+      "international",
+      "virtues"
+    ],
+    "קאי": [
+      "nature"
+    ],
+    "קאיה": [
+      "nature",
+      "international"
+    ],
+    "קאסם": [
+      "international"
+    ],
+    "קארים": [
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "קארין": [
+      "international",
+      "virtues"
+    ],
+    "קארמן": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "קדוס": [
+      "unclassified"
+    ],
+    "קדם": [
+      "other"
+    ],
+    "קדר": [
+      "international"
+    ],
+    "קוה": [
+      "virtues"
+    ],
+    "קוסאי": [
+      "international"
+    ],
+    "קורל": [
+      "nature"
+    ],
+    "קורן": [
+      "nature",
+      "light"
+    ],
+    "קטליה": [
+      "nature"
+    ],
+    "קטר": [
+      "nature",
+      "international"
+    ],
+    "קיאן": [
+      "international"
+    ],
+    "קיארה": [
+      "international",
+      "light"
+    ],
+    "קייט": [
+      "international",
+      "virtues"
+    ],
+    "קיילא": [
+      "international",
+      "faith"
+    ],
+    "קיילה": [
+      "international",
+      "faith"
+    ],
+    "קיילי": [
+      "international"
+    ],
+    "קייס": [
+      "unclassified"
+    ],
+    "קייסר": [
+      "international",
+      "strength"
+    ],
+    "קילא": [
+      "international",
+      "faith"
+    ],
+    "קים": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "קינאן": [
+      "unclassified"
+    ],
+    "קינדא": [
+      "international"
+    ],
+    "קינדה": [
+      "international"
+    ],
+    "קינן": [
+      "biblical"
+    ],
+    "קיסר": [
+      "international",
+      "strength"
+    ],
+    "קירה": [
+      "international"
+    ],
+    "קיריל": [
+      "international",
+      "faith"
+    ],
+    "קלואי": [
+      "nature",
+      "international"
+    ],
+    "קלמן": [
+      "unclassified"
+    ],
+    "קלקידן": [
+      "unclassified"
+    ],
+    "קלרה": [
+      "international",
+      "light"
+    ],
+    "קמה": [
+      "nature"
+    ],
+    "קמיל": [
+      "unclassified"
+    ],
+    "קמילה": [
+      "unclassified"
+    ],
+    "קמר": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "קנאן": [
+      "unclassified"
+    ],
+    "קנדה": [
+      "international"
+    ],
+    "קנז": [
+      "biblical"
+    ],
+    "קנזי": [
+      "biblical"
+    ],
+    "קסם": [
+      "other"
+    ],
+    "קרולינה": [
+      "international",
+      "virtues"
+    ],
+    "קרלוס": [
+      "international",
+      "virtues"
+    ],
+    "קרם": [
+      "international",
+      "virtues"
+    ],
+    "קרמל": [
+      "unclassified"
+    ],
+    "קרן": [
+      "nature",
+      "light",
+      "life"
+    ],
+    "קרני": [
+      "nature",
+      "light"
+    ],
+    "קשת": [
+      "nature",
+      "arts"
+    ],
+    "ראדי": [
+      "unclassified"
+    ],
+    "ראובן": [
+      "biblical",
+      "life"
+    ],
+    "ראוי": [
+      "unclassified"
+    ],
+    "ראונק": [
+      "nature",
+      "international",
+      "light",
+      "virtues"
+    ],
+    "ראזי": [
+      "international"
+    ],
+    "ראי": [
+      "other"
+    ],
+    "ראיא": [
+      "international"
+    ],
+    "ראיד": [
+      "international",
+      "strength"
+    ],
+    "ראידה": [
+      "international"
+    ],
+    "ראיה": [
+      "international"
+    ],
+    "ראיין": [
+      "nature",
+      "international"
+    ],
+    "ראיף": [
+      "international"
+    ],
+    "ראכאן": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "ראם": [
+      "nature",
+      "life"
+    ],
+    "ראמא": [
+      "unclassified"
+    ],
+    "ראמי": [
+      "international"
+    ],
+    "ראני": [
+      "international"
+    ],
+    "ראניה": [
+      "international"
+    ],
+    "ראנים": [
+      "international",
+      "arts"
+    ],
+    "ראסיל": [
+      "unclassified"
+    ],
+    "ראסם": [
+      "unclassified"
+    ],
+    "ראפיף": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "ראפע": [
+      "international"
+    ],
+    "ראפת": [
+      "international",
+      "life"
+    ],
+    "ראקאן": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "ראשד": [
+      "international",
+      "virtues"
+    ],
+    "ראשית": [
+      "virtues"
+    ],
+    "ראתב": [
+      "international"
+    ],
+    "ראתיל": [
+      "international"
+    ],
+    "רבאח": [
+      "international"
+    ],
+    "רביב": [
+      "nature"
+    ],
+    "רביד": [
+      "precious"
+    ],
+    "רביע": [
+      "nature",
+      "international"
+    ],
+    "רבקה": [
+      "biblical"
+    ],
+    "רבקי": [
+      "unclassified"
+    ],
+    "רג'א": [
+      "international",
+      "virtues"
+    ],
+    "רגב": [
+      "nature"
+    ],
+    "רגד": [
+      "international",
+      "precious"
+    ],
+    "רדא": [
+      "international"
+    ],
+    "רדאד": [
+      "unclassified"
+    ],
+    "רדואן": [
+      "international"
+    ],
+    "רהאם": [
+      "unclassified"
+    ],
+    "רהאף": [
+      "international",
+      "virtues"
+    ],
+    "רהף": [
+      "international",
+      "virtues"
+    ],
+    "רואד": [
+      "international"
+    ],
+    "רואה": [
+      "international"
+    ],
+    "רואי": [
+      "unclassified"
+    ],
+    "רואיד": [
+      "unclassified"
+    ],
+    "רואיה": [
+      "international"
+    ],
+    "רואן": [
+      "nature"
+    ],
+    "רובאן": [
+      "international",
+      "strength"
+    ],
+    "רובה": [
+      "international",
+      "strength"
+    ],
+    "רובי": [
+      "nature",
+      "international",
+      "precious",
+      "virtues"
+    ],
+    "רובין": [
+      "international"
+    ],
+    "רוברט": [
+      "international"
+    ],
+    "רודין": [
+      "unclassified"
+    ],
+    "רוואן": [
+      "nature"
+    ],
+    "רווה": [
+      "joy"
+    ],
+    "רוז": [
+      "unclassified"
+    ],
+    "רוזא": [
+      "nature",
+      "international"
+    ],
+    "רוזאלין": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "רוזאן": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "רוזה": [
+      "nature",
+      "international"
+    ],
+    "רוזי": [
+      "nature",
+      "international"
+    ],
+    "רוזלין": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "רוח": [
+      "unclassified"
+    ],
+    "רוחמה": [
+      "other"
+    ],
+    "רוי": [
+      "international",
+      "strength",
+      "arts"
+    ],
+    "רויא": [
+      "international"
+    ],
+    "רויאל": [
+      "international",
+      "strength"
+    ],
+    "רויזא": [
+      "nature",
+      "international"
+    ],
+    "רולא": [
+      "unclassified"
+    ],
+    "רולין": [
+      "unclassified"
+    ],
+    "רום": [
+      "strength"
+    ],
+    "רומא": [
+      "international",
+      "places"
+    ],
+    "רומי": [
+      "places"
+    ],
+    "רון": [
+      "joy"
+    ],
+    "רונאל": [
+      "joy",
+      "faith"
+    ],
+    "רונה": [
+      "joy",
+      "arts"
+    ],
+    "רונה-לי": [
+      "joy"
+    ],
+    "רונזא": [
+      "unclassified"
+    ],
+    "רוני": [
+      "joy",
+      "arts"
+    ],
+    "רונית": [
+      "joy",
+      "arts"
+    ],
+    "רונן": [
+      "joy",
+      "arts"
+    ],
+    "רונק": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "רוסול": [
+      "international"
+    ],
+    "רוסיל": [
+      "unclassified"
+    ],
+    "רוסל": [
+      "international"
+    ],
+    "רוסלאן": [
+      "nature",
+      "international"
+    ],
+    "רוסלין": [
+      "unclassified"
+    ],
+    "רועה": [
+      "strength"
+    ],
+    "רועי": [
+      "other"
+    ],
+    "רופאן": [
+      "unclassified"
+    ],
+    "רוקיה": [
+      "unclassified"
+    ],
+    "רושאן": [
+      "international",
+      "light"
+    ],
+    "רות": [
+      "biblical",
+      "joy",
+      "life"
+    ],
+    "רותי": [
+      "biblical",
+      "joy",
+      "life"
+    ],
+    "רותם": [
+      "nature"
+    ],
+    "רז": [
+      "other"
+    ],
+    "רזאל": [
+      "unclassified"
+    ],
+    "רזאן": [
+      "unclassified"
+    ],
+    "רזיאל": [
+      "faith"
+    ],
+    "רזל": [
+      "unclassified"
+    ],
+    "רחאב": [
+      "international"
+    ],
+    "רחים": [
+      "international"
+    ],
+    "רחיק": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "רחל": [
+      "nature",
+      "biblical"
+    ],
+    "רחלי": [
+      "nature",
+      "international"
+    ],
+    "רחמה": [
+      "international"
+    ],
+    "רחמים": [
+      "biblical"
+    ],
+    "ריאד": [
+      "international"
+    ],
+    "ריאהם": [
+      "unclassified"
+    ],
+    "ריאל": [
+      "unclassified"
+    ],
+    "ריאן": [
+      "nature",
+      "international"
+    ],
+    "ריבה": [
+      "unclassified"
+    ],
+    "ריבר": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "רידא": [
+      "international"
+    ],
+    "ריו": [
+      "nature",
+      "international",
+      "places"
+    ],
+    "ריזל": [
+      "nature",
+      "international"
+    ],
+    "ריזק": [
+      "international"
+    ],
+    "ריחאב": [
+      "international"
+    ],
+    "ריחאן": [
+      "nature",
+      "international"
+    ],
+    "ריחאנה": [
+      "nature",
+      "international"
+    ],
+    "ריטאל": [
+      "international"
+    ],
+    "ריטה": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "ריטל": [
+      "international"
+    ],
+    "ריי": [
+      "international",
+      "joy",
+      "strength"
+    ],
+    "רייאן": [
+      "nature",
+      "international"
+    ],
+    "רייזא": [
+      "nature",
+      "international"
+    ],
+    "רייזי": [
+      "nature",
+      "international"
+    ],
+    "רייזל": [
+      "nature",
+      "international"
+    ],
+    "ריילי": [
+      "nature",
+      "international"
+    ],
+    "ריין": [
+      "nature",
+      "international"
+    ],
+    "רייני": [
+      "nature",
+      "international"
+    ],
+    "רייצא": [
+      "unclassified"
+    ],
+    "רילאם": [
+      "unclassified"
+    ],
+    "רים": [
+      "nature",
+      "international"
+    ],
+    "רימא": [
+      "nature",
+      "international"
+    ],
+    "רימאן": [
+      "nature",
+      "international"
+    ],
+    "רימאס": [
+      "unclassified"
+    ],
+    "רימון": [
+      "nature"
+    ],
+    "רימי": [
+      "nature",
+      "international"
+    ],
+    "רין": [
+      "unclassified"
+    ],
+    "רינאד": [
+      "nature",
+      "international"
+    ],
+    "רינה": [
+      "joy",
+      "arts"
+    ],
+    "רינת": [
+      "joy",
+      "arts"
+    ],
+    "ריף": [
+      "nature",
+      "international"
+    ],
+    "ריפאן": [
+      "unclassified"
+    ],
+    "ריקי": [
+      "strength"
+    ],
+    "ריתא": [
+      "nature",
+      "international",
+      "precious"
+    ],
+    "ריתאג": [
+      "unclassified"
+    ],
+    "ריתאג'": [
+      "unclassified"
+    ],
+    "ריתאל": [
+      "international"
+    ],
+    "ריתאן": [
+      "unclassified"
+    ],
+    "רכאן": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "רם": [
+      "strength"
+    ],
+    "רמאח": [
+      "international"
+    ],
+    "רמדאן": [
+      "international"
+    ],
+    "רמזי": [
+      "international"
+    ],
+    "רן": [
+      "joy",
+      "arts"
+    ],
+    "רנא": [
+      "international"
+    ],
+    "רנאל": [
+      "joy",
+      "faith"
+    ],
+    "רנד": [
+      "nature",
+      "international"
+    ],
+    "רנדה": [
+      "nature",
+      "international"
+    ],
+    "רנה": [
+      "joy",
+      "arts"
+    ],
+    "רני": [
+      "joy",
+      "arts"
+    ],
+    "רנים": [
+      "international",
+      "arts"
+    ],
+    "רנין": [
+      "international"
+    ],
+    "רנן": [
+      "joy",
+      "arts"
+    ],
+    "רננה": [
+      "joy"
+    ],
+    "רסיל": [
+      "unclassified"
+    ],
+    "רסל": [
+      "unclassified"
+    ],
+    "רסלאן": [
+      "nature",
+      "international"
+    ],
+    "רסמי": [
+      "international"
+    ],
+    "רסמיה": [
+      "international"
+    ],
+    "רעד": [
+      "nature",
+      "international"
+    ],
+    "רעות": [
+      "joy"
+    ],
+    "רעי": [
+      "other"
+    ],
+    "רעיה": [
+      "joy",
+      "life"
+    ],
+    "רעכיל": [
+      "nature",
+      "international"
+    ],
+    "רעכל": [
+      "nature",
+      "international"
+    ],
+    "רפאל": [
+      "biblical",
+      "faith"
+    ],
+    "רפאלה": [
+      "faith"
+    ],
+    "רפיף": [
+      "nature",
+      "international",
+      "virtues"
+    ],
+    "רפיק": [
+      "international",
+      "joy",
+      "virtues",
+      "life"
+    ],
+    "רפעת": [
+      "international",
+      "strength"
+    ],
+    "רקאן": [
+      "nature",
+      "international",
+      "strength"
+    ],
+    "רשא": [
+      "unclassified"
+    ],
+    "רשאד": [
+      "international"
+    ],
+    "רשיד": [
+      "international"
+    ],
+    "רתיל": [
+      "international"
+    ],
+    "שאדי": [
+      "international"
+    ],
+    "שאדיה": [
+      "international"
+    ],
+    "שאדן": [
+      "unclassified"
+    ],
+    "שאהין": [
+      "international"
+    ],
+    "שאהר": [
+      "unclassified"
+    ],
+    "שאול": [
+      "biblical"
+    ],
+    "שאכר": [
+      "international"
+    ],
+    "שאם": [
+      "international"
+    ],
+    "שאמס": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "שארה": [
+      "biblical",
+      "life"
+    ],
+    "שאשא": [
+      "unclassified"
+    ],
+    "שבות": [
+      "other"
+    ],
+    "שביט": [
+      "nature",
+      "light"
+    ],
+    "שבע": [
+      "biblical",
+      "joy"
+    ],
+    "שבתי": [
+      "biblical"
+    ],
+    "שגב": [
+      "strength"
+    ],
+    "שגיא": [
+      "strength"
+    ],
+    "שגף": [
+      "international",
+      "joy"
+    ],
+    "שדא": [
+      "international",
+      "joy",
+      "arts"
+    ],
+    "שדה": [
+      "nature"
+    ],
+    "שהד": [
+      "international"
+    ],
+    "שהרזאד": [
+      "international",
+      "places",
+      "virtues",
+      "life"
+    ],
+    "שובאל": [
+      "biblical",
+      "faith"
+    ],
+    "שובה": [
+      "other"
+    ],
+    "שובי": [
+      "unclassified"
+    ],
+    "שובל": [
+      "biblical"
+    ],
+    "שוג": [
+      "international"
+    ],
+    "שוהם": [
+      "nature",
+      "precious"
+    ],
+    "שולמית": [
+      "biblical",
+      "virtues"
+    ],
+    "שומוך": [
+      "international",
+      "strength"
+    ],
+    "שון": [
+      "international",
+      "faith"
+    ],
+    "שוק": [
+      "international"
+    ],
+    "שורוק": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "שושנה": [
+      "nature"
+    ],
+    "שחאדה": [
+      "international",
+      "faith"
+    ],
+    "שחף": [
+      "nature"
+    ],
+    "שחר": [
+      "nature",
+      "light"
+    ],
+    "שחרי": [
+      "nature",
+      "light"
+    ],
+    "שטערנא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "שטרנא": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "שי": [
+      "precious"
+    ],
+    "שי-אל": [
+      "faith",
+      "precious"
+    ],
+    "שי-יה": [
+      "faith",
+      "precious"
+    ],
+    "שי-לי": [
+      "precious"
+    ],
+    "שיאל": [
+      "faith",
+      "precious"
+    ],
+    "שיה": [
+      "unclassified"
+    ],
+    "שיהאב": [
+      "nature",
+      "international"
+    ],
+    "שייה": [
+      "unclassified"
+    ],
+    "שיילי": [
+      "precious"
+    ],
+    "שיין": [
+      "international",
+      "virtues"
+    ],
+    "שיינא": [
+      "international",
+      "virtues"
+    ],
+    "שיינדי": [
+      "international",
+      "virtues"
+    ],
+    "שיינדיל": [
+      "international",
+      "virtues"
+    ],
+    "שיינדל": [
+      "international",
+      "virtues"
+    ],
+    "שיינה": [
+      "international",
+      "virtues"
+    ],
+    "שילה": [
+      "biblical"
+    ],
+    "שילו": [
+      "biblical"
+    ],
+    "שילי": [
+      "precious"
+    ],
+    "שילת": [
+      "unclassified"
+    ],
+    "שימאא": [
+      "unclassified"
+    ],
+    "שינא": [
+      "international",
+      "virtues"
+    ],
+    "שינדל": [
+      "international",
+      "virtues"
+    ],
+    "שיפא": [
+      "international"
+    ],
+    "שיר": [
+      "joy",
+      "arts"
+    ],
+    "שיראל": [
+      "joy",
+      "faith",
+      "arts"
+    ],
+    "שירה": [
+      "joy",
+      "arts"
+    ],
+    "שירז": [
+      "international",
+      "places"
+    ],
+    "שירי": [
+      "joy",
+      "arts"
+    ],
+    "שירין": [
+      "international",
+      "joy"
+    ],
+    "שירלי": [
+      "joy",
+      "arts"
+    ],
+    "שירן": [
+      "joy",
+      "arts"
+    ],
+    "שירת": [
+      "joy",
+      "arts"
+    ],
+    "שלהבת": [
+      "nature",
+      "life"
+    ],
+    "שלו": [
+      "virtues"
+    ],
+    "שלוה": [
+      "virtues"
+    ],
+    "שלווה": [
+      "virtues"
+    ],
+    "שלום": [
+      "biblical",
+      "virtues"
+    ],
+    "שלומי": [
+      "biblical",
+      "virtues"
+    ],
+    "שלומית": [
+      "biblical",
+      "virtues"
+    ],
+    "שלומציון": [
+      "biblical",
+      "places",
+      "virtues"
+    ],
+    "שלי": [
+      "other"
+    ],
+    "שליו": [
+      "nature",
+      "virtues"
+    ],
+    "שלם": [
+      "virtues"
+    ],
+    "שלמה": [
+      "biblical",
+      "virtues"
+    ],
+    "שמואל": [
+      "biblical",
+      "faith"
+    ],
+    "שמוך": [
+      "international",
+      "strength"
+    ],
+    "שמחה": [
+      "biblical",
+      "joy"
+    ],
+    "שמס": [
+      "nature",
+      "international",
+      "light"
+    ],
+    "שמעון": [
+      "biblical"
+    ],
+    "שמעיה": [
+      "biblical",
+      "faith"
+    ],
+    "שמריהו": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "שמש": [
+      "nature",
+      "light"
+    ],
+    "שמשון": [
+      "nature",
+      "biblical",
+      "light"
+    ],
+    "שנאל": [
+      "unclassified"
+    ],
+    "שנהב": [
+      "precious",
+      "life"
+    ],
+    "שני": [
+      "nature",
+      "arts"
+    ],
+    "שניאור": [
+      "international",
+      "faith"
+    ],
+    "שניר": [
+      "nature",
+      "places"
+    ],
+    "שפיק": [
+      "international"
+    ],
+    "שפרה": [
+      "biblical",
+      "virtues"
+    ],
+    "שקד": [
+      "nature"
+    ],
+    "שר": [
+      "strength"
+    ],
+    "שראל": [
+      "unclassified"
+    ],
+    "שרבל": [
+      "unclassified"
+    ],
+    "שרגא": [
+      "biblical",
+      "light"
+    ],
+    "שרה": [
+      "biblical",
+      "strength",
+      "virtues"
+    ],
+    "שרון": [
+      "nature",
+      "biblical"
+    ],
+    "שרי": [
+      "biblical"
+    ],
+    "שריה": [
+      "biblical",
+      "strength",
+      "faith"
+    ],
+    "שריי": [
+      "unclassified"
+    ],
+    "שריף": [
+      "international",
+      "virtues"
+    ],
+    "שרית": [
+      "biblical",
+      "strength"
+    ],
+    "תאג": [
+      "international",
+      "precious"
+    ],
+    "תאג'": [
+      "international",
+      "precious"
+    ],
+    "תאו": [
+      "nature",
+      "life"
+    ],
+    "תאופיק": [
+      "international",
+      "faith",
+      "virtues"
+    ],
+    "תאי": [
+      "unclassified"
+    ],
+    "תאיה": [
+      "unclassified"
+    ],
+    "תאים": [
+      "unclassified"
+    ],
+    "תאיר": [
+      "international"
+    ],
+    "תאלא": [
+      "unclassified"
+    ],
+    "תאליא": [
+      "international"
+    ],
+    "תאליה": [
+      "international"
+    ],
+    "תאלין": [
+      "unclassified"
+    ],
+    "תאמר": [
+      "international",
+      "precious"
+    ],
+    "תאקוא": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "תבארק": [
+      "international",
+      "faith"
+    ],
+    "תבור": [
+      "biblical"
+    ],
+    "תבל": [
+      "nature"
+    ],
+    "תגל": [
+      "joy"
+    ],
+    "תגריד": [
+      "international"
+    ],
+    "תדהר": [
+      "nature"
+    ],
+    "תהאני": [
+      "international",
+      "virtues"
+    ],
+    "תהילה": [
+      "biblical",
+      "faith"
+    ],
+    "תהל": [
+      "unclassified"
+    ],
+    "תהלה": [
+      "joy",
+      "faith",
+      "arts"
+    ],
+    "תובא": [
+      "nature",
+      "international",
+      "joy"
+    ],
+    "תובל": [
+      "biblical"
+    ],
+    "תוג'אן": [
+      "international",
+      "precious"
+    ],
+    "תוגאן": [
+      "international",
+      "precious"
+    ],
+    "תולאי": [
+      "unclassified"
+    ],
+    "תוליב": [
+      "nature"
+    ],
+    "תוליין": [
+      "unclassified"
+    ],
+    "תולין": [
+      "unclassified"
+    ],
+    "תוליפ": [
+      "nature"
+    ],
+    "תום": [
+      "virtues"
+    ],
+    "תומאס": [
+      "international"
+    ],
+    "תומי": [
+      "virtues"
+    ],
+    "תומס": [
+      "international"
+    ],
+    "תומר": [
+      "nature"
+    ],
+    "תוקא": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "תור": [
+      "nature",
+      "mythology",
+      "faith"
+    ],
+    "תחיה": [
+      "life"
+    ],
+    "תחריר": [
+      "international"
+    ],
+    "תיא": [
+      "international"
+    ],
+    "תיאה": [
+      "international"
+    ],
+    "תיאו": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "תיאודור": [
+      "international",
+      "faith",
+      "precious"
+    ],
+    "תיה": [
+      "international"
+    ],
+    "תייא": [
+      "international"
+    ],
+    "תייה": [
+      "international"
+    ],
+    "תיים": [
+      "unclassified"
+    ],
+    "תייסיר": [
+      "international"
+    ],
+    "תילאוה": [
+      "international"
+    ],
+    "תים": [
+      "unclassified"
+    ],
+    "תימאא": [
+      "unclassified"
+    ],
+    "תימור": [
+      "international"
+    ],
+    "תכלת": [
+      "arts"
+    ],
+    "תלא": [
+      "unclassified"
+    ],
+    "תליה": [
+      "international"
+    ],
+    "תלין": [
+      "unclassified"
+    ],
+    "תלם": [
+      "nature"
+    ],
+    "תלמה": [
+      "international"
+    ],
+    "תם": [
+      "virtues"
+    ],
+    "תמאם": [
+      "international",
+      "virtues"
+    ],
+    "תמארא": [
+      "nature"
+    ],
+    "תמארה": [
+      "nature"
+    ],
+    "תמה": [
+      "virtues"
+    ],
+    "תמים": [
+      "virtues"
+    ],
+    "תמימה": [
+      "virtues"
+    ],
+    "תמיר": [
+      "strength"
+    ],
+    "תמר": [
+      "nature",
+      "biblical"
+    ],
+    "תמרה": [
+      "nature"
+    ],
+    "תמרי": [
+      "nature",
+      "joy"
+    ],
+    "תניא": [
+      "other"
+    ],
+    "תסואהן": [
+      "unclassified"
+    ],
+    "תסנים": [
+      "nature",
+      "international"
+    ],
+    "תפארת": [
+      "virtues"
+    ],
+    "תקוא": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "תקוה": [
+      "virtues"
+    ],
+    "תקווא": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "תקי": [
+      "international",
+      "light",
+      "faith"
+    ],
+    "תרצה": [
+      "biblical",
+      "joy"
+    ],
+    "תרתיל": [
+      "international"
+    ]
+  }
+}
