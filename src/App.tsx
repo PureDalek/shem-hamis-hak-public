@@ -38,6 +38,7 @@ import {
   normalize,
   numerology,
   startTournament,
+  summarizeObservations,
   undo,
   type AppState,
   type Gender,
@@ -112,6 +113,7 @@ function App() {
     [state, active],
   );
   const current = available[0];
+  const statistics = current ? summarizeObservations(current.observations) : null;
   const liked = active
     ? Object.entries(active.decisions)
         .filter(([, d]) => d === "like")
@@ -652,14 +654,15 @@ function App() {
                                 <p>
                                   <strong>ילידי 2020–2024 לפי השם הנוכחי, בנתונים שפורסמו:</strong>
                                 </p>
-                                <ul>
-                                  {current.observations.map((o) => (
-                                    <li key={`${o.group}-${o.year}`}>
-                                      {o.year} · {o.group}:{" "}
-                                      {o.count.toLocaleString("he-IL")}
-                                    </li>
+                                {statistics?.leadingGroup && <p><strong>בנתונים שפורסמו, השם נפוץ בעיקר אצל {statistics.leadingGroup}.</strong></p>}
+                                <div className="statistics-list">
+                                  {statistics?.rows.map(row => (
+                                    <div className="statistics-row" key={`${row.year}-${row.group}`}>
+                                      <strong>{row.year} · {row.group}</strong>
+                                      <span>בנים: {row.boy === undefined ? 'לא פורסם' : row.boy.toLocaleString('he-IL')} · בנות: {row.girl === undefined ? 'לא פורסם' : row.girl.toLocaleString('he-IL')}</span>
+                                    </div>
                                   ))}
-                                </ul>
+                                </div>
                                 <p>* הסכום כולל רק נתונים שפורסמו לקבוצות הזמינות, ואינו מספר מלא לכלל האוכלוסייה. נתונים חסרים אינם אפס.</p>
                                 <a
                                   href={catalogSource}

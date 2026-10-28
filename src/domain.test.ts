@@ -11,6 +11,7 @@ import {
   newSearch,
   numerology,
   startTournament,
+  summarizeObservations,
   undo,
 } from "./domain";
 import { parseBackup } from "./storage";
@@ -25,6 +26,18 @@ describe("Hebrew numerology", () => {
 });
 
 describe("CBS catalog", () => {
+  it("groups boys and girls by year and population without inventing missing values", () => {
+    const result = summarizeObservations([
+      { group: 'יהודים', gender: 'boy', year: 2020, count: 738 },
+      { group: 'יהודיות', gender: 'girl', year: 2020, count: 7 },
+      { group: 'יהודים', gender: 'boy', year: 2021, count: 788 },
+    ]);
+    expect(result.rows).toEqual([
+      { year: 2020, group: 'יהודים', boy: 738, girl: 7 },
+      { year: 2021, group: 'יהודים', boy: 788 },
+    ]);
+    expect(result.leadingGroup).toBe('יהודים');
+  });
   it("preserves comma-formatted published 2024 counts for known names", () => {
     const david = catalog.find((name) => name.name === "דוד");
     const abigail = catalog.find((name) => name.name === "אביגיל");

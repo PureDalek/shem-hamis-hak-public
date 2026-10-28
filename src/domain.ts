@@ -18,6 +18,32 @@ export type Observation = {
   count: number;
   year: number;
 };
+const populationGroups: Record<string, string> = {
+  יהודים: "יהודים", יהודיות: "יהודים",
+  מוסלמים: "מוסלמים", מוסלמיות: "מוסלמים",
+  "נוצרים ערבים": "נוצרים ערבים", "נוצריות ערביות": "נוצרים ערבים",
+  דרוזים: "דרוזים", דרוזיות: "דרוזים",
+};
+
+export function summarizeObservations(observations: Observation[]) {
+  const rows = new Map<string, { year: number; group: string; boy?: number; girl?: number }>();
+  const totals = new Map<string, number>();
+  for (const item of observations) {
+    const group = populationGroups[item.group] ?? item.group;
+    if (item.gender !== 'boy' && item.gender !== 'girl') continue;
+    const key = `${item.year}:${group}`;
+    const row = rows.get(key) ?? { year: item.year, group };
+    row[item.gender] = (row[item.gender] ?? 0) + item.count;
+    rows.set(key, row);
+    totals.set(group, (totals.get(group) ?? 0) + item.count);
+  }
+  const ranked = [...totals].sort((a, b) => b[1] - a[1]);
+  const total = ranked.reduce((sum, [, count]) => sum + count, 0);
+  return {
+    rows: [...rows.values()].sort((a, b) => a.year - b.year || a.group.localeCompare(b.group, 'he')),
+    leadingGroup: ranked.length && ranked[0][1] > total / 2 ? ranked[0][0] : null,
+  };
+}
 export type NameRecord = {
   id: string;
   name: string;

@@ -635,11 +635,18 @@ textarea {
   color: #655e59;
   line-height: 1.6;
 }
-.name-details ul {
+.statistics-list {
+  display: grid;
+  gap: 6px;
+}
+.statistics-row {
   display: flex;
-  gap: 4px 20px;
   flex-wrap: wrap;
-  padding-right: 17px;
+  gap: 2px 12px;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: #fffdf5;
 }
 .name-details a {
   color: #ac503e;
