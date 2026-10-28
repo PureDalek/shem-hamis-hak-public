@@ -33,7 +33,9 @@ The `dist` folder is the deployable site. The [live app](https://puredalek.githu
 ## What currently works
 
 - Multiple searches with boy, girl, and unisex choices; first or middle name; surname preview; optional inspiration names and numerology filters.
-- Name cards, local like/pass and undo, name details and source-specific 2024 statistics.
+- Name cards, local like/pass and undo, name details and source-specific statistics.
+- Optional theme filters: nature, biblical, mythology and international, plus a low reported-count filter. The initial editorial categories are deliberately incomplete and can be edited locally. Multiple selections match any selected category.
+- Five-year totals are lower bounds based on published counts for selected population groups and birth years 2020–2024. Suppressed figures and other groups are not zero; the source uses current names in the 2025 population snapshot. The low-count filter (at most 100 published records) cannot establish that a name is rare in the whole population.
 - Saved/passed lists, custom names and tournaments with user-selected entrants; names remain on the shortlist after the tournament.
 - Optional partner comparison by exchanging shortlist files manually. The file contains only saved name spellings and is never sent automatically.
 - Browser-local persistence, backup and restore, family names and a local catalog/settings editor. The editor exposes recommendation weights and a preview using the current search.
@@ -51,7 +53,7 @@ Changes to the source and generated catalog can also be made directly in this re
 
 ## Catalog provenance
 
-`src/data/catalog.json` is generated from the [Israeli Central Bureau of Statistics workbook for 1949–2024](https://www.cbs.gov.il/he/mediarelease/DocLib/2025/391/11_25_391t1.xlsx), release 391/2025. It includes names with a published count of at least five in at least one population/gender series during 2020–2024. The app displays 2024 counts by the source population group; suppressed or absent values are not treated as zero. Gender filters reflect groups in which a name appears in the selected period, not a judgment about who may use a name. This selection is not claimed to match the Claude sketch's catalog.
+`src/data/catalog.json` is generated from the [Israeli Central Bureau of Statistics workbook for 1949–2024](https://www.cbs.gov.il/he/mediarelease/DocLib/2025/391/11_25_391t1.xlsx), release 391/2025. It includes names with a published count of at least five in at least one population/gender series during 2020–2024. The app displays published 2020–2024 counts by source population group; suppressed or absent values are not treated as zero. Gender filters reflect groups in which a name appears in the selected period, not a judgment about who may use a name. This selection is not claimed to match the Claude sketch's catalog.
 
 To regenerate the source data, download the workbook to `data/raw/cbs-2024.xlsx` and run:
 

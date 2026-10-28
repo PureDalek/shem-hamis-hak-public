@@ -42,10 +42,10 @@ for index, sheet in enumerate(workbook.worksheets):
         entry = names.setdefault(name, {"id": "cbs:" + name, "name": name, "genders": [], "observations": []})
         if gender not in entry["genders"]:
             entry["genders"].append(gender)
-        value = published_count(row[-1])
-        # '..' is suppressed and must not become zero or an invented total.
-        if value is not None and value >= 5:
-            entry["observations"].append({"group": groups[index], "gender": gender, "count": value, "year": 2024})
+        # '..' and counts below the publication threshold are not a known zero.
+        for year, value in zip(range(2020, 2025), recent):
+            if value is not None and value >= 5:
+                entry["observations"].append({"group": groups[index], "gender": gender, "count": value, "year": year})
 
 catalog = sorted(names.values(), key=lambda e: e["name"])
 target = Path("src/data/catalog.json")

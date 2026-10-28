@@ -598,6 +598,11 @@ textarea {
   font-size: 14px;
   color: #796c65;
 }
+.reported-count {
+  font-size: 13px;
+  color: #655b54;
+  text-align: center;
+}
 .card-line {
   width: 40px;
   height: 4px;
@@ -687,6 +692,10 @@ textarea {
 .count-line span {
   color: var(--coral);
   padding: 0 6px;
+}
+.chips button.chosen {
+  background: var(--coral);
+  color: white;
 }
 .empty-state,
 .list-empty {

@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Admin from "./Admin";
 import Compare from "./Compare";
+import { categories } from "./categories";
 import { cloudConfigured } from "./cloud-config";
 import {
   ArrowLeft,
@@ -394,6 +395,22 @@ function App() {
                 </div>
               </fieldset>
               <fieldset className="form-group">
+                <legend>סגנון או נושא <span className="optional">לא חובה</span></legend>
+                <p className="fine-print">אפשר לבחור כמה קטגוריות. הסיווג הראשוני חלקי; שם יכול להתאים ליותר מקטגוריה אחת.</p>
+                <div className="chips">
+                  {[...categories, { id: 'reported-low', label: 'מעט ילידים מדווחים' }].map(category => (
+                    <button key={category.id} type="button" aria-pressed={(draft.categories ?? []).includes(category.id)}
+                      className={(draft.categories ?? []).includes(category.id) ? 'chosen' : ''}
+                      onClick={() => setDraft({ ...draft, categories: (draft.categories ?? []).includes(category.id)
+                        ? (draft.categories ?? []).filter(id => id !== category.id)
+                        : [...(draft.categories ?? []), category.id] })}>
+                      {category.label}
+                    </button>
+                  ))}
+                </div>
+                <p className="fine-print">מעט ילידים מדווחים: עד 100 ברשומות שפורסמו לילידי 2020–2024; הנתונים אינם כוללים את כל האוכלוסייה ולכן אינם מדד ודאי לנדירות.</p>
+              </fieldset>
+              <fieldset className="form-group">
                 <legend>איזה שם מחפשים?</legend>
                 <div className="segmented">
                   <button
@@ -565,6 +582,10 @@ function App() {
                       <div className="card-ornament">✻</div>
                       <span className="name-label">אולי קוראים לי</span>
                       <div className="display-name">{current.name}</div>
+                      {state.settings.showStatistics && current.observations.length > 0 && (
+                        <div className="reported-count">לפחות {current.observations.filter(o => o.year >= 2020 && o.year <= 2024).reduce((sum, o) => sum + o.count, 0).toLocaleString('he-IL')} ילידי 2020–2024 בקבוצות שפורסמו*</div>
+                      )}
+                      {(current.tags ?? []).length > 0 && <div className="fullname">{categories.filter(category => current.tags?.includes(category.id)).map(category => category.label).join(' · ')}</div>}
                       {(active.firstName || active.surname) && (
                         <div className="fullname">
                           {[active.firstName, current.name, active.surname]
@@ -629,16 +650,17 @@ function App() {
                             current.observations.length > 0 && (
                               <>
                                 <p>
-                                  <strong>נתוני לידות, 2024:</strong>
+                                  <strong>ילידי 2020–2024 לפי השם הנוכחי, בנתונים שפורסמו:</strong>
                                 </p>
                                 <ul>
                                   {current.observations.map((o) => (
-                                    <li key={o.group}>
-                                      {o.group}:{" "}
+                                    <li key={`${o.group}-${o.year}`}>
+                                      {o.year} · {o.group}:{" "}
                                       {o.count.toLocaleString("he-IL")}
                                     </li>
                                   ))}
                                 </ul>
+                                <p>* הסכום כולל רק נתונים שפורסמו לקבוצות הזמינות, ואינו מספר מלא לכלל האוכלוסייה. נתונים חסרים אינם אפס.</p>
                                 <a
                                   href={catalogSource}
                                   target="_blank"

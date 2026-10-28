@@ -8,7 +8,7 @@ test('search, undo, shortlist and tournament survive a reload', async ({ page })
 
   const name = page.locator('.display-name');
   const firstName = await name.innerText();
-  await expect(page.locator('.fullname')).toContainText(`נועה ${firstName}`);
+  await expect(page.locator('.fullname').filter({ hasText: `נועה ${firstName}` })).toBeVisible();
   const details = page.getByRole('button', { name: 'קצת על השם' });
   await details.click();
   await expect(details).toHaveAttribute('aria-expanded', 'true');
@@ -41,4 +41,16 @@ test('search, undo, shortlist and tournament survive a reload', async ({ page })
   await expect(page.locator('.winner-card')).toBeVisible();
   await page.getByRole('button', { name: /3 שמורים/ }).click();
   await expect(page.locator('.list-item')).toHaveCount(3);
+});
+
+test('category selection filters the cards and shows reported five-year data', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'טבע', exact: true }).click();
+  await page.getByRole('button', { name: 'יאללה, מתחילים' }).click();
+  await expect(page.locator('.name-card').getByText('טבע', { exact: true })).toBeVisible();
+  await expect(page.locator('.reported-count')).toContainText('2020–2024');
+  await page.getByRole('button', { name: 'קצת על השם' }).click();
+  await expect(page.getByText(/אינו מספר מלא לכלל האוכלוסייה/)).toBeVisible();
+  await page.reload();
+  await expect(page.locator('.name-card').getByText('טבע', { exact: true })).toBeVisible();
 });

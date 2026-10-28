@@ -18,6 +18,7 @@ import {
 } from "./domain";
 import { downloadJson } from "./storage";
 import { cloudConfigured } from "./cloud-config";
+import { categories } from "./categories";
 const CloudAdmin = lazy(() => import("./CloudAdmin"));
 
 type Props = {
@@ -287,6 +288,17 @@ export default function Admin({ state, setState, onBack }: Props) {
             />{" "}
             מתאים לחיפוש לבן
           </label>
+          <fieldset className="form-group">
+            <legend>קטגוריות השם</legend>
+            {categories.map(category => (
+              <label className="check-row" key={category.id}>
+                <input type="checkbox" checked={(record.tags ?? []).includes(category.id)}
+                  onChange={e => edit({ tags: e.target.checked
+                    ? [...new Set([...(record.tags ?? []), category.id])]
+                    : (record.tags ?? []).filter(id => id !== category.id) })} /> {category.label}
+              </label>
+            ))}
+          </fieldset>
           <label className="check-row">
             <input
               type="checkbox"

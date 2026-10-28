@@ -1,6 +1,7 @@
 import source from "./data/catalog.json";
 import settings from "./data/settings.json";
 import editorial from "./data/editorial.json";
+import { initialCategories } from "./categories";
 
 export type Gender = "boy" | "girl" | "unisex";
 export type Screen =
@@ -38,6 +39,7 @@ export type Search = {
   surname: string;
   inspirations: string[];
   numbers: number[];
+  categories?: string[];
   decisions: Record<string, Decision>;
   history: { id: string; previous?: Decision }[];
   customNames: NameRecord[];
@@ -144,6 +146,7 @@ export function allNames(state: AppState): NameRecord[] {
     [...catalog, ...state.extraCatalog].map((name) => [name.id, name]),
   );
   return [...byId.values()].map((name) => ({
+    tags: initialCategories(name.name),
     ...(editorial as Record<string, Partial<NameRecord>>)[name.id],
     ...name,
     ...state.overrides[name.id],
@@ -159,18 +162,25 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
         ? name.genders.includes("boy") && name.genders.includes("girl")
         : name.genders.includes(search.gender)),
   );
-  return byGender.filter(
-    (name) =>
-      !search.numbers.length ||
-      search.numbers.includes(numerology(name.name) ?? -1),
-  );
+  return byGender.filter((name) => {
+    const numericMatch = !search.numbers.length || search.numbers.includes(numerology(name.name) ?? -1);
+    const selected = search.categories ?? [];
+    const published = name.observations.filter(o => o.year >= 2020 && o.year <= 2024);
+    const reportedTotal = published.reduce((sum, o) => sum + o.count, 0);
+    const categoryMatch = !selected.length || selected.some(category =>
+      category === 'reported-low'
+        ? published.length > 0 && reportedTotal <= 100
+        : (name.tags ?? []).includes(category),
+    );
+    return numericMatch && categoryMatch;
+  });
 }
 export function availableNames(state: AppState, search: Search): NameRecord[] {
   const names = namesForSearch(state, search).filter(
     (name) => !search.decisions[name.id],
   );
   const score = (name: NameRecord) =>
-    name.observations.reduce((sum, o) => sum + o.count, 0);
+    name.observations.filter(o => o.year === 2024).reduce((sum, o) => sum + o.count, 0);
   if (state.settings.sort === "alphabetical")
     return names.sort((a, b) => a.name.localeCompare(b.name, "he"));
   if (state.settings.sort === "popular")

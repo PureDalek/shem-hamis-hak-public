@@ -34,6 +34,7 @@ describe("CBS catalog", () => {
       count: 1842,
       year: 2024,
     });
+    expect(david?.observations).toContainEqual({ group: "יהודים", gender: "boy", count: 1707, year: 2020 });
     expect(abigail?.observations).toContainEqual({
       group: "יהודיות",
       gender: "girl",
@@ -63,6 +64,16 @@ describe("partner shortlist comparison", () => {
 });
 
 describe("search decisions", () => {
+  it("filters by any selected category while preserving gender and editable tags", () => {
+    const state = initialState();
+    const nature = { ...newSearch('boy'), categories: ['nature'] };
+    const names = namesForSearch(state, nature);
+    expect(names.some(n => n.name === 'אור')).toBe(true);
+    expect(names.every(n => n.genders.includes('boy') && n.tags?.includes('nature'))).toBe(true);
+    state.overrides['cbs:אור'] = { tags: [] };
+    expect(namesForSearch(state, nature).some(n => n.name === 'אור')).toBe(false);
+    expect(parseBackup(JSON.stringify({ ...state, searches: [nature], activeId: nature.id })).searches[0].categories).toEqual(['nature']);
+  });
   it("excludes decided names and restores the previous decision on undo", () => {
     const state = initialState();
     const search = newSearch();

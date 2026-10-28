@@ -63,6 +63,7 @@ export function parseBackup(text: string): AppState {
         s.numbers.every(
           (number) => Number.isInteger(number) && number >= 1 && number <= 9,
         ) &&
+        (s.categories === undefined || (Array.isArray(s.categories) && s.categories.every((category) => typeof category === 'string'))) &&
         s.decisions &&
         typeof s.decisions === "object" &&
         !Array.isArray(s.decisions) &&
@@ -130,6 +131,7 @@ export function parseBackup(text: string): AppState {
       typeof n === "object" &&
       typeof (n as { id?: unknown }).id === "string" &&
       typeof (n as { name?: unknown }).name === "string" &&
+      ((n as { tags?: unknown }).tags === undefined || (Array.isArray((n as { tags?: unknown }).tags) && (n as { tags: unknown[] }).tags.every(tag => typeof tag === 'string'))) &&
       Array.isArray((n as { genders?: unknown }).genders) &&
       (n as { genders: unknown[] }).genders.every(
         (gender) => gender === "boy" || gender === "girl",
@@ -168,11 +170,13 @@ export function parseBackup(text: string): AppState {
             "meaningSource",
             "hidden",
             "genders",
+            "tags",
           ].includes(key),
         ) &&
         (entry.name === undefined ||
           (typeof entry.name === "string" && entry.name.length <= 80)) &&
         (entry.meaning === undefined || typeof entry.meaning === "string") &&
+        (entry.tags === undefined || (Array.isArray(entry.tags) && entry.tags.every(tag => typeof tag === 'string'))) &&
         (entry.origin === undefined || typeof entry.origin === "string") &&
         (entry.meaningSource === undefined ||
           typeof entry.meaningSource === "string") &&
