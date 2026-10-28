@@ -3,6 +3,7 @@ import {
   catalogSource,
   initialState,
   installPublishedContent,
+  isSafeHttpsUrl,
   type AppState,
   type NameRecord,
   type Settings,
@@ -50,6 +51,10 @@ export function validatePublished(input: unknown): Published {
       name.name.length > 80 ||
       (name.meaning !== undefined && typeof name.meaning !== "string") ||
       (name.origin !== undefined && typeof name.origin !== "string") ||
+      (name.meaningSource !== undefined &&
+        (typeof name.meaningSource !== "string" ||
+          (name.meaningSource !== "" &&
+            !isSafeHttpsUrl(name.meaningSource)))) ||
       (name.hidden !== undefined && typeof name.hidden !== "boolean") ||
       !Array.isArray(name.genders) ||
       !name.genders.every((g) => g === "boy" || g === "girl") ||
@@ -72,8 +77,7 @@ export function validatePublished(input: unknown): Published {
     JSON.stringify({ ...initialState(), settings: row.settings }),
   ).settings;
   const source =
-    typeof row.catalog.source === "string" &&
-    row.catalog.source.startsWith("https://")
+    typeof row.catalog.source === "string" && isSafeHttpsUrl(row.catalog.source)
       ? row.catalog.source
       : catalogSource;
   return {

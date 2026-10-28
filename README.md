@@ -38,7 +38,7 @@ The default build uses only local storage. Optional code for account backup and 
 3. Replace `src/data/catalog.json` and/or `src/data/settings.json` in this project with the exported files.
 4. Run `npm test` and `npm run build`, review the changes, then deploy the new build. Existing visitors may have local overrides, which take precedence in their own browser.
 
-Changes to the source and generated catalog can also be made directly in this repository. IDs should remain stable when changing display names. Avoid adding unverified meanings or origins. The browser editor's local backup is exported from the profile; it is separate from the shared catalog export.
+Changes to the source and generated catalog can also be made directly in this repository. IDs should remain stable when changing display names. Add a source link for a reviewed meaning or origin; the editor accepts HTTPS links and shows them on name cards. The browser editor's local backup is exported from the profile; it is separate from the shared catalog export.
 
 ## Catalog provenance
 
@@ -51,7 +51,9 @@ python -m pip install openpyxl
 python scripts/import-cbs.py data/raw/cbs-2024.xlsx
 ```
 
-The raw workbook is ignored by Git. Regenerating replaces the catalog, so retain or reapply editorial changes separately and review the resulting diff before publishing. The workbook does not supply the meanings; these are intentionally blank until sourced and reviewed.
+The raw workbook is ignored by Git. Regenerating replaces the catalog, so retain or reapply editorial changes separately and review the resulting diff before publishing. The workbook does not supply meanings. A small starter set of Hebrew word interpretations lives separately in `src/data/editorial.json`, with links to the relevant Wiktionary entries; remaining meanings stay blank until sourced and reviewed. These are possible interpretations, since spellings can have multiple origins.
+
+The Wiktionary entries are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); the starter descriptions are short paraphrases with links to their source entries.
 
 ## How the code is organized
 

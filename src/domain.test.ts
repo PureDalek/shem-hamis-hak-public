@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   applyDecision,
+  allNames,
   availableNames,
   catalog,
   chooseTournament,
@@ -39,6 +40,16 @@ describe("CBS catalog", () => {
       count: 1437,
       year: 2024,
     });
+  });
+  it("keeps reviewed editorial meanings separate and lets an owner override them", () => {
+    const state = initialState();
+    expect(
+      allNames(state).find((name) => name.id === "cbs:אור")?.meaningSource,
+    ).toContain("wiktionary.org");
+    state.overrides["cbs:אור"] = { meaning: "פירוש מותאם" };
+    expect(allNames(state).find((name) => name.id === "cbs:אור")?.meaning).toBe(
+      "פירוש מותאם",
+    );
   });
 });
 

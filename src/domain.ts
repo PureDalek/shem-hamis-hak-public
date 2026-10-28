@@ -1,5 +1,6 @@
 import source from "./data/catalog.json";
 import settings from "./data/settings.json";
+import editorial from "./data/editorial.json";
 
 export type Gender = "boy" | "girl" | "unisex";
 export type Screen =
@@ -23,6 +24,7 @@ export type NameRecord = {
   observations: Observation[];
   meaning?: string;
   origin?: string;
+  meaningSource?: string;
   tags?: string[];
   custom?: boolean;
   hidden?: boolean;
@@ -102,6 +104,14 @@ export const normalize = (value: string) =>
     .replace(/[\u0591-\u05c7]/g, "")
     .trim()
     .replace(/\s+/g, " ");
+export function isSafeHttpsUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.username && !url.password;
+  } catch {
+    return false;
+  }
+}
 
 /** Return local spellings shared by both lists, without exposing unrelated data. */
 export function compareShortlists(mine: string[], theirs: string[]): string[] {
@@ -134,6 +144,7 @@ export function allNames(state: AppState): NameRecord[] {
     [...catalog, ...state.extraCatalog].map((name) => [name.id, name]),
   );
   return [...byId.values()].map((name) => ({
+    ...(editorial as Record<string, Partial<NameRecord>>)[name.id],
     ...name,
     ...state.overrides[name.id],
     id: name.id,

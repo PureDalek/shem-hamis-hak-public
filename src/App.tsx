@@ -31,6 +31,7 @@ import {
   catalogSource,
   chooseTournament,
   initialState,
+  isSafeHttpsUrl,
   makeId,
   newSearch,
   normalize,
@@ -593,7 +594,7 @@ function App() {
                         <div className="name-details">
                           {current.meaning ? (
                             <p>
-                              <strong>משמעות: </strong>
+                              <strong>פירוש אפשרי: </strong>
                               {current.meaning}
                             </p>
                           ) : (
@@ -610,10 +611,22 @@ function App() {
                           )}
                           {current.origin && (
                             <p>
-                              <strong>מקור: </strong>
+                              <strong>מקור אפשרי: </strong>
                               {current.origin}
                             </p>
                           )}
+                          {current.meaningSource &&
+                            isSafeHttpsUrl(current.meaningSource) && (
+                              <p>
+                                <a
+                                  href={current.meaningSource}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  מקור לפירוש השם ↗
+                                </a>
+                              </p>
+                            )}
                           {state.settings.showStatistics &&
                             current.observations.length > 0 && (
                               <>

@@ -161,12 +161,21 @@ export function parseBackup(text: string): AppState {
         return false;
       return (
         Object.keys(entry).every((key) =>
-          ["name", "meaning", "origin", "hidden", "genders"].includes(key),
+          [
+            "name",
+            "meaning",
+            "origin",
+            "meaningSource",
+            "hidden",
+            "genders",
+          ].includes(key),
         ) &&
         (entry.name === undefined ||
           (typeof entry.name === "string" && entry.name.length <= 80)) &&
         (entry.meaning === undefined || typeof entry.meaning === "string") &&
         (entry.origin === undefined || typeof entry.origin === "string") &&
+        (entry.meaningSource === undefined ||
+          typeof entry.meaningSource === "string") &&
         (entry.hidden === undefined || typeof entry.hidden === "boolean") &&
         (entry.genders === undefined ||
           (Array.isArray(entry.genders) &&

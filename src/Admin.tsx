@@ -10,6 +10,7 @@ import {
   allNames,
   availableNames,
   catalogSource,
+  isSafeHttpsUrl,
   makeId,
   normalize,
   type AppState,
@@ -31,7 +32,10 @@ export default function Admin({ state, setState, onBack }: Props) {
   const all = allNames(state);
   const record = all.find((name) => name.id === selected);
   const invalidNames = all.some(
-    (name) => !name.name.trim() || (!name.hidden && name.genders.length === 0),
+    (name) =>
+      !name.name.trim() ||
+      (!name.hidden && name.genders.length === 0) ||
+      Boolean(name.meaningSource && !isSafeHttpsUrl(name.meaningSource)),
   );
   const active = state.searches.find((search) => search.id === state.activeId);
   const sample = active ? availableNames(state, active).slice(0, 5) : [];
@@ -259,6 +263,16 @@ export default function Admin({ state, setState, onBack }: Props) {
               placeholder="מקור השם"
             />
           </label>
+          <label>
+            קישור למקור הפירוש (HTTPS)
+            <input
+              type="url"
+              dir="ltr"
+              value={record.meaningSource ?? ""}
+              onChange={(e) => edit({ meaningSource: e.target.value })}
+              placeholder="https://…"
+            />
+          </label>
           <label className="check-row">
             <input
               type="checkbox"
@@ -311,8 +325,8 @@ export default function Admin({ state, setState, onBack }: Props) {
       )}
       {invalidNames && (
         <p role="alert" className="admin-error">
-          יש שם ריק או שם גלוי שאינו משויך לאף חיפוש. תקנו אותו לפני ייצוא או
-          פרסום.
+          יש שם ריק, שם גלוי שאינו משויך לחיפוש או קישור למקור שאינו מתחיל
+          ב־https://. תקנו לפני ייצוא או פרסום.
         </p>
       )}
       <div className="admin-export">

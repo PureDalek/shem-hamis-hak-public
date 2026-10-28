@@ -43,4 +43,15 @@ describe("published content validation", () => {
       }).catalog.source,
     ).toBe(catalogSource);
   });
+  it("rejects unsafe editorial source links", () => {
+    expect(() =>
+      validatePublished({
+        ...row,
+        catalog: {
+          ...row.catalog,
+          names: [{ ...item, meaningSource: "javascript:alert(1)" }],
+        },
+      }),
+    ).toThrow();
+  });
 });
