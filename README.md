@@ -19,12 +19,14 @@ npm run build
 npm run preview
 ```
 
-For the automated desktop and phone browser journey checks, install Playwright's Chromium once and run:
+For the automated desktop and phone browser journey and accessibility checks, install Playwright's Chromium once and run:
 
 ```sh
 npx playwright install chromium
 npm run test:browser
 ```
+
+The accessibility scans cover selected core screens and do not replace keyboard and screen-reader review.
 
 The `dist` folder is the deployable site. `netlify.toml` configures the build for Netlify. See [milestones](docs/milestones.md) for what is working and what remains.
 

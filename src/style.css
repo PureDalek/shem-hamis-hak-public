@@ -7,7 +7,7 @@
   --peach: #f8e7dc;
   --paper: #fffbf7;
   --yellow: #ffd743;
-  --coral: #e7644c;
+  --coral: #bd4835;
   --mint: #91d6c4;
   --line: #ded2cd;
   --muted: #77717b;
@@ -338,7 +338,7 @@ a {
 .optional,
 .field-label > span {
   font-size: 11px;
-  color: #9a8d90;
+  color: #706568;
   font-weight: 500;
   margin-right: 5px;
 }
@@ -437,7 +437,7 @@ textarea {
 .accordion-toggle small {
   font-size: 11px;
   font-weight: 500;
-  color: #9a8d90;
+  color: #706568;
   margin-right: 5px;
 }
 .small-icon {
@@ -508,7 +508,7 @@ textarea {
 }
 .fine-print {
   text-align: center;
-  color: #978d8c;
+  color: #706568;
   font-size: 11px;
   margin: 12px 0 0;
 }
@@ -582,7 +582,7 @@ textarea {
 .name-label {
   font-size: 12px;
   font-weight: 700;
-  color: #b07d6c;
+  color: #805b4f;
 }
 .display-name {
   font:
@@ -681,7 +681,7 @@ textarea {
   text-align: center;
   font-size: 11px;
   font-weight: 700;
-  color: #a09692;
+  color: #706568;
   margin-top: 30px;
 }
 .count-line span {
@@ -729,7 +729,7 @@ textarea {
   border-bottom: 3px solid transparent;
   padding: 12px;
   font-weight: 800;
-  color: #9b9292;
+  color: #706568;
 }
 .list-tabs button.active {
   color: var(--ink);
@@ -784,7 +784,7 @@ textarea {
   font-size: 16px;
 }
 .list-name small {
-  color: #a19894;
+  color: #706568;
   font-size: 11px;
   margin-top: 3px;
 }
