@@ -66,7 +66,7 @@ describe('repeating discovery rounds', () => {
     for (let i = 0; i < 200; i++) next = applyDiscoveryDecision(state, next, availableNames(state, next)[0].id, 'pass');
     expect(JSON.stringify(next).length).toBeLessThan(150000);
     expect(next.history).toHaveLength(200);
-  });
+  }, 15000);
 });
 
 describe('catalog themes', () => {

@@ -251,7 +251,7 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
         : name.genders.includes(search.gender)),
   );
   return byGender.filter((name) => {
-    const letters = nameLetters(name.name);
+    const letters = search.lengthFilter || search.firstLetter ? nameLetters(name.name) : [];
     const lengthMatch = !search.lengthFilter ||
       (search.lengthFilter === "short" ? letters.length > 0 && letters.length <= 3
         : search.lengthFilter === "medium" ? letters.length === 4 : letters.length >= 5);
