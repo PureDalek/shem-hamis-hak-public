@@ -172,7 +172,6 @@ function App() {
   const flash = (text: string) => setNotice(text);
   const decide = (id: string, value: "like" | "pass") => {
     updateSearch((s) => applyDecision(s, id, value));
-    setDetails(false);
   };
   const setSearchScreen = (value: Screen) => {
     if (!active && !["setup", "searches", "profile", "admin"].includes(value))
@@ -206,7 +205,6 @@ function App() {
         ? prev.searches.map((s) => (s.id === clean.id ? clean : s))
         : [...prev.searches, clean],
     }));
-    setDetails(false);
     setScreen("discover");
   };
   const addInspiration = () => {
@@ -675,7 +673,6 @@ function App() {
                     disabled={!active.history.length}
                     onClick={() => {
                       updateSearch(undo);
-                      setDetails(false);
                     }}
                   >
                     <RotateCcw size={15} /> חזרה לשם הקודם
