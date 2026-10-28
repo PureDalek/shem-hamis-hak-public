@@ -8,9 +8,11 @@ import {
   compareShortlists,
   initialState,
   namesForSearch,
+  nameLetters,
   newSearch,
   numerology,
   startTournament,
+  similarNames,
   summarizeObservations,
   undo,
 } from "./domain";
@@ -77,6 +79,33 @@ describe("partner shortlist comparison", () => {
 });
 
 describe("search decisions", () => {
+  it("combines letter and length filters with categories and persists them in backups", () => {
+    const state = initialState();
+    const search = { ...newSearch("boy"), firstLetter: "א", lengthFilter: "short" as const, categories: ["nature"] };
+    const results = namesForSearch(state, search);
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.every(name => nameLetters(name.name)[0] === "א" && nameLetters(name.name).length <= 3 && name.tags?.includes("nature"))).toBe(true);
+    const restored = parseBackup(JSON.stringify({ ...state, searches: [search], activeId: search.id }));
+    expect(restored.searches[0]).toMatchObject({ firstLetter: "א", lengthFilter: "short" });
+    expect(namesForSearch(restored, restored.searches[0]).map(n => n.id)).toEqual(results.map(n => n.id));
+  });
+  it("recommends only undecided eligible names and reports the selected matching traits", () => {
+    const state = initialState();
+    const search = { ...newSearch("boy"), firstLetter: "א", lengthFilter: "short" as const };
+    const reference = allNames(state).find(n => n.name === "אור")!;
+    const excluded = namesForSearch(state, search).find(n => n.id !== reference.id)!;
+    search.decisions[excluded.id] = "pass";
+    const results = similarNames(state, search, reference, { length: true, topics: false, letters: false });
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.every(match => match.name.id !== reference.id && match.name.id !== excluded.id && match.sameLength && nameLetters(match.name.name).length === 3 && match.name.name.startsWith("א") && !match.topics.length && !match.letters.length)).toBe(true);
+    const topicMatches = similarNames(state, search, reference, { length: false, topics: true, letters: false });
+    expect(topicMatches.length).toBeGreaterThan(0);
+    expect(topicMatches.every(match => match.topics.length > 0 && match.topics.every(topic => reference.tags?.includes(topic)) && !match.sameLength && !match.letters.length)).toBe(true);
+    const letterMatches = similarNames(state, search, reference, { length: false, topics: false, letters: true });
+    expect(letterMatches.length).toBeGreaterThan(0);
+    expect(letterMatches.every(match => match.letters.length >= 2 && match.letters.every(letter => nameLetters(reference.name).includes(letter) && nameLetters(match.name.name).includes(letter)))).toBe(true);
+    expect(similarNames(state, search, reference, { length: false, topics: false, letters: false })).toEqual([]);
+  });
   it("filters by any selected category while preserving gender and editable tags", () => {
     const state = initialState();
     const nature = { ...newSearch('boy'), categories: ['nature'] };

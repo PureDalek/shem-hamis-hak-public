@@ -22,7 +22,10 @@ test('core screens pass automated accessibility checks', async ({ page }) => {
   await page.getByTitle(/פירוט על השם/).first().click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await checkAccessibility(page);
-  await page.getByRole('button', { name: 'חזרה לרשימה' }).click();
+  await page.getByRole('button', { name: /עוד שמות בסגנון הזה/ }).click();
+  await expect(page.locator('.similar-panel')).toBeVisible();
+  await checkAccessibility(page);
+  await page.getByRole('button', { name: 'סגירת המלצות' }).click();
   await page.getByRole('button', { name: /מוכנים לטורניר/ }).click();
   await checkAccessibility(page);
   await page.getByRole('button', { name: 'פרופיל', exact: true }).click();

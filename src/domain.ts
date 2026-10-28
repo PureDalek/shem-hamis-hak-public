@@ -1,7 +1,7 @@
 import source from "./data/catalog.json";
 import settings from "./data/settings.json";
 import editorial from "./data/editorial.json";
-import { initialCategories } from "./categories";
+import { categories, initialCategories } from "./categories";
 
 export type Gender = "boy" | "girl" | "unisex";
 export type Screen =
@@ -110,6 +110,8 @@ export type Search = {
   inspirations: string[];
   numbers: number[];
   categories?: string[];
+  lengthFilter?: "short" | "medium" | "long";
+  firstLetter?: string;
   decisions: Record<string, Decision>;
   history: { id: string; previous?: Decision; browseUndo?: BrowseUndo }[];
   browsing?: { round: number; seen: string[] };
@@ -181,6 +183,8 @@ export const normalize = (value: string) =>
     .replace(/[\u0591-\u05c7]/g, "")
     .trim()
     .replace(/\s+/g, " ");
+export const nameLetters = (value: string) =>
+  Array.from(normalize(value)).filter((letter) => /\p{L}/u.test(letter));
 export function isSafeHttpsUrl(value: string): boolean {
   try {
     const url = new URL(value);
@@ -247,6 +251,11 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
         : name.genders.includes(search.gender)),
   );
   return byGender.filter((name) => {
+    const letters = nameLetters(name.name);
+    const lengthMatch = !search.lengthFilter ||
+      (search.lengthFilter === "short" ? letters.length > 0 && letters.length <= 3
+        : search.lengthFilter === "medium" ? letters.length === 4 : letters.length >= 5);
+    const letterMatch = !search.firstLetter || letters[0] === search.firstLetter;
     const numericMatch = !search.numbers.length || search.numbers.includes(numerology(name.name) ?? -1);
     const selected = search.categories ?? [];
     const published = name.observations.filter(o => o.year >= 2020 && o.year <= 2024);
@@ -256,8 +265,31 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
         ? published.length > 0 && reportedTotal <= 100
         : (name.tags ?? []).includes(category),
     );
-    return numericMatch && categoryMatch;
+    return numericMatch && categoryMatch && lengthMatch && letterMatch;
   });
+}
+
+export type SimilarityOptions = { length: boolean; topics: boolean; letters: boolean };
+/** Rank matches by transparent, selected traits and retain the matching reasons. */
+export function similarNames(state: AppState, search: Search, reference: NameRecord, options: SimilarityOptions) {
+  const referenceLetters = new Set(nameLetters(reference.name));
+  const referenceLength = nameLetters(reference.name).length;
+  const referenceTopics = new Set((reference.tags ?? []).filter(tag => tag !== "unclassified" && categories.some(category => category.id === tag)));
+  return namesForSearch(state, search)
+    .filter(name => name.id !== reference.id && !search.decisions[name.id])
+    .map(name => {
+      const letters = nameLetters(name.name);
+      const sharedLetters = [...new Set(letters)].filter(letter => referenceLetters.has(letter));
+      const topics = (name.tags ?? []).filter(tag => referenceTopics.has(tag));
+      const sameLength = referenceLength > 0 && letters.length === referenceLength;
+      const matchedTopics = options.topics ? topics : [];
+      const matchedLength = options.length && sameLength;
+      const matchedLetters = options.letters && sharedLetters.length >= 2 ? sharedLetters : [];
+      const score = matchedTopics.length * 3 + (matchedLetters.length ? 2 : 0) + (matchedLength ? 1 : 0);
+      return { name, topics: matchedTopics, sameLength: matchedLength, letters: matchedLetters, score };
+    })
+    .filter(match => match.score > 0)
+    .sort((a, b) => b.score - a.score || a.name.name.localeCompare(b.name.name, "he"));
 }
 export function availableNames(state: AppState, search: Search): NameRecord[] {
   const eligible = namesForSearch(state, search);

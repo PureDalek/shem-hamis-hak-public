@@ -67,6 +67,8 @@ export function parseBackup(text: string): AppState {
           (number) => Number.isInteger(number) && number >= 1 && number <= 9,
         ) &&
         (s.categories === undefined || (Array.isArray(s.categories) && s.categories.every((category) => typeof category === 'string'))) &&
+        (s.lengthFilter === undefined || ["short", "medium", "long"].includes(s.lengthFilter)) &&
+        (s.firstLetter === undefined || /^[אבגדהוזחטיכלמנסעפצקרשת]$/u.test(s.firstLetter)) &&
         (s.browsing === undefined || (s.browsing && validRound(s.browsing.round) && validSeen(s.browsing.seen))) &&
         s.decisions &&
         typeof s.decisions === "object" &&

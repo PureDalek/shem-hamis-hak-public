@@ -9,6 +9,7 @@ type Props = {
   search: Search;
   showStatistics: boolean;
   onClose: () => void;
+  onFindSimilar: () => void;
 };
 
 export default function NameDetailsDialog({
@@ -16,6 +17,7 @@ export default function NameDetailsDialog({
   search,
   showStatistics,
   onClose,
+  onFindSimilar,
 }: Props) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const number = numerology(name.name);
@@ -72,6 +74,9 @@ export default function NameDetailsDialog({
         {number !== null && (
           <p className="name-dialog-number">מספר נומרולוגי: {number}</p>
         )}
+        <button className="outline-button similar-trigger" onClick={onFindSimilar}>
+          עוד שמות בסגנון הזה ✦
+        </button>
       </div>
       <NameDetails name={name} showStatistics={showStatistics} />
     </dialog>

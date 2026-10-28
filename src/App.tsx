@@ -5,6 +5,8 @@ import NameDetails from "./NameDetails";
 import NameDetailsDialog from "./NameDetailsDialog";
 import CategoryPicker from "./CategoryPicker";
 import CategoryLabels from "./CategoryLabels";
+import SimilarNames from "./SimilarNames";
+import { categories } from "./categories";
 import { cloudConfigured } from "./cloud-config";
 import {
   ArrowLeft,
@@ -85,6 +87,10 @@ const tabs: { id: Screen; label: string; icon: typeof Heart }[] = [
 ];
 const lookup = (state: AppState, search: Search) =>
   new Map([...allNames(state), ...search.customNames].map((n) => [n.id, n]));
+const reportedFiveYearCount = (name: NameRecord) => {
+  const observations = name.observations.filter(o => o.year >= 2020 && o.year <= 2024);
+  return observations.length ? observations.reduce((sum, o) => sum + o.count, 0) : null;
+};
 
 function App() {
   const [state, setState] = useState<AppState>(load);
@@ -98,7 +104,11 @@ function App() {
   const [numberInfo, setNumberInfo] = useState<number | null>(null);
   const [input, setInput] = useState("");
   const [listTab, setListTab] = useState<"like" | "pass">("like");
+  const [listQuery, setListQuery] = useState("");
+  const [listSort, setListSort] = useState<"recent" | "alphabetical" | "reported">("recent");
   const [detailsNameId, setDetailsNameId] = useState<string | null>(null);
+  const [similarNameId, setSimilarNameId] = useState<string | null>(null);
+  const similarPanelRef = useRef<HTMLDivElement>(null);
   const [selected, setSelected] = useState<string[]>([]);
   const [notice, setNotice] = useState("");
   const [storageError, setStorageError] = useState(false);
@@ -118,6 +128,7 @@ function App() {
   const current = available[0];
   const progress = useMemo(() => active ? discoveryProgress(state, active) : null, [state, active]);
   const detailsName = detailsNameId ? names.get(detailsNameId) : undefined;
+  const similarReference = similarNameId ? names.get(similarNameId) : undefined;
   const liked = active
     ? Object.entries(active.decisions)
         .filter(([, d]) => d === "like")
@@ -130,6 +141,30 @@ function App() {
         .map(([id]) => id)
         .filter((id) => names.has(id))
     : [];
+  const listIds = listTab === "like" ? liked : passed;
+  const listOrder = new Map(listIds.map((id, index) => [id, index]));
+  const historyOrder = new Map(active?.history.map((entry, index) => [entry.id, index]) ?? []);
+  const visibleListIds = listIds.filter(id =>
+    normalize(names.get(id)!.name).toLocaleLowerCase("he").includes(normalize(listQuery).toLocaleLowerCase("he"))
+  ).sort((a, b) => {
+    const first = names.get(a)!;
+    const second = names.get(b)!;
+    if (listSort === "alphabetical") return first.name.localeCompare(second.name, "he");
+    if (listSort === "reported" && state.settings.showStatistics) {
+      return (reportedFiveYearCount(second) ?? -1) - (reportedFiveYearCount(first) ?? -1) || first.name.localeCompare(second.name, "he");
+    }
+    return (historyOrder.get(b) ?? -1) - (historyOrder.get(a) ?? -1) || listOrder.get(b)! - listOrder.get(a)!;
+  });
+  useEffect(() => {
+    if (similarNameId && screen === "saved") {
+      similarPanelRef.current?.scrollIntoView({ block: "start" });
+      similarPanelRef.current?.querySelector<HTMLElement>("#similar-title")?.focus({ preventScroll: true });
+    }
+  }, [similarNameId, screen]);
+  useEffect(() => {
+    setSimilarNameId(null);
+    setListQuery("");
+  }, [active?.id]);
   useEffect(() => {
     try {
       save(state);
@@ -224,9 +259,15 @@ function App() {
   const addCustom = () => {
     const text = normalize(input);
     if (!text || !active) return;
-    const existing = [...names.values()].find(
-      (n) => normalize(n.name) === text,
+    const matches = [...names.values()].filter(
+      (n) => normalize(n.name).toLocaleLowerCase("he") === text.toLocaleLowerCase("he"),
     );
+    const existing = matches.find(n => active.decisions[n.id] === "like") ?? matches[0];
+    if (existing && active.decisions[existing.id] === "like") {
+      setInput("");
+      flash("השם כבר נמצא ברשימה שלכם");
+      return;
+    }
     if (existing) updateSearch((s) => applyDecision(s, existing.id, "like"));
     else {
       const entry: NameRecord = {
@@ -402,6 +443,18 @@ function App() {
                 </div>
               </fieldset>
               <CategoryPicker state={state} search={draft} onChange={categories => setDraft({ ...draft, categories })} />
+              <div className="filter-fields">
+                <label className="field-label">אורך השם <span>לא חובה</span>
+                  <select value={draft.lengthFilter ?? ""} onChange={e => setDraft({ ...draft, lengthFilter: (e.target.value || undefined) as Search["lengthFilter"] })}>
+                    <option value="">כל האורכים</option><option value="short">עד 3 אותיות</option><option value="medium">4 אותיות</option><option value="long">5 אותיות ומעלה</option>
+                  </select>
+                </label>
+                <label className="field-label">אות ראשונה <span>לא חובה</span>
+                  <select value={draft.firstLetter ?? ""} onChange={e => setDraft({ ...draft, firstLetter: e.target.value || undefined })}>
+                    <option value="">כל האותיות</option>{Array.from("אבגדהוזחטיכלמנסעפצקרשת").map(letter => <option key={letter} value={letter}>{letter}</option>)}
+                  </select>
+                </label>
+              </div>
               <fieldset className="form-group">
                 <legend>איזה שם מחפשים?</legend>
                 <div className="segmented">
@@ -555,6 +608,17 @@ function App() {
                 </div>
                 <div className="round-badge">✳</div>
               </div>
+              {((active.categories?.length ?? 0) > 0 || active.numbers.length > 0 || active.lengthFilter || active.firstLetter) && (
+                <div className="active-filters" aria-label="סינונים פעילים">
+                  <span>סינונים פעילים:</span>
+                  {(active.categories ?? []).map(id => <button key={id} onClick={() => updateSearch(s => ({ ...s, categories: (s.categories ?? []).filter(category => category !== id) }))} aria-label={`הסרת סינון ${categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)}`}>
+                    {categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)} <X size={13} />
+                  </button>)}
+                  {active.numbers.map(number => <button key={number} onClick={() => updateSearch(s => ({ ...s, numbers: s.numbers.filter(n => n !== number) }))} aria-label={`הסרת סינון מספר ${number}`}>מספר {number} <X size={13} /></button>)}
+                  {active.lengthFilter && <button onClick={() => updateSearch(s => ({ ...s, lengthFilter: undefined }))} aria-label="הסרת סינון אורך">{active.lengthFilter === 'short' ? 'עד 3 אותיות' : active.lengthFilter === 'medium' ? '4 אותיות' : '5 אותיות ומעלה'} <X size={13} /></button>}
+                  {active.firstLetter && <button onClick={() => updateSearch(s => ({ ...s, firstLetter: undefined }))} aria-label={`הסרת סינון אות ${active.firstLetter}`}>אות {active.firstLetter} <X size={13} /></button>}
+                </div>
+              )}
               {current ? (
                 <>
                   <div className="name-card" key={current.id}>
@@ -656,7 +720,7 @@ function App() {
                 <div>
                   <span className="kicker">כל הלבבות במקום אחד</span>
                   <h2>הרשימה שלי</h2>
-                  <p>לחצו על שם כדי לחזור לפירוט ולסטטיסטיקות שלו.</p>
+                  <p>לחצו על שם לפירוט, לסטטיסטיקות ולהצעות לשמות דומים.</p>
                 </div>
                 <span className="section-count">{savedCount}</span>
               </div>
@@ -694,6 +758,18 @@ function App() {
                   </button>
                 </div>
               </div>
+              {similarReference && <div ref={similarPanelRef}>
+                <SimilarNames key={`${active.id}:${similarReference.id}`} state={state} search={active} reference={similarReference}
+                  onClose={() => setSimilarNameId(null)} onDetails={setDetailsNameId}
+                  onSave={id => { updateSearch(s => applyDecision(s, id, 'like')); flash('השם נוסף לרשימה'); }} />
+              </div>}
+              {listIds.length > 0 && <div className="list-controls">
+                <label className="field-label">חיפוש ברשימה<input value={listQuery} onChange={e => setListQuery(e.target.value)} placeholder="חיפוש שם" /></label>
+                <label className="field-label">מיון הרשימה<select value={listSort === 'reported' && !state.settings.showStatistics ? 'recent' : listSort} onChange={e => setListSort(e.target.value as typeof listSort)}>
+                  <option value="recent">האחרונים שסומנו</option><option value="alphabetical">לפי א״ב</option>{state.settings.showStatistics && <option value="reported">לפי מספר ילידים מדווחים</option>}
+                </select></label>
+                {listSort === 'reported' && state.settings.showStatistics && <p>לפי נתוני 2020–2024 שפורסמו בלבד; מספרים חסרים אינם אפס.</p>}
+              </div>}
               {(listTab === "like" ? liked : passed).length === 0 ? (
                 <div className="list-empty">
                   <Heart size={27} />
@@ -714,11 +790,11 @@ function App() {
                     בואו לגלות שמות ←
                   </button>
                 </div>
+              ) : visibleListIds.length === 0 ? (
+                <div className="list-empty"><h3>לא מצאנו שם מתאים ברשימה</h3><p>אפשר לשנות את החיפוש ולנסות שוב.</p><button className="text-link" onClick={() => setListQuery("")}>ניקוי החיפוש</button></div>
               ) : (
                 <div className="name-list">
-                  {(listTab === "like" ? liked : passed)
-                    .slice()
-                    .reverse()
+                  {visibleListIds
                     .map((id) => {
                       const n = names.get(id)!;
                       return (
@@ -738,6 +814,9 @@ function App() {
                                 {n.custom ? "שם שהוספתם" : "שם מהמאגר"}
                                 {active.surname ? ` · ${active.surname}` : ""}
                               </small>
+                              {listSort === "reported" && state.settings.showStatistics && <small>
+                                {reportedFiveYearCount(n) === null ? "אין נתונים שפורסמו" : `לפחות ${reportedFiveYearCount(n)!.toLocaleString("he-IL")} ילידים מדווחים`}
+                              </small>}
                             </span>
                             <ChevronLeft size={18} className="list-details-icon" aria-hidden="true" />
                           </button>
@@ -1212,6 +1291,7 @@ function App() {
           search={active}
           showStatistics={state.settings.showStatistics}
           onClose={() => setDetailsNameId(null)}
+          onFindSimilar={() => { setSimilarNameId(detailsName.id); setDetailsNameId(null); }}
         />
       )}
       {numberInfo !== null && (
