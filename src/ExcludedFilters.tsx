@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import { categories } from "./categories";
+import { categories, exclusionLabel } from "./categories";
 import type { Search } from "./domain";
 
 const populationGroups = ["יהודים", "מוסלמים", "נוצרים ערבים", "דרוזים"];
@@ -65,7 +65,7 @@ export default function ExcludedFilters({
                     })
                   }
                 >
-                  ללא {category.label}
+                  {exclusionLabel(category.id)}
                 </button>
               );
             })}

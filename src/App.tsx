@@ -7,7 +7,7 @@ import CategoryPicker from "./CategoryPicker";
 import ExcludedFilters from "./ExcludedFilters";
 import CategoryLabels from "./CategoryLabels";
 import SimilarNames from "./SimilarNames";
-import { categories } from "./categories";
+import { categories, exclusionLabel } from "./categories";
 import { cloudConfigured } from "./cloud-config";
 import {
   ArrowLeft,
@@ -617,7 +617,7 @@ function App() {
                     {categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)} <X size={13} />
                   </button>)}
                   {(active.excludedCategories ?? []).map(id => <button key={`exclude:${id}`} onClick={() => updateSearch(s => ({ ...s, excludedCategories: (s.excludedCategories ?? []).filter(category => category !== id) }))} aria-label={`הסרת החרגת ${categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)}`}>
-                    ללא {categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)} <X size={13} />
+                    {exclusionLabel(id)} <X size={13} />
                   </button>)}
                   {(active.excludedPopulationGroups ?? []).map(group => <button key={`group:${group}`} onClick={() => updateSearch(s => ({ ...s, excludedPopulationGroups: (s.excludedPopulationGroups ?? []).filter(value => value !== group) }))} aria-label={`הסרת החרגת נתונים שפורסמו אצל ${group}`}>
                     ללא נתונים שפורסמו אצל {group} <X size={13} />
