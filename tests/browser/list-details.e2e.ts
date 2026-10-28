@@ -57,11 +57,14 @@ test('saved and passed names reopen the same details without changing decisions'
   await expect(page.getByRole('dialog', { name: passedName, exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'חזרה לרשימה' }).click();
   await expect(page.locator('.list-item')).toHaveCount(1);
+  // Opening details must preserve the next recommendation. Restoring a passed
+  // name below adds a like and can legitimately change similarity ranking.
+  await page.getByRole('button', { name: 'דפדוף', exact: true }).click();
+  await expect(page.locator('.display-name')).toHaveText(nextName);
+  await page.getByRole('button', { name: /1 שמורים/ }).click();
   await page.getByRole('button', { name: `החזרת ${passedName} לשמות ששמרתם` }).click();
   await expect(page.getByRole('button', { name: /2 שמורים/ })).toBeVisible();
   await expect(page.locator('.list-item')).toHaveCount(0);
-  await page.getByRole('button', { name: 'דפדוף', exact: true }).click();
-  await expect(page.locator('.display-name')).toHaveText(nextName);
 });
 
 test('custom names show unavailable data and the backdrop dismisses their details', async ({ page }) => {

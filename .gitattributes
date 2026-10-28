@@ -1,0 +1,3 @@
+# These research inputs are hashed by the explicit approval plans.
+data/research/all-name-meanings/additional-candidates.tsv text eol=lf
+data/research/all-name-meanings/alias-groups.tsv text eol=lf

@@ -1,0 +1,16 @@
+{
+  "startedAt": "2026-10-28T20:06:38.483697+00:00",
+  "updatedAt": "2026-10-28T21:45:11.123847+00:00",
+  "cohortSize": 2253,
+  "counts": {
+    "unresolved_with_dictionary_evidence": 216,
+    "meaning_found": 1850,
+    "no_match_in_checked_sources": 187
+  },
+  "additionalMeanings": 1850,
+  "catalogMeanings": 2028,
+  "sourceCountDefinition": "Distinct linked source pages; not certainty or independent corroboration",
+  "publicationMode": "published",
+  "catalogSha256": "0760d85ed6a3810084d1ec9f3e331c9caa40321e2243105a1a39af38bef4ce62",
+  "coverage": "Every initially unannotated name has an exact-spelling lookup and, where explicitly authored, alias lookups. An unresolved result is not a claim that no meaning exists. This is a first full research pass, not an independent linguistic audit."
+}

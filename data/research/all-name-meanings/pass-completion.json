@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-10-28T20:06:38.483697+00:00",
+  "completedAt": "2026-10-28T21:43:14.242277+00:00",
+  "scope": "First full research pass over every initially unannotated catalog name",
+  "catalogNames": 2431,
+  "initialMeanings": 178,
+  "namesResearched": 2253,
+  "addedMeanings": 1850,
+  "totalMeanings": 2028,
+  "unresolved": 403,
+  "coveragePercent": 83.42,
+  "meaningStatuses": {
+    "possible": 1942,
+    "disputed": 86
+  },
+  "incompleteLookups": 0,
+  "catalogSha256": "0760d85ed6a3810084d1ec9f3e331c9caa40321e2243105a1a39af38bef4ce62",
+  "editorialSha256": "d27a82df24b01140adbb29a5bda5c7314e8b67bf4446d05fda83c4b5543c4015",
+  "sourceCountDefinition": "Distinct linked pages, never a confidence score or count of independent corroborations",
+  "limitations": [
+    "Possible transliteration matches and morphological analyses are explicitly qualified.",
+    "Unresolved names may have meanings in sources outside the checked dictionaries.",
+    "This pass is not an independent linguistic review."
+  ]
+}

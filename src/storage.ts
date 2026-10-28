@@ -2,6 +2,7 @@ import {
   defaultSettings,
   initialState,
   publishedRevision,
+  validMeaningEvidence,
   type AppState,
 } from "./domain";
 
@@ -131,6 +132,7 @@ export function parseBackup(text: string): AppState {
       typeof n === "object" &&
       typeof (n as { id?: unknown }).id === "string" &&
       typeof (n as { name?: unknown }).name === "string" &&
+      validMeaningEvidence(n as object) &&
       ((n as { tags?: unknown }).tags === undefined || (Array.isArray((n as { tags?: unknown }).tags) && (n as { tags: unknown[] }).tags.every(tag => typeof tag === 'string'))) &&
       Array.isArray((n as { genders?: unknown }).genders) &&
       (n as { genders: unknown[] }).genders.every(
@@ -168,6 +170,9 @@ export function parseBackup(text: string): AppState {
             "meaning",
             "origin",
             "meaningSource",
+            "meaningStatus",
+            "meaningNote",
+            "meaningReferences",
             "hidden",
             "genders",
             "tags",
@@ -176,6 +181,7 @@ export function parseBackup(text: string): AppState {
         (entry.name === undefined ||
           (typeof entry.name === "string" && entry.name.length <= 80)) &&
         (entry.meaning === undefined || typeof entry.meaning === "string") &&
+        validMeaningEvidence(entry) &&
         (entry.tags === undefined || (Array.isArray(entry.tags) && entry.tags.every(tag => typeof tag === 'string'))) &&
         (entry.origin === undefined || typeof entry.origin === "string") &&
         (entry.meaningSource === undefined ||

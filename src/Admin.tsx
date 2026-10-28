@@ -11,6 +11,9 @@ import {
   availableNames,
   catalogSource,
   isSafeHttpsUrl,
+  meaningReferences,
+  meaningStatusLabels,
+  validMeaningEvidence,
   makeId,
   normalize,
   type AppState,
@@ -36,7 +39,8 @@ export default function Admin({ state, setState, onBack }: Props) {
     (name) =>
       !name.name.trim() ||
       (!name.hidden && name.genders.length === 0) ||
-      Boolean(name.meaningSource && !isSafeHttpsUrl(name.meaningSource)),
+      Boolean(name.meaningSource && !isSafeHttpsUrl(name.meaningSource)) ||
+      !validMeaningEvidence(name),
   );
   const active = state.searches.find((search) => search.id === state.activeId);
   const sample = active ? availableNames(state, active).slice(0, 5) : [];
@@ -46,7 +50,13 @@ export default function Admin({ state, setState, onBack }: Props) {
       ...prev,
       overrides: {
         ...prev.overrides,
-        [record.id]: { ...prev.overrides[record.id], ...changes },
+        [record.id]: {
+          ...prev.overrides[record.id],
+          ...(["name", "meaning", "origin", "meaningSource"].some(key => Object.prototype.hasOwnProperty.call(changes, key))
+            ? { meaningReferences: [], meaningStatus: "possible" as const, meaningNote: "", meaningSource: "" }
+            : { meaningReferences: record.meaningReferences, meaningStatus: record.meaningStatus, meaningNote: record.meaningNote, meaningSource: record.meaningSource }),
+          ...changes,
+        },
       },
     }));
   };
@@ -265,6 +275,17 @@ export default function Admin({ state, setState, onBack }: Props) {
             />
           </label>
           <label>
+            מעמד הפירוש
+            <select value={record.meaningStatus ?? "possible"}
+              onChange={e => edit({ meaningStatus: e.target.value as NameRecord["meaningStatus"] })}>
+              {Object.entries(meaningStatusLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+            </select>
+          </label>
+          <label>
+            הסתייגות או הסבר לסימוכין
+            <textarea value={record.meaningNote ?? ""} onChange={e => edit({ meaningNote: e.target.value })} />
+          </label>
+          <label>
             קישור למקור הפירוש (HTTPS)
             <input
               type="url"
@@ -274,6 +295,13 @@ export default function Admin({ state, setState, onBack }: Props) {
               placeholder="https://…"
             />
           </label>
+          {meaningReferences(record).length > 0 && <ul>
+            {meaningReferences(record).map(ref => <li key={ref.url}>
+              <a href={ref.url} target="_blank" rel="noreferrer">{ref.label} ↗</a>
+              {ref.note && <span> — {ref.note}</span>}
+            </li>)}
+          </ul>}
+          <p>שינוי השם, המשמעות או המקור מסיר סימוכין קודמים כדי שלא ייוחסו לנוסח חדש. אפשר לצרף קישור מקור מחדש.</p>
           <label className="check-row">
             <input
               type="checkbox"

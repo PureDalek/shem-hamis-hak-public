@@ -651,6 +651,15 @@ textarea {
 .name-details a {
   color: #ac503e;
 }
+.meaning-evidence {
+  border-inline-start: 2px solid #d7b49a;
+  padding-inline-start: 12px;
+  margin-block: 14px;
+  overflow-wrap: anywhere;
+}
+.meaning-evidence ul { padding-inline-start: 20px; margin-block: 6px; }
+.meaning-evidence li + li { margin-top: 6px; }
+.meaning-evidence .evidence-caveat { font-size: 11px; }
 .decision-row {
   display: grid;
   grid-template-columns: 1fr 1fr;

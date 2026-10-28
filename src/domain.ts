@@ -52,11 +52,55 @@ export type NameRecord = {
   meaning?: string;
   origin?: string;
   meaningSource?: string;
+  meaningStatus?: "documented" | "possible" | "disputed";
+  meaningNote?: string;
+  meaningReferences?: MeaningReference[];
   tags?: string[];
   custom?: boolean;
   hidden?: boolean;
 };
 export type Decision = "like" | "pass";
+export type MeaningReference = { url: string; label: string; note?: string };
+export const meaningStatusLabels = {
+  documented: "פירוש מתועד", possible: "פירוש אפשרי", disputed: "פירוש שנוי במחלוקת",
+} as const;
+
+/** Shared by backup import and publication; source links are untrusted input. */
+export function validMeaningEvidence(value: {
+  meaningStatus?: unknown; meaningNote?: unknown; meaningReferences?: unknown;
+}): boolean {
+  return (value.meaningStatus === undefined ||
+    (typeof value.meaningStatus === "string" && Object.prototype.hasOwnProperty.call(meaningStatusLabels, value.meaningStatus))) &&
+    (value.meaningNote === undefined || typeof value.meaningNote === "string") &&
+    (value.meaningReferences === undefined || (Array.isArray(value.meaningReferences) &&
+      value.meaningReferences.length <= 30 && value.meaningReferences.every((ref: unknown) => {
+        if (!ref || typeof ref !== "object") return false;
+        const r = ref as Partial<MeaningReference>;
+        return typeof r.url === "string" && isSafeHttpsUrl(r.url) &&
+          typeof r.label === "string" && Boolean(r.label.trim()) &&
+          (r.note === undefined || typeof r.note === "string");
+      })));
+}
+
+/** Count distinct pages, not duplicate links, fragments, or revision URLs. */
+export function meaningReferences(name: NameRecord): MeaningReference[] {
+  const references = [...(name.meaningReferences ?? [])];
+  if (name.meaningSource) references.push({ url: name.meaningSource, label: "מקור לפירוש השם" });
+  const seen = new Set<string>();
+  return references.filter((ref) => {
+    if (!isSafeHttpsUrl(ref.url)) return false;
+    const url = new URL(ref.url);
+    let path: string;
+    try { path = decodeURI(url.pathname).normalize("NFC").replace(/\/$/, ""); }
+    catch { path = url.pathname; }
+    if (url.hostname.endsWith(".wiktionary.org") && path === "/w/index.php" && url.searchParams.has("title"))
+      path = `/wiki/${url.searchParams.get("title")!.replaceAll(" ", "_")}`;
+    const key = `${url.hostname}${path}${url.hostname.endsWith(".wiktionary.org") ? "" : url.search}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
 export type Search = {
   id: string;
   gender: Gender;
@@ -171,13 +215,22 @@ export function allNames(state: AppState): NameRecord[] {
   const byId = new Map(
     [...catalog, ...state.extraCatalog].map((name) => [name.id, name]),
   );
-  return [...byId.values()].map((name) => ({
-    tags: initialCategories(name.name),
-    ...(editorial as Record<string, Partial<NameRecord>>)[name.id],
-    ...name,
-    ...state.overrides[name.id],
-    id: name.id,
-  }));
+  return [...byId.values()].map((name) => {
+    const override = state.overrides[name.id];
+    // Older local edits must not inherit evidence for a different meaning.
+    const resetEvidence = override && ["name", "meaning", "origin", "meaningSource"].some(key => Object.prototype.hasOwnProperty.call(override, key));
+    const emptyEvidence = { meaningReferences: [], meaningStatus: "possible" as const, meaningNote: "", meaningSource: "" };
+    const catalogHasMeaning = ["meaning", "origin", "meaningSource"].some(key => Object.prototype.hasOwnProperty.call(name, key));
+    return {
+      tags: initialCategories(name.name),
+      ...(editorial as Record<string, Partial<NameRecord>>)[name.id],
+      ...(catalogHasMeaning ? emptyEvidence : {}),
+      ...name,
+      ...(resetEvidence ? emptyEvidence : {}),
+      ...override,
+      id: name.id,
+    };
+  });
 }
 export function namesForSearch(state: AppState, search: Search): NameRecord[] {
   const names = [...allNames(state), ...search.customNames];

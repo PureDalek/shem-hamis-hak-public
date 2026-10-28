@@ -4,6 +4,7 @@ import {
   initialState,
   installPublishedContent,
   isSafeHttpsUrl,
+  validMeaningEvidence,
   type AppState,
   type NameRecord,
   type Settings,
@@ -51,6 +52,7 @@ export function validatePublished(input: unknown): Published {
       name.name.length > 80 ||
       (name.meaning !== undefined && typeof name.meaning !== "string") ||
       (name.origin !== undefined && typeof name.origin !== "string") ||
+      !validMeaningEvidence(name) ||
       (name.tags !== undefined && (!Array.isArray(name.tags) || !name.tags.every((tag) => typeof tag === 'string'))) ||
       (name.meaningSource !== undefined &&
         (typeof name.meaningSource !== "string" ||

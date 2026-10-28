@@ -1,0 +1,7832 @@
+[
+  {
+    "id": "cbs:אאוס",
+    "name": "אאוס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أوس"
+    ]
+  },
+  {
+    "id": "cbs:אביהו",
+    "name": "אביהו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Abijah"
+    ]
+  },
+  {
+    "id": "cbs:אדוארד",
+    "name": "אדוארד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Edward"
+    ]
+  },
+  {
+    "id": "cbs:אדים",
+    "name": "אדים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:אדים",
+      "en:أديم"
+    ]
+  },
+  {
+    "id": "cbs:אדל",
+    "name": "אדל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:אדל",
+      "en:Adel"
+    ]
+  },
+  {
+    "id": "cbs:אדריאן",
+    "name": "אדריאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Adrian"
+    ]
+  },
+  {
+    "id": "cbs:אדריס",
+    "name": "אדריס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إدريس"
+    ]
+  },
+  {
+    "id": "cbs:אהרון",
+    "name": "אהרון",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:אהרון",
+      "en:Aharon"
+    ]
+  },
+  {
+    "id": "cbs:אואיס",
+    "name": "אואיס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أويس",
+      "en:أوس"
+    ]
+  },
+  {
+    "id": "cbs:אובאי",
+    "name": "אובאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أبي"
+    ]
+  },
+  {
+    "id": "cbs:אוביי",
+    "name": "אוביי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أبي"
+    ]
+  },
+  {
+    "id": "cbs:אודל",
+    "name": "אודל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Odel"
+    ]
+  },
+  {
+    "id": "cbs:אווס",
+    "name": "אווס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أوس"
+    ]
+  },
+  {
+    "id": "cbs:אויס",
+    "name": "אויס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:אויס",
+      "en:أوس"
+    ]
+  },
+  {
+    "id": "cbs:אולי",
+    "name": "אולי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:אולי",
+      "en:אולי"
+    ]
+  },
+  {
+    "id": "cbs:אומה",
+    "name": "אומה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:אומה",
+      "en:אומה"
+    ]
+  },
+  {
+    "id": "cbs:אוראל",
+    "name": "אוראל",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Orel"
+    ]
+  },
+  {
+    "id": "cbs:אורין",
+    "name": "אורין",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:אורין"
+    ]
+  },
+  {
+    "id": "cbs:אורנה",
+    "name": "אורנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Orna"
+    ]
+  },
+  {
+    "id": "cbs:אחינועם",
+    "name": "אחינועם",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אחינועם"
+    ]
+  },
+  {
+    "id": "cbs:איאד",
+    "name": "איאד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إياد"
+    ]
+  },
+  {
+    "id": "cbs:איאן",
+    "name": "איאן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמיות",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Ian"
+    ]
+  },
+  {
+    "id": "cbs:איאס",
+    "name": "איאס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إياس"
+    ]
+  },
+  {
+    "id": "cbs:איב",
+    "name": "איב",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:איב",
+      "en:איב"
+    ]
+  },
+  {
+    "id": "cbs:אידריס",
+    "name": "אידריס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إدريس"
+    ]
+  },
+  {
+    "id": "cbs:איה",
+    "name": "איה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:איה",
+      "en:איה"
+    ]
+  },
+  {
+    "id": "cbs:איהאב",
+    "name": "איהאב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إيهاب"
+    ]
+  },
+  {
+    "id": "cbs:איוב",
+    "name": "איוב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:איוב",
+      "en:איוב",
+      "en:أيوب",
+      "en:Job"
+    ]
+  },
+  {
+    "id": "cbs:איוון",
+    "name": "איוון",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Ivan",
+      "en:Evan"
+    ]
+  },
+  {
+    "id": "cbs:איזבל",
+    "name": "איזבל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:איזבל"
+    ]
+  },
+  {
+    "id": "cbs:איטה",
+    "name": "איטה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Ita"
+    ]
+  },
+  {
+    "id": "cbs:איידי",
+    "name": "איידי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:איידי"
+    ]
+  },
+  {
+    "id": "cbs:איידל",
+    "name": "איידל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:איידל"
+    ]
+  },
+  {
+    "id": "cbs:אייל",
+    "name": "אייל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודים",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "he:אייל",
+      "en:אייל"
+    ]
+  },
+  {
+    "id": "cbs:איילן",
+    "name": "איילן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות"
+    ],
+    "sources": [
+      "en:איילן"
+    ]
+  },
+  {
+    "id": "cbs:איילת השחר",
+    "name": "איילת השחר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:איילת השחר"
+    ]
+  },
+  {
+    "id": "cbs:אייר",
+    "name": "אייר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:אייר",
+      "en:אייר"
+    ]
+  },
+  {
+    "id": "cbs:אילא",
+    "name": "אילא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:אילא"
+    ]
+  },
+  {
+    "id": "cbs:איליאא",
+    "name": "איליאא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:إيلياء",
+      "en:إيليا"
+    ]
+  },
+  {
+    "id": "cbs:איליה",
+    "name": "איליה",
+    "genders": [
+      "boy",
+      "girl"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Ilja"
+    ]
+  },
+  {
+    "id": "cbs:אילין",
+    "name": "אילין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:אילין"
+    ]
+  },
+  {
+    "id": "cbs:אילנה",
+    "name": "אילנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Ilana"
+    ]
+  },
+  {
+    "id": "cbs:איסמאיל",
+    "name": "איסמאיל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إسماعيل",
+      "en:ישמעאל"
+    ]
+  },
+  {
+    "id": "cbs:איתם",
+    "name": "איתם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:איתם"
+    ]
+  },
+  {
+    "id": "cbs:אלארי",
+    "name": "אלארי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Alari"
+    ]
+  },
+  {
+    "id": "cbs:אלונה",
+    "name": "אלונה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Alona"
+    ]
+  },
+  {
+    "id": "cbs:אלחסן",
+    "name": "אלחסן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:الحسن",
+      "en:حسن"
+    ]
+  },
+  {
+    "id": "cbs:אלטע",
+    "name": "אלטע",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אלטע"
+    ]
+  },
+  {
+    "id": "cbs:אלי",
+    "name": "אלי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:אלי",
+      "en:Alli"
+    ]
+  },
+  {
+    "id": "cbs:אליאא",
+    "name": "אליאא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:إيلياء",
+      "en:إيليا"
+    ]
+  },
+  {
+    "id": "cbs:אליאן",
+    "name": "אליאן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Alian"
+    ]
+  },
+  {
+    "id": "cbs:אליהו",
+    "name": "אליהו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:אליהו"
+    ]
+  },
+  {
+    "id": "cbs:אלין",
+    "name": "אלין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:אלין",
+      "en:Alan"
+    ]
+  },
+  {
+    "id": "cbs:אליענה",
+    "name": "אליענה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אליענה"
+    ]
+  },
+  {
+    "id": "cbs:אלכס",
+    "name": "אלכס",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Alex"
+    ]
+  },
+  {
+    "id": "cbs:אלכסנדר",
+    "name": "אלכסנדר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:אלכסנדר",
+      "en:אלכסנדר"
+    ]
+  },
+  {
+    "id": "cbs:אלמא",
+    "name": "אלמא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:אלמא"
+    ]
+  },
+  {
+    "id": "cbs:אלמה",
+    "name": "אלמה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:אלמה",
+      "en:אלמה"
+    ]
+  },
+  {
+    "id": "cbs:אלמוג",
+    "name": "אלמוג",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:אלמוג",
+      "en:אלמוג"
+    ]
+  },
+  {
+    "id": "cbs:אלרואי",
+    "name": "אלרואי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Elroy"
+    ]
+  },
+  {
+    "id": "cbs:אלתר",
+    "name": "אלתר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:אלתר",
+      "en:אלתר",
+      "en:Elter"
+    ]
+  },
+  {
+    "id": "cbs:אמג'ד",
+    "name": "אמג'ד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:أمجد"
+    ]
+  },
+  {
+    "id": "cbs:אמה",
+    "name": "אמה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:אמה",
+      "en:אמה",
+      "en:Emma"
+    ]
+  },
+  {
+    "id": "cbs:אמור",
+    "name": "אמור",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:אמור",
+      "en:אמור"
+    ]
+  },
+  {
+    "id": "cbs:אמיל",
+    "name": "אמיל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "he:אמיל",
+      "en:Emil"
+    ]
+  },
+  {
+    "id": "cbs:אמילי",
+    "name": "אמילי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Emily"
+    ]
+  },
+  {
+    "id": "cbs:אמיתי",
+    "name": "אמיתי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:אמיתי"
+    ]
+  },
+  {
+    "id": "cbs:אמליה",
+    "name": "אמליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Amalia"
+    ]
+  },
+  {
+    "id": "cbs:אמן",
+    "name": "אמן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:אמן",
+      "en:אמן",
+      "en:Aman"
+    ]
+  },
+  {
+    "id": "cbs:אמר",
+    "name": "אמר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:אמר",
+      "en:אמר",
+      "en:Amar"
+    ]
+  },
+  {
+    "id": "cbs:אמרי",
+    "name": "אמרי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Imri"
+    ]
+  },
+  {
+    "id": "cbs:אן",
+    "name": "אן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:אן"
+    ]
+  },
+  {
+    "id": "cbs:אנאל",
+    "name": "אנאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Anel"
+    ]
+  },
+  {
+    "id": "cbs:אנדי",
+    "name": "אנדי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Andy"
+    ]
+  },
+  {
+    "id": "cbs:אנה",
+    "name": "אנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:אנה",
+      "en:אנה",
+      "en:Anna",
+      "en:Ana"
+    ]
+  },
+  {
+    "id": "cbs:אניה",
+    "name": "אניה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:אניה",
+      "en:אניה"
+    ]
+  },
+  {
+    "id": "cbs:אנפאל",
+    "name": "אנפאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نفل"
+    ]
+  },
+  {
+    "id": "cbs:אסא",
+    "name": "אסא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:אסא"
+    ]
+  },
+  {
+    "id": "cbs:אסיא",
+    "name": "אסיא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:אסיא",
+      "en:אסיא"
+    ]
+  },
+  {
+    "id": "cbs:אסיה",
+    "name": "אסיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:אסיה",
+      "en:אסיה"
+    ]
+  },
+  {
+    "id": "cbs:אסנת",
+    "name": "אסנת",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אסנת",
+      "en:Osnat"
+    ]
+  },
+  {
+    "id": "cbs:אסר",
+    "name": "אסר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:אסר",
+      "en:אסר",
+      "en:أسر",
+      "en:آسر"
+    ]
+  },
+  {
+    "id": "cbs:אסתר",
+    "name": "אסתר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:אסתר",
+      "en:אסתר",
+      "en:Esther"
+    ]
+  },
+  {
+    "id": "cbs:אפריל",
+    "name": "אפריל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:אפריל",
+      "en:אפריל"
+    ]
+  },
+  {
+    "id": "cbs:ארד",
+    "name": "ארד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:ארד",
+      "en:ארד",
+      "en:Arad"
+    ]
+  },
+  {
+    "id": "cbs:ארוא",
+    "name": "ארוא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:أروى"
+    ]
+  },
+  {
+    "id": "cbs:אריא",
+    "name": "אריא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אריא"
+    ]
+  },
+  {
+    "id": "cbs:אריאם",
+    "name": "אריאם",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ريم"
+    ]
+  },
+  {
+    "id": "cbs:אריס",
+    "name": "אריס",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:אריס"
+    ]
+  },
+  {
+    "id": "cbs:אריקה",
+    "name": "אריקה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:אריקה"
+    ]
+  },
+  {
+    "id": "cbs:אשחר",
+    "name": "אשחר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:אשחר"
+    ]
+  },
+  {
+    "id": "cbs:אשרקת",
+    "name": "אשרקת",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:أشرق"
+    ]
+  },
+  {
+    "id": "cbs:אתי",
+    "name": "אתי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:אתי",
+      "en:אתי",
+      "en:Eti"
+    ]
+  },
+  {
+    "id": "cbs:אתיר",
+    "name": "אתיר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:أثير"
+    ]
+  },
+  {
+    "id": "cbs:באנה",
+    "name": "באנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:بانة",
+      "en:بان"
+    ]
+  },
+  {
+    "id": "cbs:בועז",
+    "name": "בועז",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:בועז",
+      "en:בועז",
+      "en:Boaz"
+    ]
+  },
+  {
+    "id": "cbs:ביירות",
+    "name": "ביירות",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ביירות",
+      "en:بيروت"
+    ]
+  },
+  {
+    "id": "cbs:בילא",
+    "name": "בילא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:בילא",
+      "en:Vila"
+    ]
+  },
+  {
+    "id": "cbs:בילה",
+    "name": "בילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:בילה"
+    ]
+  },
+  {
+    "id": "cbs:בירות",
+    "name": "בירות",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:בירות",
+      "en:بيروت"
+    ]
+  },
+  {
+    "id": "cbs:בל",
+    "name": "בל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בל",
+      "en:בל"
+    ]
+  },
+  {
+    "id": "cbs:בלאל",
+    "name": "בלאל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:بلال"
+    ]
+  },
+  {
+    "id": "cbs:בלה",
+    "name": "בלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בלה",
+      "en:בלה"
+    ]
+  },
+  {
+    "id": "cbs:בלהה",
+    "name": "בלהה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בלהה",
+      "en:בלהה",
+      "en:Volha"
+    ]
+  },
+  {
+    "id": "cbs:בלן",
+    "name": "בלן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בלן"
+    ]
+  },
+  {
+    "id": "cbs:בני",
+    "name": "בני",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:בני",
+      "en:Beni"
+    ]
+  },
+  {
+    "id": "cbs:בנייה",
+    "name": "בנייה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:בנייה",
+      "en:בנייה"
+    ]
+  },
+  {
+    "id": "cbs:בראאה",
+    "name": "בראאה",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:براءة"
+    ]
+  },
+  {
+    "id": "cbs:בראל",
+    "name": "בראל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Berel"
+    ]
+  },
+  {
+    "id": "cbs:בראשית",
+    "name": "בראשית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בראשית",
+      "en:בראשית"
+    ]
+  },
+  {
+    "id": "cbs:ברוק",
+    "name": "ברוק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:ברוק"
+    ]
+  },
+  {
+    "id": "cbs:ברי",
+    "name": "ברי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:ברי",
+      "en:Bari",
+      "en:Bary"
+    ]
+  },
+  {
+    "id": "cbs:בשאר",
+    "name": "בשאר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:بشار",
+      "en:بشارة"
+    ]
+  },
+  {
+    "id": "cbs:בת שבע",
+    "name": "בת שבע",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:בת שבע",
+      "en:בת שבע"
+    ]
+  },
+  {
+    "id": "cbs:בתאל",
+    "name": "בתאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Betel"
+    ]
+  },
+  {
+    "id": "cbs:ג'אסם",
+    "name": "ג'אסם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:جاسم"
+    ]
+  },
+  {
+    "id": "cbs:ג'אסר",
+    "name": "ג'אסר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:جاسر"
+    ]
+  },
+  {
+    "id": "cbs:ג'וזף",
+    "name": "ג'וזף",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Joseph"
+    ]
+  },
+  {
+    "id": "cbs:ג'ויס",
+    "name": "ג'ויס",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Joyce"
+    ]
+  },
+  {
+    "id": "cbs:ג'וליאן",
+    "name": "ג'וליאן",
+    "genders": [
+      "boy",
+      "girl"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודים",
+      "מוסלמיות",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Julian"
+    ]
+  },
+  {
+    "id": "cbs:ג'וליאנה",
+    "name": "ג'וליאנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Juliana"
+    ]
+  },
+  {
+    "id": "cbs:ג'ון",
+    "name": "ג'ון",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:John"
+    ]
+  },
+  {
+    "id": "cbs:ג'ונתן",
+    "name": "ג'ונתן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Jonathan"
+    ]
+  },
+  {
+    "id": "cbs:ג'ורין",
+    "name": "ג'ורין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:جورين"
+    ]
+  },
+  {
+    "id": "cbs:ג'ילאן",
+    "name": "ג'ילאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Gilan"
+    ]
+  },
+  {
+    "id": "cbs:ג'לא",
+    "name": "ג'לא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:جلاء"
+    ]
+  },
+  {
+    "id": "cbs:ג'סיקה",
+    "name": "ג'סיקה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Jessica"
+    ]
+  },
+  {
+    "id": "cbs:גאולה",
+    "name": "גאולה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:גאולה",
+      "en:גאולה"
+    ]
+  },
+  {
+    "id": "cbs:גאיה",
+    "name": "גאיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Gaia"
+    ]
+  },
+  {
+    "id": "cbs:גאל",
+    "name": "גאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:גאל",
+      "en:גאל"
+    ]
+  },
+  {
+    "id": "cbs:גבריאלה",
+    "name": "גבריאלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Gabrielle"
+    ]
+  },
+  {
+    "id": "cbs:גולדה",
+    "name": "גולדה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:גולדה"
+    ]
+  },
+  {
+    "id": "cbs:גולן",
+    "name": "גולן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים",
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:גולן",
+      "en:גולן",
+      "en:Golan"
+    ]
+  },
+  {
+    "id": "cbs:גומא",
+    "name": "גומא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:גומא",
+      "en:גומא"
+    ]
+  },
+  {
+    "id": "cbs:גון",
+    "name": "גון",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:גון"
+    ]
+  },
+  {
+    "id": "cbs:גורי",
+    "name": "גורי",
+    "genders": [
+      "boy",
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודים",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Gori"
+    ]
+  },
+  {
+    "id": "cbs:גידאא",
+    "name": "גידאא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:غيداء"
+    ]
+  },
+  {
+    "id": "cbs:גיטה",
+    "name": "גיטה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Gita"
+    ]
+  },
+  {
+    "id": "cbs:גיטי",
+    "name": "גיטי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Giti"
+    ]
+  },
+  {
+    "id": "cbs:גיטל",
+    "name": "גיטל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:גיטל"
+    ]
+  },
+  {
+    "id": "cbs:גינה",
+    "name": "גינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:גינה"
+    ]
+  },
+  {
+    "id": "cbs:גלי",
+    "name": "גלי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:גלי",
+      "en:Gali"
+    ]
+  },
+  {
+    "id": "cbs:גליה",
+    "name": "גליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:גליה",
+      "en:Galia"
+    ]
+  },
+  {
+    "id": "cbs:גסאן",
+    "name": "גסאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:غسان"
+    ]
+  },
+  {
+    "id": "cbs:דאניה",
+    "name": "דאניה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:دان"
+    ]
+  },
+  {
+    "id": "cbs:דארין",
+    "name": "דארין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:دارين"
+    ]
+  },
+  {
+    "id": "cbs:דבי",
+    "name": "דבי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:דבי"
+    ]
+  },
+  {
+    "id": "cbs:דהאם",
+    "name": "דהאם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:دهم"
+    ]
+  },
+  {
+    "id": "cbs:דוחא",
+    "name": "דוחא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ضحى"
+    ]
+  },
+  {
+    "id": "cbs:דולב",
+    "name": "דולב",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:דולב"
+    ]
+  },
+  {
+    "id": "cbs:דון",
+    "name": "דון",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:דון"
+    ]
+  },
+  {
+    "id": "cbs:דורון",
+    "name": "דורון",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:דורון",
+      "en:דורון",
+      "en:Doron"
+    ]
+  },
+  {
+    "id": "cbs:דורי",
+    "name": "דורי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:דורי",
+      "en:Dore",
+      "en:Duri"
+    ]
+  },
+  {
+    "id": "cbs:דוריאן",
+    "name": "דוריאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:דוריאן"
+    ]
+  },
+  {
+    "id": "cbs:דיאלא",
+    "name": "דיאלא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ديالى"
+    ]
+  },
+  {
+    "id": "cbs:דיאלה",
+    "name": "דיאלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ديالى"
+    ]
+  },
+  {
+    "id": "cbs:דיאנה",
+    "name": "דיאנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Diana"
+    ]
+  },
+  {
+    "id": "cbs:דיין",
+    "name": "דיין",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים"
+    ],
+    "sources": [
+      "he:דיין",
+      "en:דיין"
+    ]
+  },
+  {
+    "id": "cbs:דילן",
+    "name": "דילן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:דילן"
+    ]
+  },
+  {
+    "id": "cbs:דינא",
+    "name": "דינא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:דינא"
+    ]
+  },
+  {
+    "id": "cbs:דני",
+    "name": "דני",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:דני"
+    ]
+  },
+  {
+    "id": "cbs:דפנה",
+    "name": "דפנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:דפנה",
+      "en:דפנה"
+    ]
+  },
+  {
+    "id": "cbs:דפני",
+    "name": "דפני",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:דפני"
+    ]
+  },
+  {
+    "id": "cbs:דקל",
+    "name": "דקל",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:דקל",
+      "en:דקל"
+    ]
+  },
+  {
+    "id": "cbs:האיל",
+    "name": "האיל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:هائل"
+    ]
+  },
+  {
+    "id": "cbs:האני",
+    "name": "האני",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:هاني"
+    ]
+  },
+  {
+    "id": "cbs:הארון",
+    "name": "הארון",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:هارون",
+      "en:Aaron"
+    ]
+  },
+  {
+    "id": "cbs:הארי",
+    "name": "הארי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Harry"
+    ]
+  },
+  {
+    "id": "cbs:היא",
+    "name": "היא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:היא",
+      "en:היא",
+      "en:هيا"
+    ]
+  },
+  {
+    "id": "cbs:הייא",
+    "name": "הייא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:هيا"
+    ]
+  },
+  {
+    "id": "cbs:הילה",
+    "name": "הילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:הילה",
+      "en:הילה",
+      "en:Hila"
+    ]
+  },
+  {
+    "id": "cbs:הילי",
+    "name": "הילי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Hili"
+    ]
+  },
+  {
+    "id": "cbs:הינדי",
+    "name": "הינדי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:הינדי"
+    ]
+  },
+  {
+    "id": "cbs:הינדל",
+    "name": "הינדל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:הינדל"
+    ]
+  },
+  {
+    "id": "cbs:הלה",
+    "name": "הלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:הלה"
+    ]
+  },
+  {
+    "id": "cbs:הלנה",
+    "name": "הלנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:הלנה"
+    ]
+  },
+  {
+    "id": "cbs:הלני",
+    "name": "הלני",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:הלני"
+    ]
+  },
+  {
+    "id": "cbs:הנא",
+    "name": "הנא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:הנא",
+      "en:هناء"
+    ]
+  },
+  {
+    "id": "cbs:הנאדי",
+    "name": "הנאדי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:هنادي",
+      "en:هند"
+    ]
+  },
+  {
+    "id": "cbs:הנד",
+    "name": "הנד",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:هند"
+    ]
+  },
+  {
+    "id": "cbs:הני",
+    "name": "הני",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Henni"
+    ]
+  },
+  {
+    "id": "cbs:הניא",
+    "name": "הניא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:הניא"
+    ]
+  },
+  {
+    "id": "cbs:הענדל",
+    "name": "הענדל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:הענדל"
+    ]
+  },
+  {
+    "id": "cbs:ואיל",
+    "name": "ואיל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:وائل"
+    ]
+  },
+  {
+    "id": "cbs:ודאד",
+    "name": "ודאד",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:وداد"
+    ]
+  },
+  {
+    "id": "cbs:והיב",
+    "name": "והיב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:وهب"
+    ]
+  },
+  {
+    "id": "cbs:וידאד",
+    "name": "וידאד",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:وداد"
+    ]
+  },
+  {
+    "id": "cbs:ויליאם",
+    "name": "ויליאם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Viliam"
+    ]
+  },
+  {
+    "id": "cbs:ויקטוריה",
+    "name": "ויקטוריה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Victoria"
+    ]
+  },
+  {
+    "id": "cbs:ורד",
+    "name": "ורד",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "מוסלמיות",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "he:ורד",
+      "en:ורד"
+    ]
+  },
+  {
+    "id": "cbs:זוהר",
+    "name": "זוהר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:זוהר",
+      "en:זוהר",
+      "en:Zohar"
+    ]
+  },
+  {
+    "id": "cbs:זינב",
+    "name": "זינב",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:زينب"
+    ]
+  },
+  {
+    "id": "cbs:זיסי",
+    "name": "זיסי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:זיסי"
+    ]
+  },
+  {
+    "id": "cbs:זיסל",
+    "name": "זיסל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:זיסל"
+    ]
+  },
+  {
+    "id": "cbs:זכריא",
+    "name": "זכריא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:زكريا",
+      "en:זכריה"
+    ]
+  },
+  {
+    "id": "cbs:זלמן",
+    "name": "זלמן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:זלמן"
+    ]
+  },
+  {
+    "id": "cbs:חאתם",
+    "name": "חאתם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:حاتم"
+    ]
+  },
+  {
+    "id": "cbs:חודיפה",
+    "name": "חודיפה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:حذيفة"
+    ]
+  },
+  {
+    "id": "cbs:חושן",
+    "name": "חושן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:חושן",
+      "en:Chosen"
+    ]
+  },
+  {
+    "id": "cbs:חזקיהו",
+    "name": "חזקיהו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:חזקיהו",
+      "en:Hezekiah"
+    ]
+  },
+  {
+    "id": "cbs:חיים",
+    "name": "חיים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:חיים",
+      "en:חיים",
+      "en:Haim"
+    ]
+  },
+  {
+    "id": "cbs:חנא",
+    "name": "חנא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:حنا",
+      "en:Hanna",
+      "en:John"
+    ]
+  },
+  {
+    "id": "cbs:חני",
+    "name": "חני",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Hanni"
+    ]
+  },
+  {
+    "id": "cbs:חסיה",
+    "name": "חסיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Hassia"
+    ]
+  },
+  {
+    "id": "cbs:חרות",
+    "name": "חרות",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:חרות",
+      "en:חרות"
+    ]
+  },
+  {
+    "id": "cbs:טאהא",
+    "name": "טאהא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:طه"
+    ]
+  },
+  {
+    "id": "cbs:טארק",
+    "name": "טארק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:طارق"
+    ]
+  },
+  {
+    "id": "cbs:טבע",
+    "name": "טבע",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:טבע",
+      "en:טבע"
+    ]
+  },
+  {
+    "id": "cbs:טובה",
+    "name": "טובה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:טובה",
+      "en:טובה"
+    ]
+  },
+  {
+    "id": "cbs:טופז",
+    "name": "טופז",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:טופז",
+      "en:Topaz"
+    ]
+  },
+  {
+    "id": "cbs:טלאל",
+    "name": "טלאל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:طلال",
+      "en:طلل"
+    ]
+  },
+  {
+    "id": "cbs:טלי",
+    "name": "טלי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Tali"
+    ]
+  },
+  {
+    "id": "cbs:יאמן",
+    "name": "יאמן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:يمن",
+      "en:يامن"
+    ]
+  },
+  {
+    "id": "cbs:יאנה",
+    "name": "יאנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:יאנה"
+    ]
+  },
+  {
+    "id": "cbs:יאסין",
+    "name": "יאסין",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:ياسين"
+    ]
+  },
+  {
+    "id": "cbs:יאסר",
+    "name": "יאסר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:ياسر"
+    ]
+  },
+  {
+    "id": "cbs:יאפה",
+    "name": "יאפה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:يافا"
+    ]
+  },
+  {
+    "id": "cbs:יאר",
+    "name": "יאר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:יאר"
+    ]
+  },
+  {
+    "id": "cbs:יארא",
+    "name": "יארא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:يارا",
+      "en:Yara"
+    ]
+  },
+  {
+    "id": "cbs:יהוסף",
+    "name": "יהוסף",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:יהוסף",
+      "en:Joseph"
+    ]
+  },
+  {
+    "id": "cbs:יהושע",
+    "name": "יהושע",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יהושע",
+      "en:יהושע",
+      "en:Joshua"
+    ]
+  },
+  {
+    "id": "cbs:יהלום",
+    "name": "יהלום",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:יהלום",
+      "en:יהלום"
+    ]
+  },
+  {
+    "id": "cbs:יוגב",
+    "name": "יוגב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יוגב"
+    ]
+  },
+  {
+    "id": "cbs:יוחאי",
+    "name": "יוחאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:יוחאי"
+    ]
+  },
+  {
+    "id": "cbs:יוחנן",
+    "name": "יוחנן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:יוחנן"
+    ]
+  },
+  {
+    "id": "cbs:יוטא",
+    "name": "יוטא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:יוטא"
+    ]
+  },
+  {
+    "id": "cbs:יום",
+    "name": "יום",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יום",
+      "en:יום"
+    ]
+  },
+  {
+    "id": "cbs:יוני",
+    "name": "יוני",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:יוני",
+      "en:יוני"
+    ]
+  },
+  {
+    "id": "cbs:יונית",
+    "name": "יונית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:יונית",
+      "en:יונית"
+    ]
+  },
+  {
+    "id": "cbs:יוסי",
+    "name": "יוסי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יוסי",
+      "en:יוסי"
+    ]
+  },
+  {
+    "id": "cbs:יורם",
+    "name": "יורם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יורם"
+    ]
+  },
+  {
+    "id": "cbs:יזיד",
+    "name": "יזיד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:يزيد"
+    ]
+  },
+  {
+    "id": "cbs:יזן",
+    "name": "יזן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:يزن",
+      "en:Yazan"
+    ]
+  },
+  {
+    "id": "cbs:יחיא",
+    "name": "יחיא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:يحيى",
+      "en:يحيا"
+    ]
+  },
+  {
+    "id": "cbs:ימאן",
+    "name": "ימאן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:يمن",
+      "en:يامن"
+    ]
+  },
+  {
+    "id": "cbs:ינון",
+    "name": "ינון",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:ינון"
+    ]
+  },
+  {
+    "id": "cbs:יניב",
+    "name": "יניב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:יניב"
+    ]
+  },
+  {
+    "id": "cbs:יענטע",
+    "name": "יענטע",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:יענטע"
+    ]
+  },
+  {
+    "id": "cbs:ירמיהו",
+    "name": "ירמיהו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:ירמיהו",
+      "en:ירמיהו"
+    ]
+  },
+  {
+    "id": "cbs:ישעיהו",
+    "name": "ישעיהו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:ישעיהו",
+      "en:ישעיהו"
+    ]
+  },
+  {
+    "id": "cbs:כחל",
+    "name": "כחל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:כחל",
+      "en:כחל"
+    ]
+  },
+  {
+    "id": "cbs:כינאן",
+    "name": "כינאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:كنانة"
+    ]
+  },
+  {
+    "id": "cbs:כנאן",
+    "name": "כנאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:كنانة"
+    ]
+  },
+  {
+    "id": "cbs:כנדא",
+    "name": "כנדא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:كندة"
+    ]
+  },
+  {
+    "id": "cbs:כנדה",
+    "name": "כנדה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:كندة"
+    ]
+  },
+  {
+    "id": "cbs:כנה",
+    "name": "כנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:כנה",
+      "en:כנה"
+    ]
+  },
+  {
+    "id": "cbs:כנרת",
+    "name": "כנרת",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:כנרת",
+      "en:כנרת",
+      "en:Kinneret"
+    ]
+  },
+  {
+    "id": "cbs:כריסטיאן",
+    "name": "כריסטיאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Christian"
+    ]
+  },
+  {
+    "id": "cbs:לאו",
+    "name": "לאו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:לאו",
+      "en:לאו"
+    ]
+  },
+  {
+    "id": "cbs:לאור",
+    "name": "לאור",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:לאור"
+    ]
+  },
+  {
+    "id": "cbs:לארין",
+    "name": "לארין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Lamar"
+    ]
+  },
+  {
+    "id": "cbs:לביאה",
+    "name": "לביאה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:לביאה"
+    ]
+  },
+  {
+    "id": "cbs:לו",
+    "name": "לו",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:לו",
+      "en:לו"
+    ]
+  },
+  {
+    "id": "cbs:לואן",
+    "name": "לואן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Luan"
+    ]
+  },
+  {
+    "id": "cbs:לוין",
+    "name": "לוין",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:לוין",
+      "en:לוין"
+    ]
+  },
+  {
+    "id": "cbs:לוקא",
+    "name": "לוקא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:לוקא"
+    ]
+  },
+  {
+    "id": "cbs:לוקמאן",
+    "name": "לוקמאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:لقمان"
+    ]
+  },
+  {
+    "id": "cbs:לורד",
+    "name": "לורד",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:לורד"
+    ]
+  },
+  {
+    "id": "cbs:לוריא",
+    "name": "לוריא",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Luri"
+    ]
+  },
+  {
+    "id": "cbs:לי",
+    "name": "לי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:לי",
+      "en:לי"
+    ]
+  },
+  {
+    "id": "cbs:ליא",
+    "name": "ליא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:ליא"
+    ]
+  },
+  {
+    "id": "cbs:ליאור",
+    "name": "ליאור",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:ליאור",
+      "en:Lior"
+    ]
+  },
+  {
+    "id": "cbs:ליאורה",
+    "name": "ליאורה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:ליאורה"
+    ]
+  },
+  {
+    "id": "cbs:ליב",
+    "name": "ליב",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:ליב"
+    ]
+  },
+  {
+    "id": "cbs:ליבי",
+    "name": "ליבי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:ליבי"
+    ]
+  },
+  {
+    "id": "cbs:ליה",
+    "name": "ליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:ליה"
+    ]
+  },
+  {
+    "id": "cbs:לילי",
+    "name": "לילי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:לילי",
+      "en:Lily"
+    ]
+  },
+  {
+    "id": "cbs:ליליא",
+    "name": "ליליא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ליליא"
+    ]
+  },
+  {
+    "id": "cbs:לילך",
+    "name": "לילך",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:לילך",
+      "en:לילך"
+    ]
+  },
+  {
+    "id": "cbs:לים",
+    "name": "לים",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:לים"
+    ]
+  },
+  {
+    "id": "cbs:לימאי",
+    "name": "לימאי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Lemi"
+    ]
+  },
+  {
+    "id": "cbs:לימאר",
+    "name": "לימאר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Lamar"
+    ]
+  },
+  {
+    "id": "cbs:לינה",
+    "name": "לינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:לינה",
+      "en:לינה"
+    ]
+  },
+  {
+    "id": "cbs:ליעד",
+    "name": "ליעד",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Leid",
+      "en:Liad"
+    ]
+  },
+  {
+    "id": "cbs:לירי",
+    "name": "לירי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Liri"
+    ]
+  },
+  {
+    "id": "cbs:לישי",
+    "name": "לישי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Lisi"
+    ]
+  },
+  {
+    "id": "cbs:למאר",
+    "name": "למאר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Lamar"
+    ]
+  },
+  {
+    "id": "cbs:לנא",
+    "name": "לנא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:لنا",
+      "en:Lana"
+    ]
+  },
+  {
+    "id": "cbs:לרין",
+    "name": "לרין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Lamar"
+    ]
+  },
+  {
+    "id": "cbs:מאורי",
+    "name": "מאורי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Mori"
+    ]
+  },
+  {
+    "id": "cbs:מאזן",
+    "name": "מאזן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:מאזן",
+      "en:مازن",
+      "en:مزن"
+    ]
+  },
+  {
+    "id": "cbs:מאי",
+    "name": "מאי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:מאי",
+      "en:מאי"
+    ]
+  },
+  {
+    "id": "cbs:מאיר",
+    "name": "מאיר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מאיר",
+      "en:מאיר",
+      "en:Meir"
+    ]
+  },
+  {
+    "id": "cbs:מאל",
+    "name": "מאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:מאל"
+    ]
+  },
+  {
+    "id": "cbs:מבשר",
+    "name": "מבשר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:מבשר"
+    ]
+  },
+  {
+    "id": "cbs:מהא",
+    "name": "מהא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:مها"
+    ]
+  },
+  {
+    "id": "cbs:מהראן",
+    "name": "מהראן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:مهران",
+      "en:Mehran"
+    ]
+  },
+  {
+    "id": "cbs:מואייד",
+    "name": "מואייד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:مؤيد"
+    ]
+  },
+  {
+    "id": "cbs:מוחיי",
+    "name": "מוחיי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:محيي"
+    ]
+  },
+  {
+    "id": "cbs:מון",
+    "name": "מון",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מון",
+      "en:Mun"
+    ]
+  },
+  {
+    "id": "cbs:מוסעב",
+    "name": "מוסעב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:مصعب"
+    ]
+  },
+  {
+    "id": "cbs:מועתז",
+    "name": "מועתז",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:معتز"
+    ]
+  },
+  {
+    "id": "cbs:מועתסם",
+    "name": "מועתסם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:معتصم"
+    ]
+  },
+  {
+    "id": "cbs:מור",
+    "name": "מור",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:מור",
+      "en:מור",
+      "en:Mor"
+    ]
+  },
+  {
+    "id": "cbs:מזל",
+    "name": "מזל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:מזל",
+      "en:מזל",
+      "en:Mazal"
+    ]
+  },
+  {
+    "id": "cbs:מיא",
+    "name": "מיא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מיא"
+    ]
+  },
+  {
+    "id": "cbs:מיאדה",
+    "name": "מיאדה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ميادة",
+      "en:ميد"
+    ]
+  },
+  {
+    "id": "cbs:מיאל",
+    "name": "מיאל",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "יהודים",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Miel"
+    ]
+  },
+  {
+    "id": "cbs:מיאן",
+    "name": "מיאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:מיאן"
+    ]
+  },
+  {
+    "id": "cbs:מיאס",
+    "name": "מיאס",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:ميس"
+    ]
+  },
+  {
+    "id": "cbs:מיאסין",
+    "name": "מיאסין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ميس"
+    ]
+  },
+  {
+    "id": "cbs:מיאר",
+    "name": "מיאר",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:مار"
+    ]
+  },
+  {
+    "id": "cbs:מידן",
+    "name": "מידן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Medin"
+    ]
+  },
+  {
+    "id": "cbs:מיטל",
+    "name": "מיטל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מיטל"
+    ]
+  },
+  {
+    "id": "cbs:מיי",
+    "name": "מיי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Mei"
+    ]
+  },
+  {
+    "id": "cbs:מייסא",
+    "name": "מייסא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ميساء"
+    ]
+  },
+  {
+    "id": "cbs:מייסון",
+    "name": "מייסון",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ميسون"
+    ]
+  },
+  {
+    "id": "cbs:מייק",
+    "name": "מייק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:מייק"
+    ]
+  },
+  {
+    "id": "cbs:מילא",
+    "name": "מילא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:מילא",
+      "en:מילא"
+    ]
+  },
+  {
+    "id": "cbs:מילה",
+    "name": "מילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "he:מילה",
+      "en:מילה"
+    ]
+  },
+  {
+    "id": "cbs:מילוא",
+    "name": "מילוא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מילוא"
+    ]
+  },
+  {
+    "id": "cbs:מינא",
+    "name": "מינא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:مينا",
+      "en:Mina"
+    ]
+  },
+  {
+    "id": "cbs:מינדל",
+    "name": "מינדל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Mindel"
+    ]
+  },
+  {
+    "id": "cbs:מינה",
+    "name": "מינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:מינה",
+      "en:مينا",
+      "en:Mina"
+    ]
+  },
+  {
+    "id": "cbs:מיסאן",
+    "name": "מיסאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ميسان"
+    ]
+  },
+  {
+    "id": "cbs:מיקה",
+    "name": "מיקה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מיקה"
+    ]
+  },
+  {
+    "id": "cbs:מיראן",
+    "name": "מיראן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:Miran"
+    ]
+  },
+  {
+    "id": "cbs:מירב",
+    "name": "מירב",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Meirav"
+    ]
+  },
+  {
+    "id": "cbs:מירי",
+    "name": "מירי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Miri"
+    ]
+  },
+  {
+    "id": "cbs:מירל",
+    "name": "מירל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מירל"
+    ]
+  },
+  {
+    "id": "cbs:מירן",
+    "name": "מירן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Miran"
+    ]
+  },
+  {
+    "id": "cbs:מירפת",
+    "name": "מירפת",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:mürüvvet"
+    ]
+  },
+  {
+    "id": "cbs:מישל",
+    "name": "מישל",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Michelle"
+    ]
+  },
+  {
+    "id": "cbs:מכה",
+    "name": "מכה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:מכה",
+      "en:מכה",
+      "en:مكة"
+    ]
+  },
+  {
+    "id": "cbs:מל",
+    "name": "מל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מל"
+    ]
+  },
+  {
+    "id": "cbs:מלכי",
+    "name": "מלכי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:מלכי"
+    ]
+  },
+  {
+    "id": "cbs:מנדי",
+    "name": "מנדי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:מנדי"
+    ]
+  },
+  {
+    "id": "cbs:מנדל",
+    "name": "מנדל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מנדל"
+    ]
+  },
+  {
+    "id": "cbs:מנה",
+    "name": "מנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:מנה",
+      "en:מנה"
+    ]
+  },
+  {
+    "id": "cbs:מני",
+    "name": "מני",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:מני"
+    ]
+  },
+  {
+    "id": "cbs:מפל",
+    "name": "מפל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:מפל",
+      "en:מפל"
+    ]
+  },
+  {
+    "id": "cbs:מקה",
+    "name": "מקה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:مكة"
+    ]
+  },
+  {
+    "id": "cbs:מקס",
+    "name": "מקס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Max"
+    ]
+  },
+  {
+    "id": "cbs:מקסים",
+    "name": "מקסים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מקסים",
+      "en:מקסים"
+    ]
+  },
+  {
+    "id": "cbs:מרגלית",
+    "name": "מרגלית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:מרגלית"
+    ]
+  },
+  {
+    "id": "cbs:מרדכי",
+    "name": "מרדכי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מרדכי",
+      "en:מרדכי",
+      "en:Mordechai"
+    ]
+  },
+  {
+    "id": "cbs:מרק",
+    "name": "מרק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "he:מרק",
+      "en:מרק"
+    ]
+  },
+  {
+    "id": "cbs:מתי",
+    "name": "מתי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:מתי",
+      "en:מתי",
+      "en:Mati"
+    ]
+  },
+  {
+    "id": "cbs:נאג'י",
+    "name": "נאג'י",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:ناجي"
+    ]
+  },
+  {
+    "id": "cbs:נאדיה",
+    "name": "נאדיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نادية",
+      "en:ندي"
+    ]
+  },
+  {
+    "id": "cbs:נאור",
+    "name": "נאור",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:נאור",
+      "en:נאור"
+    ]
+  },
+  {
+    "id": "cbs:נאיף",
+    "name": "נאיף",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:نايف"
+    ]
+  },
+  {
+    "id": "cbs:נאיפה",
+    "name": "נאיפה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نايف"
+    ]
+  },
+  {
+    "id": "cbs:נבו",
+    "name": "נבו",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:נבו"
+    ]
+  },
+  {
+    "id": "cbs:נדיה",
+    "name": "נדיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نادية",
+      "en:ندي"
+    ]
+  },
+  {
+    "id": "cbs:נהוראי",
+    "name": "נהוראי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:נהוראי"
+    ]
+  },
+  {
+    "id": "cbs:נהלה",
+    "name": "נהלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نهلة"
+    ]
+  },
+  {
+    "id": "cbs:נהרי",
+    "name": "נהרי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Nahari"
+    ]
+  },
+  {
+    "id": "cbs:נואל",
+    "name": "נואל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:נואל"
+    ]
+  },
+  {
+    "id": "cbs:נואף",
+    "name": "נואף",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:נואף",
+      "en:نواف"
+    ]
+  },
+  {
+    "id": "cbs:נובה",
+    "name": "נובה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:נובה"
+    ]
+  },
+  {
+    "id": "cbs:נוי",
+    "name": "נוי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:נוי",
+      "en:נוי",
+      "en:Noy"
+    ]
+  },
+  {
+    "id": "cbs:נועה",
+    "name": "נועה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Noa"
+    ]
+  },
+  {
+    "id": "cbs:נועם",
+    "name": "נועם",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:נועם",
+      "en:נועם",
+      "en:Noam"
+    ]
+  },
+  {
+    "id": "cbs:נוף",
+    "name": "נוף",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:נוף",
+      "en:נוף"
+    ]
+  },
+  {
+    "id": "cbs:נורהאן",
+    "name": "נורהאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نور",
+      "en:خان"
+    ]
+  },
+  {
+    "id": "cbs:נורי",
+    "name": "נורי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Noori"
+    ]
+  },
+  {
+    "id": "cbs:נורית",
+    "name": "נורית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:נורית",
+      "en:נורית"
+    ]
+  },
+  {
+    "id": "cbs:נורסאן",
+    "name": "נורסאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نور"
+    ]
+  },
+  {
+    "id": "cbs:נורסין",
+    "name": "נורסין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نور"
+    ]
+  },
+  {
+    "id": "cbs:נחמן",
+    "name": "נחמן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:נחמן",
+      "en:Nachman"
+    ]
+  },
+  {
+    "id": "cbs:ניב",
+    "name": "ניב",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:ניב",
+      "en:ניב"
+    ]
+  },
+  {
+    "id": "cbs:ניבי",
+    "name": "ניבי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Nivi"
+    ]
+  },
+  {
+    "id": "cbs:ניבין",
+    "name": "ניבין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Neven",
+      "en:Nevin"
+    ]
+  },
+  {
+    "id": "cbs:ניגון",
+    "name": "ניגון",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:ניגון"
+    ]
+  },
+  {
+    "id": "cbs:נייל",
+    "name": "נייל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:نيل",
+      "en:Neil"
+    ]
+  },
+  {
+    "id": "cbs:ניל",
+    "name": "ניל",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים",
+      "מוסלמיות",
+      "מוסלמים",
+      "נוצריות ערביות",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:نيل",
+      "en:Neil"
+    ]
+  },
+  {
+    "id": "cbs:נילי",
+    "name": "נילי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Nili"
+    ]
+  },
+  {
+    "id": "cbs:ניסל",
+    "name": "ניסל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:ניסל",
+      "en:ניסל"
+    ]
+  },
+  {
+    "id": "cbs:ניצן",
+    "name": "ניצן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:ניצן",
+      "en:ניצן"
+    ]
+  },
+  {
+    "id": "cbs:ניק",
+    "name": "ניק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:ניק"
+    ]
+  },
+  {
+    "id": "cbs:ניקה",
+    "name": "ניקה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:ניקה",
+      "en:ניקה"
+    ]
+  },
+  {
+    "id": "cbs:ניקיטה",
+    "name": "ניקיטה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Nikita"
+    ]
+  },
+  {
+    "id": "cbs:ניתאי",
+    "name": "ניתאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:ניתאי"
+    ]
+  },
+  {
+    "id": "cbs:נסה",
+    "name": "נסה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:נסה"
+    ]
+  },
+  {
+    "id": "cbs:נרמין",
+    "name": "נרמין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:narm"
+    ]
+  },
+  {
+    "id": "cbs:נשאת",
+    "name": "נשאת",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:نشأت"
+    ]
+  },
+  {
+    "id": "cbs:סאם",
+    "name": "סאם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Sam"
+    ]
+  },
+  {
+    "id": "cbs:סאמי",
+    "name": "סאמי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:سامي"
+    ]
+  },
+  {
+    "id": "cbs:סאן",
+    "name": "סאן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:סאן"
+    ]
+  },
+  {
+    "id": "cbs:סארי",
+    "name": "סארי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "he:סארי",
+      "en:ساري"
+    ]
+  },
+  {
+    "id": "cbs:סבא",
+    "name": "סבא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:סבא",
+      "en:סבא",
+      "en:صبا",
+      "en:سبأ"
+    ]
+  },
+  {
+    "id": "cbs:סדין",
+    "name": "סדין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:סדין",
+      "en:סדין"
+    ]
+  },
+  {
+    "id": "cbs:סהר",
+    "name": "סהר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:סהר",
+      "en:סהר",
+      "en:Sahar"
+    ]
+  },
+  {
+    "id": "cbs:סוהא",
+    "name": "סוהא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:سهى",
+      "en:سها"
+    ]
+  },
+  {
+    "id": "cbs:סוהייב",
+    "name": "סוהייב",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:صهيب"
+    ]
+  },
+  {
+    "id": "cbs:סומיה",
+    "name": "סומיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:سمية"
+    ]
+  },
+  {
+    "id": "cbs:סופי",
+    "name": "סופי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:סופי"
+    ]
+  },
+  {
+    "id": "cbs:סופיאן",
+    "name": "סופיאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:سفيان"
+    ]
+  },
+  {
+    "id": "cbs:סטערנא",
+    "name": "סטערנא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Sterna"
+    ]
+  },
+  {
+    "id": "cbs:סיבא",
+    "name": "סיבא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Sibel",
+      "en:سيبال"
+    ]
+  },
+  {
+    "id": "cbs:סיליא",
+    "name": "סיליא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Celia"
+    ]
+  },
+  {
+    "id": "cbs:סיליה",
+    "name": "סיליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Celia"
+    ]
+  },
+  {
+    "id": "cbs:סילין",
+    "name": "סילין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Selin",
+      "en:Celine"
+    ]
+  },
+  {
+    "id": "cbs:סילינא",
+    "name": "סילינא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Selin",
+      "en:Celine"
+    ]
+  },
+  {
+    "id": "cbs:סילינה",
+    "name": "סילינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Selin",
+      "en:Celine"
+    ]
+  },
+  {
+    "id": "cbs:סימא",
+    "name": "סימא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:סימא"
+    ]
+  },
+  {
+    "id": "cbs:סימה",
+    "name": "סימה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:סימה",
+      "en:Sima",
+      "en:سيمة",
+      "en:سيما"
+    ]
+  },
+  {
+    "id": "cbs:סימי",
+    "name": "סימי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Simi"
+    ]
+  },
+  {
+    "id": "cbs:סינא",
+    "name": "סינא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:سيناء",
+      "en:Sina",
+      "en:Sinai"
+    ]
+  },
+  {
+    "id": "cbs:סיני",
+    "name": "סיני",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:סיני",
+      "en:סיני"
+    ]
+  },
+  {
+    "id": "cbs:סירין",
+    "name": "סירין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:سيرين",
+      "en:Şirin"
+    ]
+  },
+  {
+    "id": "cbs:סלין",
+    "name": "סלין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Selin",
+      "en:Celine"
+    ]
+  },
+  {
+    "id": "cbs:סלינה",
+    "name": "סלינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Selin",
+      "en:Celine"
+    ]
+  },
+  {
+    "id": "cbs:סלם",
+    "name": "סלם",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:סלם",
+      "en:סלם"
+    ]
+  },
+  {
+    "id": "cbs:ספואן",
+    "name": "ספואן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:صفوان"
+    ]
+  },
+  {
+    "id": "cbs:ספיה",
+    "name": "ספיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:صفية"
+    ]
+  },
+  {
+    "id": "cbs:סשה",
+    "name": "סשה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:סשה"
+    ]
+  },
+  {
+    "id": "cbs:סתיו",
+    "name": "סתיו",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:סתיו",
+      "en:סתיו"
+    ]
+  },
+  {
+    "id": "cbs:עדינה",
+    "name": "עדינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:עדינה",
+      "en:Adina"
+    ]
+  },
+  {
+    "id": "cbs:עדנאן",
+    "name": "עדנאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عدنان"
+    ]
+  },
+  {
+    "id": "cbs:עובדיה",
+    "name": "עובדיה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:עובדיה",
+      "en:Ovadia"
+    ]
+  },
+  {
+    "id": "cbs:עודאי",
+    "name": "עודאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عدي"
+    ]
+  },
+  {
+    "id": "cbs:עומרי",
+    "name": "עומרי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عمري"
+    ]
+  },
+  {
+    "id": "cbs:עופר",
+    "name": "עופר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:עופר",
+      "en:עופר",
+      "en:Ofer"
+    ]
+  },
+  {
+    "id": "cbs:עורווה",
+    "name": "עורווה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عروة"
+    ]
+  },
+  {
+    "id": "cbs:עות'מאן",
+    "name": "עות'מאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عثمان"
+    ]
+  },
+  {
+    "id": "cbs:עזרא",
+    "name": "עזרא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:עזרא",
+      "en:עזרא",
+      "en:Ezra"
+    ]
+  },
+  {
+    "id": "cbs:עטל",
+    "name": "עטל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:עטל"
+    ]
+  },
+  {
+    "id": "cbs:עטר",
+    "name": "עטר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:עטר",
+      "en:עטר"
+    ]
+  },
+  {
+    "id": "cbs:עיאד",
+    "name": "עיאד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:إياد"
+    ]
+  },
+  {
+    "id": "cbs:עידו",
+    "name": "עידו",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:עידו",
+      "en:Ido"
+    ]
+  },
+  {
+    "id": "cbs:עידן",
+    "name": "עידן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:עידן",
+      "en:עידן",
+      "en:Idan"
+    ]
+  },
+  {
+    "id": "cbs:עילאי",
+    "name": "עילאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:עילאי"
+    ]
+  },
+  {
+    "id": "cbs:עינב",
+    "name": "עינב",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:עינב"
+    ]
+  },
+  {
+    "id": "cbs:עינה",
+    "name": "עינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:עינה"
+    ]
+  },
+  {
+    "id": "cbs:עיסא",
+    "name": "עיסא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:عيسى",
+      "en:Jesus"
+    ]
+  },
+  {
+    "id": "cbs:עלאי",
+    "name": "עלאי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:עלאי"
+    ]
+  },
+  {
+    "id": "cbs:עליזה",
+    "name": "עליזה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:עליזה",
+      "en:Aliza"
+    ]
+  },
+  {
+    "id": "cbs:עמי",
+    "name": "עמי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:עמי",
+      "en:Ami"
+    ]
+  },
+  {
+    "id": "cbs:עמליה",
+    "name": "עמליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:עמליה",
+      "en:Amalia"
+    ]
+  },
+  {
+    "id": "cbs:ענא",
+    "name": "ענא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ענא",
+      "en:عنا",
+      "en:عناء"
+    ]
+  },
+  {
+    "id": "cbs:ענבל",
+    "name": "ענבל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:ענבל",
+      "en:ענבל"
+    ]
+  },
+  {
+    "id": "cbs:ענבר",
+    "name": "ענבר",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:ענבר",
+      "en:ענבר",
+      "en:Enver"
+    ]
+  },
+  {
+    "id": "cbs:עקיבא",
+    "name": "עקיבא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:עקיבא",
+      "en:Akiva"
+    ]
+  },
+  {
+    "id": "cbs:ערבה",
+    "name": "ערבה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:ערבה",
+      "en:ערבה"
+    ]
+  },
+  {
+    "id": "cbs:עתמאן",
+    "name": "עתמאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:عثمان"
+    ]
+  },
+  {
+    "id": "cbs:פאטימה",
+    "name": "פאטימה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:فاطمة"
+    ]
+  },
+  {
+    "id": "cbs:פאטמה",
+    "name": "פאטמה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:فاطمة"
+    ]
+  },
+  {
+    "id": "cbs:פאי",
+    "name": "פאי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:פאי",
+      "en:פאי"
+    ]
+  },
+  {
+    "id": "cbs:פארוק",
+    "name": "פארוק",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:פארוק",
+      "en:فاروق"
+    ]
+  },
+  {
+    "id": "cbs:פוראת",
+    "name": "פוראת",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "מוסלמיות",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:فرات"
+    ]
+  },
+  {
+    "id": "cbs:פטל",
+    "name": "פטל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:פטל",
+      "en:פטל"
+    ]
+  },
+  {
+    "id": "cbs:פיטר",
+    "name": "פיטר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:פיטר"
+    ]
+  },
+  {
+    "id": "cbs:פייגל",
+    "name": "פייגל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:פייגל"
+    ]
+  },
+  {
+    "id": "cbs:פייר",
+    "name": "פייר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:פייר"
+    ]
+  },
+  {
+    "id": "cbs:פנחס",
+    "name": "פנחס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:פנחס",
+      "en:Pinchas"
+    ]
+  },
+  {
+    "id": "cbs:פנינה",
+    "name": "פנינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:פנינה",
+      "en:פנינה",
+      "en:Pnina"
+    ]
+  },
+  {
+    "id": "cbs:פערי",
+    "name": "פערי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:פערי"
+    ]
+  },
+  {
+    "id": "cbs:פערל",
+    "name": "פערל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:פערל",
+      "en:Perl"
+    ]
+  },
+  {
+    "id": "cbs:צהלה",
+    "name": "צהלה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:צהלה",
+      "en:צהלה"
+    ]
+  },
+  {
+    "id": "cbs:צורי",
+    "name": "צורי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:צורי"
+    ]
+  },
+  {
+    "id": "cbs:צילה",
+    "name": "צילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Zilla"
+    ]
+  },
+  {
+    "id": "cbs:ציפי",
+    "name": "ציפי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:ציפי",
+      "en:Tzipi"
+    ]
+  },
+  {
+    "id": "cbs:צירי",
+    "name": "צירי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:צירי",
+      "en:צירי"
+    ]
+  },
+  {
+    "id": "cbs:צירל",
+    "name": "צירל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:צירל"
+    ]
+  },
+  {
+    "id": "cbs:צליל",
+    "name": "צליל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:צליל",
+      "en:צליל"
+    ]
+  },
+  {
+    "id": "cbs:צפורה",
+    "name": "צפורה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:צפורה",
+      "en:צפורה"
+    ]
+  },
+  {
+    "id": "cbs:קורן",
+    "name": "קורן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Koren"
+    ]
+  },
+  {
+    "id": "cbs:קייט",
+    "name": "קייט",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:קייט"
+    ]
+  },
+  {
+    "id": "cbs:קיילה",
+    "name": "קיילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Kayla"
+    ]
+  },
+  {
+    "id": "cbs:קייס",
+    "name": "קייס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:قيس"
+    ]
+  },
+  {
+    "id": "cbs:קילא",
+    "name": "קילא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:קילא"
+    ]
+  },
+  {
+    "id": "cbs:קים",
+    "name": "קים",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:קים"
+    ]
+  },
+  {
+    "id": "cbs:קינאן",
+    "name": "קינאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:كنانة"
+    ]
+  },
+  {
+    "id": "cbs:קינדא",
+    "name": "קינדא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:كندة"
+    ]
+  },
+  {
+    "id": "cbs:קינדה",
+    "name": "קינדה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:كندة"
+    ]
+  },
+  {
+    "id": "cbs:קלמן",
+    "name": "קלמן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:קלמן"
+    ]
+  },
+  {
+    "id": "cbs:קנאן",
+    "name": "קנאן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:كنانة"
+    ]
+  },
+  {
+    "id": "cbs:קנדה",
+    "name": "קנדה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:קנדה",
+      "en:קנדה",
+      "en:كندة"
+    ]
+  },
+  {
+    "id": "cbs:קרלוס",
+    "name": "קרלוס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Carlos"
+    ]
+  },
+  {
+    "id": "cbs:קרמל",
+    "name": "קרמל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:קרמל",
+      "en:קרמל"
+    ]
+  },
+  {
+    "id": "cbs:ראדי",
+    "name": "ראדי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:راضي"
+    ]
+  },
+  {
+    "id": "cbs:ראוי",
+    "name": "ראוי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:ראוי",
+      "en:ראוי",
+      "en:راوي"
+    ]
+  },
+  {
+    "id": "cbs:ראמא",
+    "name": "ראמא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:راما",
+      "en:Rama"
+    ]
+  },
+  {
+    "id": "cbs:רדאד",
+    "name": "רדאד",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:رداد",
+      "en:ردد"
+    ]
+  },
+  {
+    "id": "cbs:רהאם",
+    "name": "רהאם",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رهام"
+    ]
+  },
+  {
+    "id": "cbs:רובי",
+    "name": "רובי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Ruby"
+    ]
+  },
+  {
+    "id": "cbs:רוברט",
+    "name": "רוברט",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:Robert"
+    ]
+  },
+  {
+    "id": "cbs:רווה",
+    "name": "רווה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:רווה"
+    ]
+  },
+  {
+    "id": "cbs:רוז",
+    "name": "רוז",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:רוז"
+    ]
+  },
+  {
+    "id": "cbs:רוזה",
+    "name": "רוזה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:רוזה"
+    ]
+  },
+  {
+    "id": "cbs:רוח",
+    "name": "רוח",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:רוח",
+      "en:רוח"
+    ]
+  },
+  {
+    "id": "cbs:רוי",
+    "name": "רוי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודים"
+    ],
+    "sources": [
+      "en:רוי"
+    ]
+  },
+  {
+    "id": "cbs:רום",
+    "name": "רום",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רום",
+      "en:רום",
+      "en:Rom"
+    ]
+  },
+  {
+    "id": "cbs:רומא",
+    "name": "רומא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות"
+    ],
+    "sources": [
+      "he:רומא",
+      "en:רומא"
+    ]
+  },
+  {
+    "id": "cbs:רומי",
+    "name": "רומי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רומי",
+      "en:רומי"
+    ]
+  },
+  {
+    "id": "cbs:רון",
+    "name": "רון",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:רון",
+      "en:Ron",
+      "en:Run"
+    ]
+  },
+  {
+    "id": "cbs:רונה",
+    "name": "רונה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Rona"
+    ]
+  },
+  {
+    "id": "cbs:רוני",
+    "name": "רוני",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Roni"
+    ]
+  },
+  {
+    "id": "cbs:רונן",
+    "name": "רונן",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:רונן"
+    ]
+  },
+  {
+    "id": "cbs:רוסיל",
+    "name": "רוסיל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رسل"
+    ]
+  },
+  {
+    "id": "cbs:רועה",
+    "name": "רועה",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:רועה",
+      "en:רועה"
+    ]
+  },
+  {
+    "id": "cbs:רועי",
+    "name": "רועי",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:רועי"
+    ]
+  },
+  {
+    "id": "cbs:רוקיה",
+    "name": "רוקיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:רוקיה",
+      "en:رقية"
+    ]
+  },
+  {
+    "id": "cbs:רות",
+    "name": "רות",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:רות",
+      "en:רות",
+      "en:Rut"
+    ]
+  },
+  {
+    "id": "cbs:רותי",
+    "name": "רותי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Ruti"
+    ]
+  },
+  {
+    "id": "cbs:רותם",
+    "name": "רותם",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רותם",
+      "en:רותם",
+      "en:Rotem"
+    ]
+  },
+  {
+    "id": "cbs:רז",
+    "name": "רז",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רז",
+      "en:רז",
+      "en:Raz"
+    ]
+  },
+  {
+    "id": "cbs:רזאל",
+    "name": "רזאל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:غزال",
+      "en:رذاذ"
+    ]
+  },
+  {
+    "id": "cbs:רזאן",
+    "name": "רזאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:غزال",
+      "en:رذاذ"
+    ]
+  },
+  {
+    "id": "cbs:רזל",
+    "name": "רזל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:غزال",
+      "en:رذاذ"
+    ]
+  },
+  {
+    "id": "cbs:רחל",
+    "name": "רחל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:רחל",
+      "en:רחל",
+      "en:Rachel"
+    ]
+  },
+  {
+    "id": "cbs:רחמים",
+    "name": "רחמים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:רחמים",
+      "en:רחמים"
+    ]
+  },
+  {
+    "id": "cbs:ריאהם",
+    "name": "ריאהם",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رهام"
+    ]
+  },
+  {
+    "id": "cbs:ריבה",
+    "name": "ריבה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:ריבה",
+      "en:ריבה"
+    ]
+  },
+  {
+    "id": "cbs:ריטה",
+    "name": "ריטה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:Rita"
+    ]
+  },
+  {
+    "id": "cbs:ריי",
+    "name": "ריי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:ריי"
+    ]
+  },
+  {
+    "id": "cbs:רימאס",
+    "name": "רימאס",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ريماس"
+    ]
+  },
+  {
+    "id": "cbs:רין",
+    "name": "רין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رين",
+      "en:Rin"
+    ]
+  },
+  {
+    "id": "cbs:רינה",
+    "name": "רינה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:רינה",
+      "en:רינה",
+      "en:Rina"
+    ]
+  },
+  {
+    "id": "cbs:ריפאן",
+    "name": "ריפאן",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:ريف"
+    ]
+  },
+  {
+    "id": "cbs:רם",
+    "name": "רם",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:רם",
+      "en:רם"
+    ]
+  },
+  {
+    "id": "cbs:רן",
+    "name": "רן",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רן",
+      "en:רן",
+      "en:Ran"
+    ]
+  },
+  {
+    "id": "cbs:רנה",
+    "name": "רנה",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:רנה",
+      "en:Rena",
+      "en:Rene"
+    ]
+  },
+  {
+    "id": "cbs:רני",
+    "name": "רני",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:Rani"
+    ]
+  },
+  {
+    "id": "cbs:רסל",
+    "name": "רסל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رسل"
+    ]
+  },
+  {
+    "id": "cbs:רשא",
+    "name": "רשא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:רשא",
+      "en:رشا"
+    ]
+  },
+  {
+    "id": "cbs:רתיל",
+    "name": "רתיל",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:رتيل",
+      "en:رتل"
+    ]
+  },
+  {
+    "id": "cbs:שאהר",
+    "name": "שאהר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:شاهر"
+    ]
+  },
+  {
+    "id": "cbs:שביט",
+    "name": "שביט",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:שביט",
+      "en:שביט"
+    ]
+  },
+  {
+    "id": "cbs:שושנה",
+    "name": "שושנה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שושנה",
+      "en:שושנה",
+      "en:Shoshana"
+    ]
+  },
+  {
+    "id": "cbs:שיה",
+    "name": "שיה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שיה"
+    ]
+  },
+  {
+    "id": "cbs:שייה",
+    "name": "שייה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:Shia"
+    ]
+  },
+  {
+    "id": "cbs:שיין",
+    "name": "שיין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:שיין"
+    ]
+  },
+  {
+    "id": "cbs:שימאא",
+    "name": "שימאא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:شيماء"
+    ]
+  },
+  {
+    "id": "cbs:שירה",
+    "name": "שירה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שירה",
+      "en:שירה",
+      "en:Shira"
+    ]
+  },
+  {
+    "id": "cbs:שירז",
+    "name": "שירז",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Sheraz",
+      "en:Shiraz",
+      "en:شيراز"
+    ]
+  },
+  {
+    "id": "cbs:שירת",
+    "name": "שירת",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:שירת"
+    ]
+  },
+  {
+    "id": "cbs:שלווה",
+    "name": "שלווה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שלווה",
+      "en:שלווה"
+    ]
+  },
+  {
+    "id": "cbs:שלומית",
+    "name": "שלומית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שלומית"
+    ]
+  },
+  {
+    "id": "cbs:שלי",
+    "name": "שלי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:שלי"
+    ]
+  },
+  {
+    "id": "cbs:שליו",
+    "name": "שליו",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:שליו",
+      "en:שליו"
+    ]
+  },
+  {
+    "id": "cbs:שנהב",
+    "name": "שנהב",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:שנהב",
+      "en:שנהב"
+    ]
+  },
+  {
+    "id": "cbs:שניאור",
+    "name": "שניאור",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:שניאור"
+    ]
+  },
+  {
+    "id": "cbs:שרבל",
+    "name": "שרבל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:شربل",
+      "en:Charbel"
+    ]
+  },
+  {
+    "id": "cbs:שרגא",
+    "name": "שרגא",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "he:שרגא",
+      "en:Shraga"
+    ]
+  },
+  {
+    "id": "cbs:שרית",
+    "name": "שרית",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "en:שרית"
+    ]
+  },
+  {
+    "id": "cbs:תאי",
+    "name": "תאי",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "en:תאי"
+    ]
+  },
+  {
+    "id": "cbs:תאים",
+    "name": "תאים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:תאים",
+      "en:تيم"
+    ]
+  },
+  {
+    "id": "cbs:תאלא",
+    "name": "תאלא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות",
+      "נוצריות ערביות"
+    ],
+    "sources": [
+      "en:تالا",
+      "en:Tala"
+    ]
+  },
+  {
+    "id": "cbs:תאליא",
+    "name": "תאליא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:تالية",
+      "en:Talia"
+    ]
+  },
+  {
+    "id": "cbs:תאליה",
+    "name": "תאליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:تالية",
+      "en:Talia"
+    ]
+  },
+  {
+    "id": "cbs:תאלין",
+    "name": "תאלין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "דרוזיות",
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:تالين",
+      "en:Talin"
+    ]
+  },
+  {
+    "id": "cbs:תהילה",
+    "name": "תהילה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:תהילה",
+      "en:תהילה"
+    ]
+  },
+  {
+    "id": "cbs:תובל",
+    "name": "תובל",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים"
+    ],
+    "sources": [
+      "en:תובל"
+    ]
+  },
+  {
+    "id": "cbs:תולאי",
+    "name": "תולאי",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:Tülay",
+      "en:ay"
+    ]
+  },
+  {
+    "id": "cbs:תום",
+    "name": "תום",
+    "genders": [
+      "girl",
+      "boy"
+    ],
+    "groups": [
+      "יהודיות",
+      "יהודים"
+    ],
+    "sources": [
+      "he:תום",
+      "en:תום"
+    ]
+  },
+  {
+    "id": "cbs:תומאס",
+    "name": "תומאס",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:Thomas"
+    ]
+  },
+  {
+    "id": "cbs:תיים",
+    "name": "תיים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים",
+      "נוצרים ערבים"
+    ],
+    "sources": [
+      "en:تيم"
+    ]
+  },
+  {
+    "id": "cbs:תים",
+    "name": "תים",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "דרוזים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "en:تيم"
+    ]
+  },
+  {
+    "id": "cbs:תלא",
+    "name": "תלא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:תלא",
+      "en:تالا",
+      "en:Tala"
+    ]
+  },
+  {
+    "id": "cbs:תליה",
+    "name": "תליה",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "he:תליה",
+      "en:תליה",
+      "en:تالية",
+      "en:Talia"
+    ]
+  },
+  {
+    "id": "cbs:תלין",
+    "name": "תלין",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "מוסלמיות"
+    ],
+    "sources": [
+      "en:תלין",
+      "en:تالين",
+      "en:Talin"
+    ]
+  },
+  {
+    "id": "cbs:תמיר",
+    "name": "תמיר",
+    "genders": [
+      "boy"
+    ],
+    "groups": [
+      "יהודים",
+      "מוסלמים"
+    ],
+    "sources": [
+      "he:תמיר"
+    ]
+  },
+  {
+    "id": "cbs:תניא",
+    "name": "תניא",
+    "genders": [
+      "girl"
+    ],
+    "groups": [
+      "יהודיות"
+    ],
+    "sources": [
+      "he:תניא",
+      "en:תניא"
+    ]
+  }
+]

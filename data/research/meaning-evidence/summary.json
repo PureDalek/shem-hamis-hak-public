@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-28",
+  "catalogCount": 2431,
+  "meaningsAfter": 178,
+  "pilotMeaningsWithEvidence": 154,
+  "additionalMeanings": 18,
+  "additionsFromCsvCandidates": [
+    "דיה",
+    "ניה",
+    "קאיה",
+    "לאנה",
+    "מתיא",
+    "לאני",
+    "מליא",
+    "מליה",
+    "מירנה",
+    "פארי"
+  ],
+  "catalogSha256": "0760d85ed6a3810084d1ec9f3e331c9caa40321e2243105a1a39af38bef4ce62",
+  "sourceCountDefinition": "Distinct linked source pages per interpretation, not independent corroboration or certainty. Several pages can describe different links in one etymological chain.",
+  "pilot": "The historical random sample and its original results are unchanged."
+}
