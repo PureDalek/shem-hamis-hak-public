@@ -10,6 +10,8 @@ import {
   type NameRecord,
 } from "./domain";
 import { downloadJson } from "./storage";
+import CloudAdmin from "./CloudAdmin";
+import { cloud } from "./cloud";
 
 type Props = {
   state: AppState;
@@ -22,6 +24,9 @@ export default function Admin({ state, setState, onBack }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
   const all = allNames(state);
   const record = all.find((name) => name.id === selected);
+  const invalidNames = all.some(
+    (name) => !name.name.trim() || (!name.hidden && name.genders.length === 0),
+  );
   const active = state.searches.find((search) => search.id === state.activeId);
   const sample = active ? availableNames(state, active).slice(0, 5) : [];
   const edit = (changes: Partial<NameRecord>) => {
@@ -63,10 +68,11 @@ export default function Admin({ state, setState, onBack }: Props) {
       <div className="section-heading">
         <div>
           <span className="kicker">כלי עבודה</span>
-          <h2>ניהול מקומי</h2>
+          <h2>ניהול המאגר</h2>
           <p>
-            השינויים נשמרים בדפדפן הזה. כדי לעדכן את האתר לכולם, מייצאים
-            ומעדכנים את קובצי המקור בפרויקט.
+            {cloud
+              ? "השינויים נשמרים כטיוטה במכשיר הזה. מנהלי האתר יכולים לפרסם אותם לכולם."
+              : "השינויים נשמרים בדפדפן הזה. כדי לעדכן את האתר לכולם, מייצאים ומעדכנים את קובצי המקור בפרויקט."}
           </p>
         </div>
         <button
@@ -145,13 +151,13 @@ export default function Admin({ state, setState, onBack }: Props) {
             ).map(([key, label]) => (
               <label key={key} className="weight-row">
                 <span>
-                  {label} · {state.settings.weights[key].toFixed(1)}
+                  {label} · {state.settings.weights[key].toFixed(2)}
                 </span>
                 <input
                   type="range"
                   min="0"
                   max="2"
-                  step="0.1"
+                  step="0.05"
                   value={state.settings.weights[key]}
                   onChange={(e) =>
                     setState((prev) => ({
@@ -288,9 +294,21 @@ export default function Admin({ state, setState, onBack }: Props) {
           </p>
         </div>
       )}
+      <CloudAdmin
+        state={state}
+        setState={setState}
+        canPublish={!invalidNames}
+      />
+      {invalidNames && (
+        <p role="alert" className="admin-error">
+          יש שם ריק או שם גלוי שאינו משויך לאף חיפוש. תקנו אותו לפני ייצוא או
+          פרסום.
+        </p>
+      )}
       <div className="admin-export">
         <button
           className="secondary-button"
+          disabled={invalidNames}
           onClick={() =>
             downloadJson("catalog.json", {
               source: catalogSource,

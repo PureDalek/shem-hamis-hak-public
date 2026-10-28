@@ -95,9 +95,11 @@ export default function Compare({ names }: Props) {
           {result && (
             <div className="compare-result" role="status">
               <strong>
-                {result.length
-                  ? `יש לכם ${result.length} שמות משותפים!`
-                  : "עוד אין שמות משותפים ברשימות האלה"}
+                {result.length === 1
+                  ? "יש לכם שם משותף אחד!"
+                  : result.length > 1
+                    ? `יש לכם ${result.length} שמות משותפים!`
+                    : "עוד אין שמות משותפים ברשימות האלה"}
               </strong>
               {result.length > 0 && (
                 <div className="chips">

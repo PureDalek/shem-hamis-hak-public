@@ -29,7 +29,7 @@ The `dist` folder is the deployable site. `netlify.toml` configures the build fo
 - Optional partner comparison by exchanging shortlist files manually. The file contains only saved name spellings and is never sent automatically.
 - Browser-local persistence, backup and restore, family names and a local catalog/settings editor. The editor exposes recommendation weights and a preview using the current search.
 
-The app does **not** yet provide accounts, cloud synchronization, a shared server-side admin, automatic partner pairing, advertisements, or real payments. The editor is deliberately local and publicly reachable because it only changes the visitor's own browser. It is not an access-controlled publishing system.
+The default build uses only local storage. Optional code for account backup and an authenticated shared publisher is included, but requires a configured and verified Supabase project before use; see [cloud setup](docs/cloud-setup.md). Automatic partner pairing, advertisements, and real payments are not implemented. Without cloud configuration the editor only changes the visitor's own browser.
 
 ## Update names and settings for all visitors
 
@@ -57,8 +57,10 @@ The raw workbook is ignored by Git. Regenerating replaces the catalog, so retain
 
 - `src/domain.ts`: name filtering, recommendation ordering, numerology and tournament rules.
 - `src/storage.ts`: versioned browser storage and backup validation.
+- `src/cloud.ts`, `src/CloudAccount.tsx`, `src/CloudAdmin.tsx`: optional account backup and protected publication.
 - `src/App.tsx`, `src/Admin.tsx`, `src/style.css`: app screens and the local editor.
 - `src/data/`: portable catalog and default settings.
 - `scripts/import-cbs.py`: repeatable source-data transformation.
+- `supabase/migrations/` and `tests/db/`: database policy migration and local authorization checks.
 
 The mixed ordering combines published counts, a stable per-search variation, and a simple letter similarity to liked/inspiration names. It is a heuristic, not an AI model or a statement of name quality. Exact 2024 total popularity cannot be inferred from the visible group counts because some source values are suppressed or absent.

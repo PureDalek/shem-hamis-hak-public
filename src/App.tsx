@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Admin from "./Admin";
 import Compare from "./Compare";
+import CloudAccount from "./CloudAccount";
 import {
   ArrowLeft,
   Baby,
@@ -567,7 +568,16 @@ function App() {
                               {current.meaning}
                             </p>
                           ) : (
-                            <p>עדיין אין לשם הזה פירוש שנבדק.</p>
+                            <p>
+                              עדיין אין לשם הזה פירוש שנבדק. אפשר{" "}
+                              <a
+                                href={`https://he.wiktionary.org/w/index.php?search=${encodeURIComponent(current.name)}`}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                לחפש בוויקימילון ↗
+                              </a>
+                            </p>
                           )}
                           {current.origin && (
                             <p>
@@ -1034,6 +1044,7 @@ function App() {
                   ))}
                 </div>
               </div>
+              <CloudAccount state={state} setState={setState} />
               <div className="profile-actions">
                 <button onClick={() => setScreen("searches")}>
                   <ClipboardList size={19} />

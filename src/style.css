@@ -1021,6 +1021,85 @@ textarea {
   gap: 9px;
   margin-top: 20px;
 }
+.cloud-account {
+  background: #eaf5ef;
+  border: 1px solid #cfe4d8;
+  border-radius: 15px;
+  padding: 18px;
+  margin-top: 20px;
+}
+.cloud-account h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font: 800 17px Rubik;
+}
+.cloud-account p {
+  color: #5b7568;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.cloud-account form label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.cloud-signout {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 14px;
+}
+.cloud-account .cloud-message {
+  color: #235d45;
+  font-weight: 700;
+}
+.cloud-admin {
+  background: #edf5ef;
+  border: 1px solid #cfe4d8;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 20px;
+}
+.cloud-admin h3,
+.cloud-admin h4 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  font-size: 15px;
+}
+.cloud-admin h4 {
+  margin-top: 20px;
+}
+.cloud-admin p {
+  color: #557060;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.cloud-admin .primary-button {
+  margin-top: 12px;
+}
+.revision-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 9px;
+}
+.revision-list button {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+  border: 1px solid #d2e0d8;
+  border-radius: 8px;
+  background: white;
+  font-size: 12px;
+}
+.revision-list span {
+  font-weight: 700;
+  color: #b95240;
+}
 .profile-actions button > svg:first-child {
   color: #c96650;
 }
@@ -1162,6 +1241,11 @@ textarea {
   display: grid;
   gap: 10px;
   margin-top: 20px;
+}
+.admin-error {
+  color: #a13326;
+  font-size: 12px;
+  line-height: 1.6;
 }
 .bottom-nav {
   position: fixed;

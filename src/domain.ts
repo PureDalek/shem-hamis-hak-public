@@ -65,11 +65,24 @@ export type AppState = {
   overrides: Record<string, Partial<NameRecord>>;
   extraCatalog: NameRecord[];
   settings: Settings;
+  siteRevision?: number;
 };
 
-export const catalog = source.names as NameRecord[];
-export const catalogSource = source.source;
-export const defaultSettings: Settings = settings as Settings;
+export let catalog = source.names as NameRecord[];
+export let catalogSource = source.source;
+export let defaultSettings: Settings = settings as Settings;
+export let publishedRevision = 0;
+export function installPublishedContent(
+  names: NameRecord[],
+  sourceUrl: string,
+  nextSettings: Settings,
+  revision: number,
+) {
+  catalog = names;
+  catalogSource = sourceUrl;
+  defaultSettings = nextSettings;
+  publishedRevision = revision;
+}
 export const initialState = (): AppState => ({
   version: 1,
   searches: [],
@@ -78,6 +91,7 @@ export const initialState = (): AppState => ({
   overrides: {},
   extraCatalog: [],
   settings: defaultSettings,
+  siteRevision: publishedRevision,
 });
 export const makeId = () =>
   globalThis.crypto?.randomUUID?.() ??
