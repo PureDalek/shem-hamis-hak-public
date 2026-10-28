@@ -782,6 +782,7 @@ textarea {
 .list-number {
   width: 40px;
   height: 40px;
+  flex-shrink: 0;
   display: grid;
   place-items: center;
   border-radius: 12px;
@@ -791,6 +792,30 @@ textarea {
 }
 .list-name {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.list-details-button {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  text-align: start;
+}
+.list-details-button:hover .list-name strong {
+  color: var(--coral);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.list-details-icon {
+  flex-shrink: 0;
+  color: var(--muted);
 }
 .list-name strong,
 .list-name small {
@@ -1343,6 +1368,48 @@ textarea {
   height: 16px;
   display: grid;
   place-items: center;
+}
+.name-dialog {
+  width: min(520px, calc(100% - 32px));
+  max-height: calc(100dvh - 40px);
+  padding: 0 24px 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1.5px solid var(--ink);
+  border-radius: 20px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+.name-dialog::backdrop {
+  background: #211d3099;
+}
+.name-dialog-header {
+  position: sticky;
+  top: 0;
+  padding: 20px 0 12px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+.name-dialog-back {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  margin-bottom: 10px;
+}
+.name-dialog h2 {
+  margin: 8px 0;
+  font: 900 36px Rubik, sans-serif;
+  overflow-wrap: anywhere;
+}
+.name-dialog .fullname {
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+}
+.name-dialog-number {
+  font-size: 13px;
+  font-weight: 700;
 }
 .modal-backdrop {
   position: fixed;

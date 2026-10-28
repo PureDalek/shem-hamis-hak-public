@@ -1,6 +1,8 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Admin from "./Admin";
 import Compare from "./Compare";
+import NameDetails from "./NameDetails";
+import NameDetailsDialog from "./NameDetailsDialog";
 import { categories } from "./categories";
 import { cloudConfigured } from "./cloud-config";
 import {
@@ -29,16 +31,13 @@ import {
   allNames,
   applyDecision,
   availableNames,
-  catalogSource,
   chooseTournament,
   initialState,
-  isSafeHttpsUrl,
   makeId,
   newSearch,
   normalize,
   numerology,
   startTournament,
-  summarizeObservations,
   undo,
   type AppState,
   type Gender,
@@ -96,6 +95,7 @@ function App() {
   const [numberInfo, setNumberInfo] = useState<number | null>(null);
   const [input, setInput] = useState("");
   const [listTab, setListTab] = useState<"like" | "pass">("like");
+  const [detailsNameId, setDetailsNameId] = useState<string | null>(null);
   const [selected, setSelected] = useState<string[]>([]);
   const [notice, setNotice] = useState("");
   const [storageError, setStorageError] = useState(false);
@@ -113,7 +113,7 @@ function App() {
     [state, active],
   );
   const current = available[0];
-  const statistics = current ? summarizeObservations(current.observations) : null;
+  const detailsName = detailsNameId ? names.get(detailsNameId) : undefined;
   const liked = active
     ? Object.entries(active.decisions)
         .filter(([, d]) => d === "like")
@@ -612,68 +612,7 @@ function App() {
                         />
                       </button>
                       {details && (
-                        <div className="name-details">
-                          {current.meaning ? (
-                            <p>
-                              <strong>פירוש אפשרי: </strong>
-                              {current.meaning}
-                            </p>
-                          ) : (
-                            <p>
-                              עדיין אין לשם הזה פירוש שנבדק. אפשר{" "}
-                              <a
-                                href={`https://he.wiktionary.org/w/index.php?search=${encodeURIComponent(current.name)}`}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                לחפש בוויקימילון ↗
-                              </a>
-                            </p>
-                          )}
-                          {current.origin && (
-                            <p>
-                              <strong>מקור אפשרי: </strong>
-                              {current.origin}
-                            </p>
-                          )}
-                          {current.meaningSource &&
-                            isSafeHttpsUrl(current.meaningSource) && (
-                              <p>
-                                <a
-                                  href={current.meaningSource}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  מקור לפירוש השם ↗
-                                </a>
-                              </p>
-                            )}
-                          {state.settings.showStatistics &&
-                            current.observations.length > 0 && (
-                              <>
-                                <p>
-                                  <strong>ילידי 2020–2024 לפי השם הנוכחי, בנתונים שפורסמו:</strong>
-                                </p>
-                                {statistics?.leadingGroup && <p><strong>בנתונים שפורסמו, השם נפוץ בעיקר אצל {statistics.leadingGroup}.</strong></p>}
-                                <div className="statistics-list">
-                                  {statistics?.rows.map(row => (
-                                    <div className="statistics-row" key={`${row.year}-${row.group}`}>
-                                      <strong>{row.year} · {row.group}</strong>
-                                      <span>בנים: {row.boy === undefined ? 'לא פורסם' : row.boy.toLocaleString('he-IL')} · בנות: {row.girl === undefined ? 'לא פורסם' : row.girl.toLocaleString('he-IL')}</span>
-                                    </div>
-                                  ))}
-                                </div>
-                                <p>* הסכום כולל רק נתונים שפורסמו לקבוצות הזמינות, ואינו מספר מלא לכלל האוכלוסייה. נתונים חסרים אינם אפס.</p>
-                                <a
-                                  href={catalogSource}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  מקור: הלשכה המרכזית לסטטיסטיקה ↗
-                                </a>
-                              </>
-                            )}
-                        </div>
+                        <NameDetails name={current} showStatistics={state.settings.showStatistics} />
                       )}
                     </div>
                   </div>
@@ -726,7 +665,7 @@ function App() {
                 <div>
                   <span className="kicker">כל הלבבות במקום אחד</span>
                   <h2>הרשימה שלי</h2>
-                  <p>השמות שאהבתם, ועוד כמה שאפשר לשקול שוב.</p>
+                  <p>לחצו על שם כדי לחזור לפירוט ולסטטיסטיקות שלו.</p>
                 </div>
                 <span className="section-count">{savedCount}</span>
               </div>
@@ -793,16 +732,24 @@ function App() {
                       const n = names.get(id)!;
                       return (
                         <div className="list-item" key={id}>
-                          <div className="list-number">
-                            {numerology(n.name) ?? "✳"}
-                          </div>
-                          <div className="list-name">
-                            <strong>{n.name}</strong>
-                            <small>
-                              {n.custom ? "שם שהוספתם" : "שם מהמאגר"}
-                              {active.surname ? ` · ${active.surname}` : ""}
-                            </small>
-                          </div>
+                          <button
+                            className="list-details-button"
+                            onClick={() => setDetailsNameId(id)}
+                            title={`פירוט על השם ${n.name}`}
+                            aria-haspopup="dialog"
+                          >
+                            <span className="list-number">
+                              {numerology(n.name) ?? "✳"}
+                            </span>
+                            <span className="list-name">
+                              <strong>{n.name}</strong>
+                              <small>
+                                {n.custom ? "שם שהוספתם" : "שם מהמאגר"}
+                                {active.surname ? ` · ${active.surname}` : ""}
+                              </small>
+                            </span>
+                            <ChevronLeft size={18} className="list-details-icon" aria-hidden="true" />
+                          </button>
                           <button
                             className="list-action"
                             onClick={() =>
@@ -1266,6 +1213,15 @@ function App() {
             </button>
           ))}
         </nav>
+      )}
+      {screen === "saved" && active && detailsName && (
+        <NameDetailsDialog
+          key={`${active.id}:${detailsName.id}`}
+          name={detailsName}
+          search={active}
+          showStatistics={state.settings.showStatistics}
+          onClose={() => setDetailsNameId(null)}
+        />
       )}
       {numberInfo !== null && (
         <div className="modal-backdrop" onClick={() => setNumberInfo(null)}>

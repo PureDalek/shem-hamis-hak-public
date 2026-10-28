@@ -1,0 +1,85 @@
+import { expect, test } from '@playwright/test';
+
+test('saved and passed names reopen the same details without changing decisions', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'טבע', exact: true }).click();
+  await page.getByRole('button', { name: 'שם אמצעי' }).click();
+  await page.getByPlaceholder('כדי לראות איך השמות נשמעים ביחד').fill('נועה');
+  await page.getByPlaceholder('נציג אותו לצד השמות').fill('ישראלי');
+  await page.getByRole('button', { name: 'יאללה, מתחילים' }).click();
+  const savedName = await page.locator('.display-name').innerText();
+  await page.getByRole('button', { name: 'קצת על השם' }).click();
+  const originalDetails = await page.locator('.name-details').innerText();
+  const originalStatistics = await page.locator('.statistics-row').allTextContents();
+  expect(originalStatistics.length).toBeGreaterThan(0);
+  await page.getByRole('button', { name: 'אהבתי!' }).click();
+  const passedName = await page.locator('.display-name').innerText();
+  await page.getByRole('button', { name: 'פחות בשבילי' }).click();
+
+  await page.reload();
+  const nextName = await page.locator('.display-name').innerText();
+  await page.getByRole('button', { name: /1 שמורים/ }).click();
+  const trigger = page.getByTitle(`פירוט על השם ${savedName}`, { exact: true });
+  await trigger.focus();
+  await page.keyboard.press('Enter');
+  const dialog = page.getByRole('dialog', { name: savedName, exact: true });
+  await expect(dialog).toBeVisible();
+  await expect(dialog.locator('.name-details')).toHaveText(originalDetails, { useInnerText: true });
+  expect(await dialog.locator('.statistics-row').allTextContents()).toEqual(originalStatistics);
+  await expect(dialog.getByText(`נועה ${savedName} ישראלי`, { exact: true })).toBeVisible();
+  await expect(dialog.getByText(/מספר נומרולוגי:/)).toBeVisible();
+  const back = dialog.getByRole('button', { name: 'חזרה לרשימה' });
+  await expect(back).toBeFocused();
+  await expect(page.locator('body')).toHaveCSS('overflow', 'hidden');
+  const bounds = await dialog.boundingBox();
+  const viewport = page.viewportSize()!;
+  expect(bounds).not.toBeNull();
+  expect(bounds!.x).toBeGreaterThanOrEqual(0);
+  expect(bounds!.y).toBeGreaterThanOrEqual(0);
+  expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(viewport.width);
+  expect(bounds!.y + bounds!.height).toBeLessThanOrEqual(viewport.height);
+  await page.screenshot({ path: testInfo.outputPath('saved-name-details.png') });
+  await dialog.getByRole('link', { name: /מקור: הלשכה המרכזית לסטטיסטיקה/ }).scrollIntoViewIfNeeded();
+  await back.click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  await expect(trigger).toBeFocused();
+  await expect(page.locator('body')).toHaveCSS('overflow', 'visible');
+  await expect(page.locator('.list-item')).toHaveCount(1);
+
+  await trigger.click();
+  await expect(dialog).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  await expect(trigger).toBeFocused();
+
+  await page.getByRole('button', { name: /ויתרתי/ }).click();
+  await page.getByTitle(`פירוט על השם ${passedName}`, { exact: true }).click();
+  await expect(page.getByRole('dialog', { name: passedName, exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'חזרה לרשימה' }).click();
+  await expect(page.locator('.list-item')).toHaveCount(1);
+  await page.getByRole('button', { name: `החזרת ${passedName} לשמות ששמרתם` }).click();
+  await expect(page.getByRole('button', { name: /2 שמורים/ })).toBeVisible();
+  await expect(page.locator('.list-item')).toHaveCount(0);
+  await page.getByRole('button', { name: 'דפדוף', exact: true }).click();
+  await expect(page.locator('.display-name')).toHaveText(nextName);
+});
+
+test('custom names show unavailable data and the backdrop dismisses their details', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'יאללה, מתחילים' }).click();
+  await page.getByRole('button', { name: /0 שמורים/ }).click();
+  const name = 'שם מיוחד לבדיקה';
+  await page.getByPlaceholder('הוספת שם משלכם').fill(name);
+  await page.getByRole('button', { name: 'הוספת שם', exact: true }).click();
+  const trigger = page.getByTitle(`פירוט על השם ${name}`, { exact: true });
+  await trigger.click();
+  const dialog = page.getByRole('dialog', { name, exact: true });
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByText(/עדיין אין לשם הזה פירוש שנבדק/)).toBeVisible();
+  await expect(dialog.getByText('אין נתונים סטטיסטיים זמינים לשם הזה במאגר.')).toBeVisible();
+  await expect(dialog.locator('.statistics-row')).toHaveCount(0);
+  await page.mouse.click(4, 4);
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  await expect(trigger).toBeFocused();
+  await expect(page.locator('.list-item')).toHaveCount(1);
+});

@@ -18,6 +18,10 @@ test('core screens pass automated accessibility checks', async ({ page }) => {
   await page.getByRole('button', { name: 'אהבתי!' }).click();
   await page.getByRole('button', { name: /2 שמורים/ }).click();
   await checkAccessibility(page);
+  await page.getByTitle(/פירוט על השם/).first().click();
+  await expect(page.getByRole('dialog')).toBeVisible();
+  await checkAccessibility(page);
+  await page.getByRole('button', { name: 'חזרה לרשימה' }).click();
   await page.getByRole('button', { name: /מוכנים לטורניר/ }).click();
   await checkAccessibility(page);
   await page.getByRole('button', { name: 'פרופיל', exact: true }).click();
