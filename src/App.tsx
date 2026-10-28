@@ -1069,6 +1069,7 @@ function App() {
                       }
                     }}
                     placeholder="הוספת שם במשפחה"
+                    aria-label="שם במשפחה"
                     maxLength={50}
                   />
                   <button

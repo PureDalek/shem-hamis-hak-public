@@ -20,4 +20,8 @@ test('core screens pass automated accessibility checks', async ({ page }) => {
   await checkAccessibility(page);
   await page.getByRole('button', { name: /מוכנים לטורניר/ }).click();
   await checkAccessibility(page);
+  await page.getByRole('button', { name: 'פרופיל', exact: true }).click();
+  await checkAccessibility(page);
+  await page.getByRole('button', { name: /הגדרות ועריכת מאגר מקומית/ }).click();
+  await checkAccessibility(page);
 });

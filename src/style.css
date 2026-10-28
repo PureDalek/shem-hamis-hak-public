@@ -10,7 +10,7 @@
   --coral: #bd4835;
   --mint: #91d6c4;
   --line: #ded2cd;
-  --muted: #77717b;
+  --muted: #635c65;
 }
 * {
   box-sizing: border-box;
@@ -992,7 +992,7 @@ textarea {
 }
 .search-item small,
 .profile-actions small {
-  color: #998f8e;
+  color: #706568;
   font-size: 11px;
   margin-top: 4px;
 }
