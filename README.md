@@ -4,7 +4,7 @@ A mobile-first Hebrew name-discovery game. Browse Israeli names, keep a shortlis
 
 ## Run locally
 
-Requirements: Node.js 22 or newer and npm.
+Requirements: Node.js 22.12 or newer and npm.
 
 ```sh
 npm ci
