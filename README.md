@@ -19,6 +19,13 @@ npm run build
 npm run preview
 ```
 
+For the automated desktop and phone browser journey checks, install Playwright's Chromium once and run:
+
+```sh
+npx playwright install chromium
+npm run test:browser
+```
+
 The `dist` folder is the deployable site. `netlify.toml` configures the build for Netlify. See [milestones](docs/milestones.md) for what is working and what remains.
 
 ## What currently works
