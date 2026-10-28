@@ -119,4 +119,15 @@ describe("backup parsing", () => {
     );
     expect(restored.settings.weights.similarity).toBe(0.35);
   });
+  it("rejects malformed catalog overrides before they can break a search", () => {
+    const backup = initialState();
+    expect(() =>
+      parseBackup(
+        JSON.stringify({
+          ...backup,
+          overrides: { "cbs:test": { observations: "invalid" } },
+        }),
+      ),
+    ).toThrow();
+  });
 });

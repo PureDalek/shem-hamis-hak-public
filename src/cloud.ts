@@ -48,6 +48,9 @@ export function validatePublished(input: unknown): Published {
       typeof name.name !== "string" ||
       !name.name.trim() ||
       name.name.length > 80 ||
+      (name.meaning !== undefined && typeof name.meaning !== "string") ||
+      (name.origin !== undefined && typeof name.origin !== "string") ||
+      (name.hidden !== undefined && typeof name.hidden !== "boolean") ||
       !Array.isArray(name.genders) ||
       !name.genders.every((g) => g === "boy" || g === "girl") ||
       !Array.isArray(name.observations) ||

@@ -142,6 +142,38 @@ export default function CloudAccount({ state, setState }: Props) {
             <Trash2 size={17} /> מחיקת הגיבוי מהחשבון
           </button>
           <button
+            className="outline-button"
+            disabled={busy}
+            onClick={() => {
+              if (
+                !confirm(
+                  "למחוק לצמיתות את החשבון ואת הגיבוי בענן? הנתונים במכשיר יישארו. חשבון המנהל האחרון אינו ניתן למחיקה לפני מינוי מנהל נוסף.",
+                )
+              )
+                return;
+              void run(async () => {
+                const { error } = await client.rpc("delete_own_account");
+                if (error?.code === "42501") {
+                  setMessage(
+                    "אם זה חשבון המנהל האחרון, יש למנות מנהל נוסף לפני מחיקתו.",
+                  );
+                  return;
+                }
+                if (error) throw error;
+                // The database deletion is already committed; a sign-out error must not be reported as deletion failure.
+                try {
+                  await client.auth.signOut({ scope: "local" });
+                } catch {
+                  /* session will expire */
+                }
+                setUser(null);
+                setMessage("החשבון והגיבוי בענן נמחקו. הנתונים במכשיר נשארו.");
+              });
+            }}
+          >
+            <Trash2 size={17} /> מחיקת החשבון
+          </button>
+          <button
             className="text-link cloud-signout"
             disabled={busy}
             onClick={() =>

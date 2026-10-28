@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Admin from "./Admin";
 import Compare from "./Compare";
-import CloudAccount from "./CloudAccount";
+import { cloudConfigured } from "./cloud-config";
 import {
   ArrowLeft,
   Baby,
@@ -30,7 +30,7 @@ import {
   availableNames,
   catalogSource,
   chooseTournament,
-  defaultSettings,
+  initialState,
   makeId,
   newSearch,
   normalize,
@@ -43,8 +43,18 @@ import {
   type Screen,
   type Search,
 } from "./domain";
-import { downloadJson, load, parseBackup, save } from "./storage";
+import {
+  clearRecovery,
+  downloadJson,
+  downloadText,
+  load,
+  parseBackup,
+  readRecovery,
+  reconcilePublishedSettings,
+  save,
+} from "./storage";
 
+const CloudAccount = lazy(() => import("./CloudAccount"));
 const genderLabel: Record<Gender, string> = {
   boy: "בן",
   girl: "בת",
@@ -86,6 +96,7 @@ function App() {
   const [selected, setSelected] = useState<string[]>([]);
   const [notice, setNotice] = useState("");
   const [storageError, setStorageError] = useState(false);
+  const [recovery, setRecovery] = useState(readRecovery);
   const backupInput = useRef<HTMLInputElement>(null);
   const modalRef = useRef<HTMLDivElement>(null);
   const modalOpen = numberInfo !== null;
@@ -235,6 +246,24 @@ function App() {
       setSelected(liked.slice(-state.settings.limitTournament));
   };
   const savedCount = liked.length;
+  const likedNames = liked
+    .map((id) => names.get(id))
+    .filter((name): name is NameRecord => Boolean(name));
+  const shortNames = likedNames.filter((name) => {
+    const length = Array.from(normalize(name.name)).filter((letter) =>
+      /\p{L}/u.test(letter),
+    ).length;
+    return length > 0 && length <= 3;
+  }).length;
+  const numberCounts = likedNames.reduce<Record<number, number>>(
+    (counts, name) => {
+      const number = numerology(name.name);
+      if (number) counts[number] = (counts[number] ?? 0) + 1;
+      return counts;
+    },
+    {},
+  );
+  const topNumber = Object.entries(numberCounts).sort((a, b) => b[1] - a[1])[0];
   const heroTitle =
     screen === "setup"
       ? "מתחילים מסיפור קטן"
@@ -987,6 +1016,25 @@ function App() {
                   <UserRound size={23} />
                 </div>
               </div>
+              <div className="style-card">
+                <span>✳</span>
+                <div>
+                  <h3>הסגנון שלכם</h3>
+                  {likedNames.length >= 3 ? (
+                    <p>
+                      {shortNames} מתוך {likedNames.length} השמות ששמרתם כוללים
+                      עד שלוש אותיות.
+                      {topNumber && Number(topNumber[1]) > 1
+                        ? ` המספר הנומרולוגי שמופיע הכי הרבה הוא ${topNumber[0]}.`
+                        : ""}
+                    </p>
+                  ) : (
+                    <p>
+                      אחרי שתשמרו לפחות שלושה שמות, נציג כאן דברים שמשותפים להם.
+                    </p>
+                  )}
+                </div>
+              </div>
               <div className="profile-card">
                 <h3>
                   שמות במשפחה <span>♡</span>
@@ -1044,7 +1092,27 @@ function App() {
                   ))}
                 </div>
               </div>
-              <CloudAccount state={state} setState={setState} />
+              {cloudConfigured && (
+                <Suspense fallback={null}>
+                  <CloudAccount state={state} setState={setState} />
+                </Suspense>
+              )}
+              {recovery && (
+                <div className="privacy-note" role="alert">
+                  <Info size={17} />
+                  <p>
+                    נתונים קודמים לא נקראו בהצלחה ונשמר עבורם עותק.{" "}
+                    <button
+                      className="text-link"
+                      onClick={() =>
+                        downloadText("shem-recovery.json", recovery)
+                      }
+                    >
+                      הורדת העותק לשחזור
+                    </button>
+                  </p>
+                </div>
+              )}
               <div className="profile-actions">
                 <button onClick={() => setScreen("searches")}>
                   <ClipboardList size={19} />
@@ -1096,7 +1164,7 @@ function App() {
                     if (
                       confirm("השחזור יחליף את הנתונים במכשיר הזה. להמשיך?")
                     ) {
-                      setState(next);
+                      setState(reconcilePublishedSettings(next));
                       flash("הגיבוי שוחזר");
                     }
                   } catch {
@@ -1117,15 +1185,14 @@ function App() {
                 className="danger-link"
                 onClick={() => {
                   if (confirm("למחוק את כל החיפושים והנתונים מהמכשיר הזה?")) {
-                    setState({
-                      version: 1,
-                      searches: [],
-                      activeId: null,
-                      family: [],
-                      overrides: {},
-                      extraCatalog: [],
-                      settings: defaultSettings,
-                    });
+                    try {
+                      clearRecovery();
+                      setRecovery(null);
+                    } catch {
+                      setStorageError(true);
+                      return;
+                    }
+                    setState(initialState());
                     createSearch();
                     flash("הנתונים נמחקו");
                   }

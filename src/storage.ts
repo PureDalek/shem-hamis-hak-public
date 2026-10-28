@@ -154,7 +154,27 @@ export function parseBackup(text: string): AppState {
     );
   if (
     !state.extraCatalog.every(validName) ||
-    !state.searches.every((s) => s.customNames.every(validName))
+    !state.searches.every((s) => s.customNames.every(validName)) ||
+    Array.isArray(state.overrides) ||
+    !Object.values(state.overrides).every((entry) => {
+      if (!entry || typeof entry !== "object" || Array.isArray(entry))
+        return false;
+      return (
+        Object.keys(entry).every((key) =>
+          ["name", "meaning", "origin", "hidden", "genders"].includes(key),
+        ) &&
+        (entry.name === undefined ||
+          (typeof entry.name === "string" && entry.name.length <= 80)) &&
+        (entry.meaning === undefined || typeof entry.meaning === "string") &&
+        (entry.origin === undefined || typeof entry.origin === "string") &&
+        (entry.hidden === undefined || typeof entry.hidden === "boolean") &&
+        (entry.genders === undefined ||
+          (Array.isArray(entry.genders) &&
+            entry.genders.every(
+              (gender) => gender === "boy" || gender === "girl",
+            )))
+      );
+    })
   )
     throw new Error("Invalid catalog");
   return state;
@@ -162,13 +182,26 @@ export function parseBackup(text: string): AppState {
 export function save(state: AppState) {
   localStorage.setItem(KEY, JSON.stringify(state));
 }
-export function downloadJson(filename: string, value: unknown) {
+export function readRecovery(): string | null {
+  try {
+    return localStorage.getItem(`${KEY}-recovery`);
+  } catch {
+    return null;
+  }
+}
+export function clearRecovery() {
+  localStorage.removeItem(`${KEY}-recovery`);
+}
+export function downloadText(filename: string, text: string) {
   const url = URL.createObjectURL(
-    new Blob([JSON.stringify(value, null, 2)], { type: "application/json" }),
+    new Blob([text], { type: "application/json" }),
   );
   const link = document.createElement("a");
   link.href = url;
   link.download = filename;
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+export function downloadJson(filename: string, value: unknown) {
+  downloadText(filename, JSON.stringify(value, null, 2));
 }

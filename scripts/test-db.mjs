@@ -40,6 +40,7 @@ try {
   for (const [local, remote] of [
     ["tests/db/bootstrap.sql", "bootstrap.sql"],
     ["supabase/migrations/202610280001_initial.sql", "migration.sql"],
+    ["supabase/migrations/202610280002_account_deletion.sql", "deletion.sql"],
     ["tests/db/security.sql", "security.sql"],
   ]) {
     docker(["cp", resolve(local), `${name}:/tmp/${remote}`]);
@@ -56,6 +57,8 @@ try {
     "/tmp/bootstrap.sql",
     "-f",
     "/tmp/migration.sql",
+    "-f",
+    "/tmp/deletion.sql",
     "-f",
     "/tmp/security.sql",
   ]);

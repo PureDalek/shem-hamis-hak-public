@@ -1,4 +1,10 @@
-import { useState, type Dispatch, type SetStateAction } from "react";
+import {
+  lazy,
+  Suspense,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from "react";
 import { ChevronLeft, Download, Plus, X } from "lucide-react";
 import {
   allNames,
@@ -10,8 +16,8 @@ import {
   type NameRecord,
 } from "./domain";
 import { downloadJson } from "./storage";
-import CloudAdmin from "./CloudAdmin";
-import { cloud } from "./cloud";
+import { cloudConfigured } from "./cloud-config";
+const CloudAdmin = lazy(() => import("./CloudAdmin"));
 
 type Props = {
   state: AppState;
@@ -70,7 +76,7 @@ export default function Admin({ state, setState, onBack }: Props) {
           <span className="kicker">כלי עבודה</span>
           <h2>ניהול המאגר</h2>
           <p>
-            {cloud
+            {cloudConfigured
               ? "השינויים נשמרים כטיוטה במכשיר הזה. מנהלי האתר יכולים לפרסם אותם לכולם."
               : "השינויים נשמרים בדפדפן הזה. כדי לעדכן את האתר לכולם, מייצאים ומעדכנים את קובצי המקור בפרויקט."}
           </p>
@@ -294,11 +300,15 @@ export default function Admin({ state, setState, onBack }: Props) {
           </p>
         </div>
       )}
-      <CloudAdmin
-        state={state}
-        setState={setState}
-        canPublish={!invalidNames}
-      />
+      {cloudConfigured && (
+        <Suspense fallback={null}>
+          <CloudAdmin
+            state={state}
+            setState={setState}
+            canPublish={!invalidNames}
+          />
+        </Suspense>
+      )}
       {invalidNames && (
         <p role="alert" className="admin-error">
           יש שם ריק או שם גלוי שאינו משויך לאף חיפוש. תקנו אותו לפני ייצוא או

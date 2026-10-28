@@ -37,10 +37,15 @@ do $$ begin
   delete from public.user_backups where user_id = '11111111-1111-1111-1111-111111111111';
   if found then raise exception 'Another user could delete the backup'; end if;
 end $$;
+select public.delete_own_account();
 
 select set_config('request.jwt.claim.sub', '33333333-3333-3333-3333-333333333333', false);
 do $$ declare rev integer; begin
   if not public.is_site_admin() then raise exception 'Administrator was not recognized'; end if;
+  begin
+    perform public.delete_own_account();
+    raise exception 'The final administrator could delete their account';
+  exception when insufficient_privilege then null; end;
   rev := public.publish_site('{"source":"https://example.test","names":[{"id":"one"}]}'::jsonb,'{"setting":1}'::jsonb,0);
   if rev <> 1 then raise exception 'First publication revision is wrong'; end if;
   begin
@@ -52,12 +57,20 @@ do $$ declare rev integer; begin
 end $$;
 
 reset role;
+do $$ begin
+  if exists(select 1 from auth.users where id = '22222222-2222-2222-2222-222222222222') then raise exception 'Account deletion did not remove the caller'; end if;
+  if not exists(select 1 from auth.users where id = '11111111-1111-1111-1111-111111111111') then raise exception 'Account deletion removed another user'; end if;
+end $$;
 set role anon;
 do $$ begin
   if (select revision from public.site_content where id = 1) <> 2 then raise exception 'Public cannot read published content'; end if;
   begin
     perform public.publish_site('{"names":[{"id":"x"}]}'::jsonb,'{}'::jsonb,2);
     raise exception 'Anonymous visitor could publish';
+  exception when insufficient_privilege then null; end;
+  begin
+    perform public.delete_own_account();
+    raise exception 'Anonymous visitor could invoke account deletion';
   exception when insufficient_privilege then null; end;
   begin
     perform * from public.user_backups;

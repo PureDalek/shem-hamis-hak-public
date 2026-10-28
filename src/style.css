@@ -1010,6 +1010,35 @@ textarea {
   border-radius: 15px;
   padding: 18px;
 }
+.style-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #f2ece3;
+  border-radius: 15px;
+  padding: 17px;
+  margin-bottom: 14px;
+}
+.style-card > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 35px;
+  width: 35px;
+  height: 35px;
+  background: var(--mint);
+  border-radius: 50%;
+  font-size: 20px;
+}
+.style-card h3 {
+  margin: 0;
+  font: 800 16px Rubik;
+}
+.style-card p {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+}
 .profile-card h3 {
   margin: 0;
 }

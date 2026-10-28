@@ -5,7 +5,7 @@ The app works without an account. This integration adds an opt-in cloud backup a
 ## Create and configure the project
 
 1. Create a project on a suitable free Supabase plan and review its current limits. Use a separate project for development and production when possible.
-2. Apply `supabase/migrations/202610280001_initial.sql` in the project's SQL editor or through the Supabase CLI. The migration creates `user_backups`, `site_content`, `content_revisions`, an admin membership table and restrictive access policies.
+2. Apply the SQL files in `supabase/migrations/` in filename order in the project's SQL editor or through the Supabase CLI. They create `user_backups`, `site_content`, `content_revisions`, an admin membership table, restrictive access policies and self-service account deletion.
 3. In Supabase Auth, configure the site URL and allowed redirect URLs for the actual deployed site and any deliberate local development URL. Enable email magic links and configure a suitable email sender for the intended traffic. Test delivery to a real address.
 4. Add the project's **URL** and **publishable (or legacy anon) key** as `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` in the hosting provider's build environment, then rebuild. For local development, copy `.env.example` to `.env.local` and fill the values. These two values are public in browser code; access is controlled by the database policies. Never put a secret or service-role key in a `VITE_` variable or source control.
 5. Sign in once through the app. In the Supabase Auth user list, copy the exact UUID of the account that should manage content. In the project's privileged SQL editor, run the following with that UUID substituted:
@@ -26,6 +26,7 @@ On a private test deployment connected to the real Supabase project, additionall
 
 - Sign in using the real email flow and save, recover and delete a test backup on a second browser/device.
 - A second signed-in account cannot read, alter or delete the first account's backup.
+- Account deletion removes that account and its cloud backup; the last administrator is protected from deletion until another administrator is appointed.
 - A non-admin account and an anonymous visitor cannot publish, list revision history or grant themselves administration; a designated admin can publish and restore, and a stale publication is rejected.
 - A new visitor sees the published catalog and settings after reload; an offline or unavailable database falls back to the bundled catalog.
 
