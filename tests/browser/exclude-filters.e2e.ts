@@ -1,0 +1,37 @@
+import { expect, test } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+
+test('exclusions combine with inclusion, persist, and can be removed', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'טבע', exact: true }).click();
+  await page.getByRole('button', { name: 'תנ״ך ומקורות', exact: true }).click();
+  await page.getByRole('button', { name: /מה לא להציג/ }).click();
+  const withoutNature = page.getByRole('button', { name: 'ללא טבע', exact: true });
+  await withoutNature.click();
+  await expect(withoutNature).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.getByRole('button', { name: 'טבע', exact: true })).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.getByRole('button', { name: 'תנ״ך ומקורות', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  const noJewishRecords = page.getByRole('button', { name: 'ללא נתונים שפורסמו אצל יהודים' });
+  await noJewishRecords.click();
+  await expect(page.getByText(/נתונים חסרים אינם הוכחה ששם אינו קיים בקבוצה/)).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  const scan = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
+  expect(scan.violations).toEqual([]);
+  await page.getByRole('button', { name: 'יאללה, מתחילים' }).click();
+  await expect(page.getByRole('button', { name: 'הסרת החרגת טבע' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'הסרת החרגת נתונים שפורסמו אצל יהודים' })).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'הסרת החרגת טבע' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'הסרת החרגת נתונים שפורסמו אצל יהודים' })).toBeVisible();
+  await page.getByRole('button', { name: 'הסרת החרגת טבע' }).click();
+  await expect(page.getByRole('button', { name: 'הסרת החרגת טבע' })).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'הסרת החרגת נתונים שפורסמו אצל יהודים' })).toBeVisible();
+  await page.getByRole('button', { name: 'שינוי חיפוש' }).click();
+  await expect(page.getByRole('button', { name: /מה לא להציג/ })).toHaveAttribute('aria-expanded', 'true');
+  await expect(noJewishRecords).toHaveAttribute('aria-pressed', 'true');
+  await expect(withoutNature).toHaveAttribute('aria-pressed', 'false');
+  await withoutNature.click();
+  await page.getByRole('button', { name: 'טבע', exact: true }).click();
+  await expect(withoutNature).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.getByRole('button', { name: 'טבע', exact: true })).toHaveAttribute('aria-pressed', 'true');
+});

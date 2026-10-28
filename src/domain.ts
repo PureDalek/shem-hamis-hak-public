@@ -110,6 +110,8 @@ export type Search = {
   inspirations: string[];
   numbers: number[];
   categories?: string[];
+  excludedCategories?: string[];
+  excludedPopulationGroups?: string[];
   lengthFilter?: "short" | "medium" | "long";
   firstLetter?: string;
   decisions: Record<string, Decision>;
@@ -260,12 +262,16 @@ export function namesForSearch(state: AppState, search: Search): NameRecord[] {
     const selected = search.categories ?? [];
     const published = name.observations.filter(o => o.year >= 2020 && o.year <= 2024);
     const reportedTotal = published.reduce((sum, o) => sum + o.count, 0);
-    const categoryMatch = !selected.length || selected.some(category =>
+    const matchesCategory = (category: string) =>
       category === 'reported-low'
         ? published.length > 0 && reportedTotal <= 100
-        : (name.tags ?? []).includes(category),
+        : (name.tags ?? []).includes(category);
+    const categoryMatch = !selected.length || selected.some(matchesCategory);
+    const excludedCategory = (search.excludedCategories ?? []).some(matchesCategory);
+    const excludedPopulation = published.some(observation =>
+      (search.excludedPopulationGroups ?? []).includes(populationGroups[observation.group] ?? observation.group),
     );
-    return numericMatch && categoryMatch && lengthMatch && letterMatch;
+    return numericMatch && categoryMatch && !excludedCategory && !excludedPopulation && lengthMatch && letterMatch;
   });
 }
 

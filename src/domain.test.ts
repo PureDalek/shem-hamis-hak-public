@@ -79,6 +79,34 @@ describe("partner shortlist comparison", () => {
 });
 
 describe("search decisions", () => {
+  it("excludes any selected themes even when another included theme matches", () => {
+    const state = initialState();
+    const search = { ...newSearch('boy'), categories: ['nature', 'biblical'], excludedCategories: ['nature'] };
+    const results = namesForSearch(state, search);
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.every(n => n.tags?.includes('biblical') && !n.tags?.includes('nature'))).toBe(true);
+    expect(results.some(n => n.name === 'אור')).toBe(false);
+    const restored = parseBackup(JSON.stringify({ ...state, searches: [search], activeId: search.id }));
+    expect(restored.searches[0].excludedCategories).toEqual(['nature']);
+    expect(namesForSearch(restored, restored.searches[0]).map(n => n.id)).toEqual(results.map(n => n.id));
+  });
+  it("excludes names with published group records without treating missing data as zero", () => {
+    const state = initialState();
+    const observation = (group: string, year: number) => ({group, year, gender: 'boy', count: 5});
+    state.extraCatalog = [
+      { id: 'test:jewish', name: 'בדיקהא', genders: ['boy'], tags: ['fixture'], observations: [observation('יהודיות', 2020), observation('מוסלמים', 2021)] },
+      { id: 'test:muslim', name: 'בדיקהב', genders: ['boy'], tags: ['fixture'], observations: [observation('מוסלמים', 2021)] },
+      { id: 'test:unknown', name: 'בדיקהג', genders: ['boy'], tags: ['fixture'], observations: [] },
+      { id: 'test:old', name: 'בדיקהד', genders: ['boy'], tags: ['fixture'], observations: [observation('יהודים', 2019)] },
+    ];
+    const search = { ...newSearch('boy'), categories: ['fixture'], excludedPopulationGroups: ['יהודים'] };
+    expect(namesForSearch(state, search).map(n => n.id)).toEqual(['test:muslim', 'test:unknown', 'test:old']);
+    const backup = parseBackup(JSON.stringify({ ...state, searches: [search], activeId: search.id }));
+    expect(backup.searches[0].excludedPopulationGroups).toEqual(['יהודים']);
+    expect(namesForSearch(backup, backup.searches[0]).map(n => n.id)).toEqual(['test:muslim', 'test:unknown', 'test:old']);
+    const reference = state.extraCatalog[0];
+    expect(similarNames(state, search, reference, { length: true, topics: false, letters: false }).map(m => m.name.id)).not.toContain('test:jewish');
+  });
   it("combines letter and length filters with categories and persists them in backups", () => {
     const state = initialState();
     const search = { ...newSearch("boy"), firstLetter: "א", lengthFilter: "short" as const, categories: ["nature"] };

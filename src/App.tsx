@@ -4,6 +4,7 @@ import Compare from "./Compare";
 import NameDetails from "./NameDetails";
 import NameDetailsDialog from "./NameDetailsDialog";
 import CategoryPicker from "./CategoryPicker";
+import ExcludedFilters from "./ExcludedFilters";
 import CategoryLabels from "./CategoryLabels";
 import SimilarNames from "./SimilarNames";
 import { categories } from "./categories";
@@ -442,7 +443,8 @@ function App() {
                   ))}
                 </div>
               </fieldset>
-              <CategoryPicker state={state} search={draft} onChange={categories => setDraft({ ...draft, categories })} />
+              <CategoryPicker state={state} search={draft} onChange={categories => setDraft({ ...draft, categories, excludedCategories: (draft.excludedCategories ?? []).filter(id => !categories.includes(id)) })} />
+              <ExcludedFilters search={draft} onChange={setDraft} />
               <div className="filter-fields">
                 <label className="field-label">אורך השם <span>לא חובה</span>
                   <select value={draft.lengthFilter ?? ""} onChange={e => setDraft({ ...draft, lengthFilter: (e.target.value || undefined) as Search["lengthFilter"] })}>
@@ -608,11 +610,17 @@ function App() {
                 </div>
                 <div className="round-badge">✳</div>
               </div>
-              {((active.categories?.length ?? 0) > 0 || active.numbers.length > 0 || active.lengthFilter || active.firstLetter) && (
+              {((active.categories?.length ?? 0) > 0 || (active.excludedCategories?.length ?? 0) > 0 || (active.excludedPopulationGroups?.length ?? 0) > 0 || active.numbers.length > 0 || active.lengthFilter || active.firstLetter) && (
                 <div className="active-filters" aria-label="סינונים פעילים">
                   <span>סינונים פעילים:</span>
                   {(active.categories ?? []).map(id => <button key={id} onClick={() => updateSearch(s => ({ ...s, categories: (s.categories ?? []).filter(category => category !== id) }))} aria-label={`הסרת סינון ${categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)}`}>
                     {categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)} <X size={13} />
+                  </button>)}
+                  {(active.excludedCategories ?? []).map(id => <button key={`exclude:${id}`} onClick={() => updateSearch(s => ({ ...s, excludedCategories: (s.excludedCategories ?? []).filter(category => category !== id) }))} aria-label={`הסרת החרגת ${categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)}`}>
+                    ללא {categories.find(c => c.id === id)?.label ?? (id === 'reported-low' ? 'מעט ילידים מדווחים' : id)} <X size={13} />
+                  </button>)}
+                  {(active.excludedPopulationGroups ?? []).map(group => <button key={`group:${group}`} onClick={() => updateSearch(s => ({ ...s, excludedPopulationGroups: (s.excludedPopulationGroups ?? []).filter(value => value !== group) }))} aria-label={`הסרת החרגת נתונים שפורסמו אצל ${group}`}>
+                    ללא נתונים שפורסמו אצל {group} <X size={13} />
                   </button>)}
                   {active.numbers.map(number => <button key={number} onClick={() => updateSearch(s => ({ ...s, numbers: s.numbers.filter(n => n !== number) }))} aria-label={`הסרת סינון מספר ${number}`}>מספר {number} <X size={13} /></button>)}
                   {active.lengthFilter && <button onClick={() => updateSearch(s => ({ ...s, lengthFilter: undefined }))} aria-label="הסרת סינון אורך">{active.lengthFilter === 'short' ? 'עד 3 אותיות' : active.lengthFilter === 'medium' ? '4 אותיות' : '5 אותיות ומעלה'} <X size={13} /></button>}

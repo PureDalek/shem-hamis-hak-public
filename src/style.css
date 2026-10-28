@@ -512,6 +512,19 @@ textarea {
 }
 .category-picker .chips { gap: 8px; }
 .category-picker .chips button { min-height: 44px; padding: 9px 14px; font-size: 13px; }
+.exclude-picker {
+  margin-top: 16px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fffaf6;
+}
+.exclude-picker .accordion-toggle { padding-right: 0; padding-left: 0; }
+.exclude-content { padding-bottom: 14px; }
+.exclude-content fieldset { margin: 12px 0 0; padding: 0; border: 0; }
+.exclude-content legend { font-size: 13px; font-weight: 800; }
+.exclude-content p { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 8px 0; }
+.exclude-content .chips button { min-height: 44px; padding: 9px 14px; font-size: 13px; }
 .category-expand { min-height: 44px; margin-top: 8px; }
 .category-match { font-size: 13px; font-weight: 600; margin-bottom: 0; }
 .category-labels { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 12px 0; }
