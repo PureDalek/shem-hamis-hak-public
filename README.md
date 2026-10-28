@@ -28,7 +28,7 @@ npm run test:browser
 
 The accessibility scans cover selected core screens and do not replace keyboard and screen-reader review.
 
-The `dist` folder is the deployable site. `netlify.toml` configures the build for Netlify. See [milestones](docs/milestones.md) for what is working and what remains.
+The `dist` folder is the deployable site. The [live app](https://puredalek.github.io/shem-hamis-hak-public/) is published by the GitHub Pages workflow when `main` is pushed to the public repository. The local checkout also has a separate private `origin`; pushing there alone does not update the site. To release reviewed changes, push `main` to the `pages` remote as well. `netlify.toml` remains available for Netlify. See [milestones](docs/milestones.md) for what is working and what remains.
 
 ## What currently works
 
